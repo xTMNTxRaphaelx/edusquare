@@ -148,3 +148,14 @@ section .row {
 .feature-box p {
     line-height: 27px;
 }
+
+.our-acheivers .tab-container {
+    position: relative;
+}
+.our-acheivers ul.tabs {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: auto;
+    margin-top: 1.46rem;
+}
