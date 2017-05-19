@@ -28,6 +28,15 @@ h6 {
 
 .sub-nav {
     color: #fff;
+    text-align: center;
+}
+@media only screen and (min-width: 601px) {
+    .sub-nav .col:first-child {
+        text-align: left;
+    }
+    .sub-nav .col:nth-child(2) {
+        text-align: right;
+    }
 }
 
 .sub-nav .row {
@@ -65,9 +74,16 @@ h6 {
     height: 100%;
 }
 .main-nav .brand-logo img {
-    height: 100%;
+    /*height: 100%;*/
     width: auto;
+    max-width: 240px;
+    height: auto;
     padding: 15px 0;
+}
+nav.main-nav .button-collapse {
+    color: #212121;
+    height: 100px;
+    margin: 0 6px;
 }
 .main-nav ul a {
     color: #1a265c;
@@ -75,10 +91,23 @@ h6 {
     font-size: 14px;
 }
 nav.main-nav ul a:hover {
-    background-color: #fff!important;
+    background-color: #fff;
     color: #f7ca18;
 }
-.main-nav ul a i {
+nav.main-nav ul a.btn {
+    color: #fff;
+    background: #2196F3;
+}
+nav.main-nav ul a.btn:hover {
+    background: #2196F3;
+}
+@media only screen and (min-width: 601px) { 
+    nav.main-nav ul li:last-child a {
+        margin-right: 0;
+    }
+}
+.main-nav ul a i,
+.main-nav .button-collapse i {
     height: 100px;
     line-height: 100px;
 }
