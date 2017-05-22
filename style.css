@@ -25,9 +25,13 @@ h6 {
     color: #fff;
     font-weight: bold;
 }
+.btn:hover {
+    background: #2196F3;
+}
 
 .sub-nav {
     color: #fff;
+    border-bottom: 2px solid green;
     text-align: center;
 }
 @media only screen and (min-width: 601px) {
@@ -41,27 +45,59 @@ h6 {
 
 .sub-nav .row {
     margin-bottom: 0;
-    font-size: 12px;
+    font-size: 0.87rem;
 }
 .sub-nav .col {
     height: 30px;
     line-height: 30px;
 }
 .sub-nav span {
+    position: relative;
+    padding-left: 18px;
+    letter-spacing: 0.3px;
+}
+.sub-nav span i {
+    position: absolute;
+    width: 16px;
+    top: 0;
+    left: 0;
+}
+.sub-nav span:first-child {
+    margin-right: 18px;
+}
+/*.sub-nav a {
     padding: 0 15px;
+}*/
+
+.sub-nav .social-links {
+    display: inline;
 }
-.sub-nav a {
-    padding: 0 15px;
+.sub-nav .social-links a {
+    padding: 0 4px;
+    float: right;
+    margin-top: 4px;
 }
-.sub-nav .login-link {
-    color: #fff;
+
+.sub-nav .social-links svg {
+    fill: #fff;
 }
+
 .sub-nav .online-test-btn {
-    height: 21px;
-    line-height: 21px;
-    font-size: 11px;
-    margin: 0;
-    margin-bottom: 1.8px;
+    margin-left: 18px;
+    height: 25px;
+    line-height: 25px;
+    font-weight: 400;
+    padding: 0px 9px;
+    letter-spacing: 0.3px;
+    float: right;
+    margin-top: 3px;
+}
+.sub-nav .online-test-btn i {
+    float: left;
+    margin-right: 3px;
+}
+.sub-nav .online-test-btn:hover i {
+    color: #BBDEFB;
 }
 
 
