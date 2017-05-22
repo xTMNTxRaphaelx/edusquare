@@ -50,6 +50,12 @@ h6 {
     height: 30px;
     line-height: 30px;
 }
+.sub-nav .col:first-child {
+    padding-left: 6%;
+}
+.sub-nav .col:nth-child(2) {
+    padding-right: 6%;
+}
 .sub-nav span {
     position: relative;
     padding-left: 18px;
@@ -64,9 +70,6 @@ h6 {
 .sub-nav span:first-child {
     margin-right: 18px;
 }
-/*.sub-nav a {
-    padding: 0 15px;
-}*/
 
 .sub-nav .social-links {
     display: inline;
@@ -82,7 +85,7 @@ h6 {
 }
 
 .sub-nav .online-test-btn {
-    margin-left: 6px;
+    margin-left: 12px;
     height: 25px;
     line-height: 25px;
     font-weight: 400;
