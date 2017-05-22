@@ -23,7 +23,6 @@ h6 {
 .btn {
     background: #FF5252;
     color: #fff;
-    font-weight: bold;
 }
 .btn:hover {
     background: #2196F3;
@@ -83,7 +82,7 @@ h6 {
 }
 
 .sub-nav .online-test-btn {
-    margin-left: 18px;
+    margin-left: 6px;
     height: 25px;
     line-height: 25px;
     font-weight: 400;
@@ -100,7 +99,20 @@ h6 {
     color: #BBDEFB;
 }
 
-
+.dropdown-content {
+    color: #212121;
+    overflow: visible!important;
+    overflow-x: hidden;
+    border-top: 3px solid green;
+}
+#navbar_d__courses-dropdown h5 {
+    margin-left: 16px;
+    font-weight: bold;
+}
+#navbar_d__downloads-dropdown {
+    margin-top: -65px;
+    margin-left: 150px;
+}
 .main-nav {
     background: #fff;
     height: 100px;
@@ -123,8 +135,24 @@ nav.main-nav .button-collapse {
 }
 .main-nav ul a {
     color: #1a265c;
-    text-transform: uppercase;
-    font-size: 14px;
+    /*text-transform: uppercase;*/
+    /*font-size: 0.87rem;*/
+}
+@media only screen and (min-width: 993px) {
+    .main-nav .brand-logo {
+        margin-left: 6%;
+    }
+    ul.desktop-menu {
+        margin-right: 6%;
+    }
+
+}
+ul.desktop-menu > li > a {
+    padding: 0 12px;
+}
+.main-nav ul a i {
+    margin-left: 0;
+    /*display: none;*/
 }
 nav.main-nav ul a:hover {
     background-color: #fff;
