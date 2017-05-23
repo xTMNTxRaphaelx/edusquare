@@ -1,14 +1,3 @@
-.about {
-    font-size: 14px;
-    line-height: 24px;
-    text-align: center;
-    /*background: url('../assets/tr3.png');*/
-    /*background-size: cover;*/
-}
-.about h3 {
-    font-size: 27px;
-    font-weight: 700;
-}
 .about h3 span {
     color: #2196F3;
 }
