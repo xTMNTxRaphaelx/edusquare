@@ -1,0 +1,33 @@
+.q-b__box {
+    text-align: center;
+}
+
+.q-b__box i {
+    font-size: 3rem;
+}
+
+@media screen and (min-width: 601px) {
+    .quick-about .col {
+        border-right: 1px solid #bdbdbd;
+    }
+    .quick-about .col:last-child {
+        border: none
+    }
+    .q-b__box {
+        text-align: left;
+        padding-left: 50px;
+        position: relative;
+        padding-left: 70px;
+        padding-bottom: 12px;
+        cursor: pointer;
+    }
+    .q-b__box i {
+        position: absolute;
+        top: 0px;
+        left: 0;
+        font-size: 4rem;
+    }
+    .q-b__box:hover i {
+        color: #BBDEFB;
+    }
+}

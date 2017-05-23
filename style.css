@@ -1,43 +1,17 @@
-.dark-primary-color {
-    background: #1976D2;
-}
-
-.default-primary-color {
-    background: #2196F3;
-}
-
-.light-primary-color {
-    background: #BBDEFB;
-}
-
-.text-primary-color {
-    color: #FFFFFF;
-}
-
-.accent-color {
-    background: #FF5252;
-}
-
-.primary-text-color {
-    color: #212121;
-}
-
-.secondary-text-color {
-    color: #757575;
-}
-
-.divider-color {
-    border-color: #BDBDBD;
-}
+.dark-primary-color { background: #1976D2; }
+.default-primary-color { background: #2196F3; }
+.light-primary-color { background: #BBDEFB; }
+.text-primary-color { color: #FFFFFF; }
+.accent-color { background: #FF5252; }
+.primary-text-color { color: #212121; }
+.secondary-text-color { color: #757575; }
+.divider-color { border-color: #BDBDBD; }
 
 body {
-    /*font-family: 'Montserrat', sans-serif;*/
-    background-attachment: fixed;
-    color: #313131;
-    font-size: 14px;
     background-color: #ffffff;
     overflow-x: hidden !important;
     max-width: 100%;
+    font-family: 'Poppins', sans-serif;
 }
 
 h1,
@@ -46,8 +20,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Roboto Condensed', sans-serif;
-    line-height: 1.42857143;
+    font-family: 'Roboto', sans-serif;
 }
 
 .btn {
@@ -101,7 +74,7 @@ h6 {
 .sub-nav span i {
     position: absolute;
     width: 16px;
-    top: 0;
+    top: 3px;
     left: 0;
 }
 
