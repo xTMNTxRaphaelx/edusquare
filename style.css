@@ -35,7 +35,6 @@ body {
     background-attachment: fixed;
     color: #313131;
     font-size: 14px;
-    font-family: 'Roboto Condensed', sans-serif;
     background-color: #ffffff;
     overflow-x: hidden !important;
     max-width: 100%;
@@ -49,7 +48,6 @@ h5,
 h6 {
     font-family: 'Roboto Condensed', sans-serif;
     line-height: 1.42857143;
-    color: #000000;
 }
 
 .btn {
@@ -278,6 +276,16 @@ section .row {
     .about .about-box.right-b i {
         right: 0;
     }
+}
+
+.slides li .bg {
+    background-color: rgba(0, 0, 0, 0.8);
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
 }
 
 .about h3 span {
