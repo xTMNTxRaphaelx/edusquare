@@ -1,0 +1,54 @@
+.about {
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    /*background: url('../assets/tr3.png');*/
+    /*background-size: cover;*/
+}
+.about h3 {
+    font-size: 27px;
+    font-weight: 700;
+}
+.about h3 span {
+    color: #2196F3;
+}
+.about h4 {
+    font-size: 21px;
+}
+.about h5 {
+    font-size: 18px;
+    font-weight: 700;
+}
+.about h3 + h5 {
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+.about blockquote {
+    background: #ededed;
+    border-color: #2196F3;
+    padding: 5px;
+    padding-left: 1.5rem;
+    font-style: italic;
+    text-align: left;
+}
+.about-feature__box {
+    position: relative;
+    margin-bottom: 30px;
+}
+.about-feature__box img {
+    width: 60px;
+}
+@media screen and (min-width: 601px) {
+    .about {
+        text-align: left;
+    }
+    .about-feature__box {
+        padding-left: 69px;
+    }
+    .about-feature__box img {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+}
