@@ -243,7 +243,6 @@ span.strong {
 
 .quick-about-2 {
   background-color: #2196F3;
-  color: #011638;
   text-align: center;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2); }
   .quick-about-2 .q-b-2__box {
@@ -264,3 +263,22 @@ span.strong {
   @media only screen and (min-width: 601px) {
     .quick-about-2 {
       text-align: left; } }
+
+.our-acheivers .tab-container ul.tabs {
+  text-align: right; }
+
+.our-acheivers .carousel.carousel-slider {
+  height: 330px !important; }
+
+.our-acheivers .achiever__box {
+  box-shadow: none;
+  text-align: center; }
+  .our-acheivers .achiever__box span {
+    display: block; }
+    .our-acheivers .achiever__box span.name {
+      font-weight: bold; }
+
+.our-acheivers ul.indicators .indicator-item {
+  background-color: #2196F3; }
+  .our-acheivers ul.indicators .indicator-item.active {
+    background-color: #011638; }

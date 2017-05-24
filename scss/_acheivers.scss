@@ -1,0 +1,26 @@
+.our-acheivers {
+    .tab-container {
+        ul.tabs {
+            text-align: right;
+        }
+    }
+    .carousel.carousel-slider {
+        height :330px!important;
+    }
+    .achiever__box {
+        box-shadow: none;
+        text-align: center;
+        span {
+            display: block;
+            &.name {
+                font-weight: bold;
+            }
+        }
+    }
+    ul.indicators .indicator-item {
+        background-color: $default-primary-color;
+        &.active {
+            background-color: $primary-font-color;
+        }
+    }
+}

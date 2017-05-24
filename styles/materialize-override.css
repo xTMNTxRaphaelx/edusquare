@@ -39,16 +39,3 @@
     top: 0;
     width: 100%;
 }
-
-
-.our-acheivers .tab-container {
-    position: relative;
-}
-
-.our-acheivers ul.tabs {
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: auto;
-    margin-top: 1.46rem;
-}
