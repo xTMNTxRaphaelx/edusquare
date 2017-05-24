@@ -1,2 +1,78 @@
 html, body {
-  height: 100%; }
+  background-color: #fff;
+  max-width: 100%;
+  overflow-x: hidden !important;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto Condensed", sans-serif; }
+
+.btn {
+  background: #FF5252;
+  color: #fff; }
+
+.btn:hover {
+  background: #FF5252; }
+
+.sub-nav {
+  color: #fff;
+  background-color: #1976D2;
+  border-bottom: 2px solid green;
+  font-size: 12px;
+  text-align: center; }
+  .sub-nav .row {
+    margin-bottom: 0; }
+    .sub-nav .row .col {
+      height: 30px;
+      line-height: 30px; }
+      .sub-nav .row .col:first-child {
+        padding-left: 6%; }
+        @media screen and (min-width: 601px) {
+          .sub-nav .row .col:first-child {
+            text-align: left; } }
+      .sub-nav .row .col:nth-child(2) {
+        padding-right: 6%; }
+        @media screen and (min-width: 601px) {
+          .sub-nav .row .col:nth-child(2) {
+            text-align: right; } }
+      .sub-nav .row .col a {
+        color: #fff; }
+        .sub-nav .row .col a:hover {
+          color: #E3E36A; }
+        .sub-nav .row .col a span {
+          position: relative;
+          padding-left: 18px; }
+          .sub-nav .row .col a span:first-child {
+            margin-right: 12px; }
+          .sub-nav .row .col a span i {
+            position: absolute;
+            top: 3px;
+            left: 1px;
+            width: 16px; }
+      .sub-nav .row .col .social-links {
+        display: inline; }
+        .sub-nav .row .col .social-links a {
+          padding: 0 4px;
+          float: right;
+          margin-top: 4px; }
+        .sub-nav .row .col .social-links svg {
+          fill: #fff; }
+          .sub-nav .row .col .social-links svg:hover {
+            fill: #E3E36A; }
+      .sub-nav .row .col .online-test-btn {
+        margin-left: 12px;
+        height: 24px;
+        line-height: 24px;
+        padding: 0px 6px;
+        float: right;
+        margin-top: 3px;
+        font-size: 12px; }
+        .sub-nav .row .col .online-test-btn i {
+          float: left;
+          margin-right: 3px; }
