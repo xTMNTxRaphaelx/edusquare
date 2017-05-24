@@ -1,0 +1,13 @@
+.about {
+    text-align: center;
+    h3 span {
+        color: $default-primary-color;
+    }
+    .about-box {
+        position: relative;
+        margin-bottom: 12px;
+    }
+    @media only screen and (min-width: 601px) {
+        text-align: left;
+    }
+}

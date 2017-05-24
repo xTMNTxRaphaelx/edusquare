@@ -1,4 +1,15 @@
 @import 'variables';
+
+::-moz-selection { /* Code for Firefox */
+    color: $dark-primary-color;
+    background: $primary-button-font-color;
+}
+
+::selection {
+    color: $dark-primary-color; 
+    background: $primary-button-font-color;
+}
+
 html,
 body {
     background-color: #fff;
@@ -29,11 +40,20 @@ h6 {
 
 @import 'sub-nav';
 @import 'main-nav';
+
 main > section {
-    padding-top: 21px;
-    padding-bottom: 21px;
+    padding-top: 18px;
+    padding-bottom: 18px;
 }
 
-main section .row {
+main section .row.margin-b0 {
     margin-bottom: 0;
 }
+
+main section h3 {
+    font-size: 27px;
+    font-weight: 700;
+}
+
+@import 'quick-about';
+@import 'about';

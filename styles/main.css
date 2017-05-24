@@ -1,4 +1,14 @@
-html, body {
+::-moz-selection {
+  /* Code for Firefox */
+  color: #1976D2;
+  background: #E3E36A; }
+
+::selection {
+  color: #1976D2;
+  background: #E3E36A; }
+
+html,
+body {
   background-color: #fff;
   max-width: 100%;
   overflow-x: hidden !important;
@@ -18,7 +28,8 @@ h6 {
   color: #fff; }
 
 .btn:hover {
-  background: #FF5252; }
+  background: #FF5252;
+  color: #E3E36A; }
 
 .sub-nav {
   color: #fff;
@@ -98,7 +109,7 @@ h6 {
     .main-nav ul.desktop-menu {
       padding-right: 6%; } }
   .main-nav ul.desktop-menu a {
-    color: #090707; }
+    color: #011638; }
     .main-nav ul.desktop-menu a.btn {
       background-color: #2196F3;
       color: #fff; }
@@ -114,3 +125,55 @@ h6 {
     padding: 0 12px; }
   .main-nav ul.desktop-menu > li:last-child a {
     padding-right: 0; }
+
+main > section {
+  padding-top: 18px;
+  padding-bottom: 18px; }
+
+main section .row.margin-b0 {
+  margin-bottom: 0; }
+
+main section h3 {
+  font-size: 27px;
+  font-weight: 700; }
+
+.quick-about {
+  background-color: #1976D2;
+  color: #fff;
+  border-bottom: 2px solid #8CD790; }
+  .quick-about .q-b__box {
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 12px; }
+    .quick-about .q-b__box h5 {
+      font-weight: bold; }
+    .quick-about .q-b__box i {
+      font-size: 3rem; }
+  @media screen and (min-width: 601px) {
+    .quick-about .col {
+      border-right: 1px solid #bdbdbd; }
+      .quick-about .col:last-child {
+        border: none; }
+      .quick-about .col .q-b__box {
+        text-align: left;
+        position: relative;
+        padding-left: 70px;
+        margin-bottom: 0; }
+        .quick-about .col .q-b__box i {
+          position: absolute;
+          top: 0px;
+          left: 0;
+          font-size: 4rem; }
+        .quick-about .col .q-b__box:hover {
+          color: #E3E36A; } }
+
+.about {
+  text-align: center; }
+  .about h3 span {
+    color: #2196F3; }
+  .about .about-box {
+    position: relative;
+    margin-bottom: 12px; }
+  @media only screen and (min-width: 601px) {
+    .about {
+      text-align: left; } }

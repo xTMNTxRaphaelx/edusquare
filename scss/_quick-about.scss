@@ -1,0 +1,39 @@
+.quick-about {
+    background-color: $dark-primary-color;
+    color: #fff;
+    border-bottom: 2px solid $border-color;
+    .q-b__box {
+        text-align: center;
+        cursor: pointer;
+        margin-bottom: 12px;
+        h5 {
+            font-weight: bold;
+        }
+        i {
+            font-size: 3rem;
+        }
+    }
+    @media screen and (min-width: 601px) {
+        .col {
+            border-right: 1px solid $border-light-color;
+            &:last-child {
+                border: none;
+            }
+            .q-b__box {
+                text-align: left;
+                position: relative;
+                padding-left: 70px;
+                margin-bottom: 0;
+                i {
+                    position: absolute;
+                    top: 0px;
+                    left: 0;
+                    font-size: 4rem;
+                }
+                &:hover {
+                    color: $primary-button-font-color;
+                }
+            }
+        }
+    }
+}
