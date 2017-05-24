@@ -2,7 +2,17 @@
     .tab-container {
         ul.tabs {
             text-align: right;
+            a {
+                color:  $default-primary-color;
+                &.active {
+                    color: $accent-color;
+                }
+            }
+            .indicator {
+                background-color: $border-color;
+            }
         }
+        
     }
     .carousel.carousel-slider {
         height :330px!important;

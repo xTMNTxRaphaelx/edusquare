@@ -266,6 +266,12 @@ span.strong {
 
 .our-acheivers .tab-container ul.tabs {
   text-align: right; }
+  .our-acheivers .tab-container ul.tabs a {
+    color: #2196F3; }
+    .our-acheivers .tab-container ul.tabs a.active {
+      color: #FF5252; }
+  .our-acheivers .tab-container ul.tabs .indicator {
+    background-color: #8CD790; }
 
 .our-acheivers .carousel.carousel-slider {
   height: 330px !important; }
