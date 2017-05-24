@@ -13,6 +13,7 @@ body {
   max-width: 100%;
   overflow-x: hidden !important;
   font-size: 14px;
+  line-height: 24px;
   font-family: "Poppins", sans-serif; }
 
 h1,
@@ -171,9 +172,37 @@ main section h3 {
   text-align: center; }
   .about h3 span {
     color: #2196F3; }
-  .about .about-box {
+  .about h4 {
+    font-size: 21px; }
+  .about h5 {
+    font-size: 18px;
+    font-weight: bold; }
+  .about h3 + h5 {
+    margin-bottom: 18px;
+    font-weight: 400; }
+  .about blockquote {
+    background: #ededed;
+    border-color: #2196F3;
+    padding: 6px;
+    padding-left: 1.5rem;
+    font-style: italic;
+    text-align: left;
+    margin-top: 24px; }
+  .about .about-feature__box {
     position: relative;
     margin-bottom: 12px; }
+    .about .about-feature__box:first-child {
+      margin-top: 1.46rem; }
+    .about .about-feature__box img {
+      width: 60px;
+      margin: 0 auto; }
+    @media only screen and (min-width: 601px) {
+      .about .about-feature__box {
+        padding-left: 72px; }
+        .about .about-feature__box img {
+          position: absolute;
+          top: 0;
+          left: 0; } }
   @media only screen and (min-width: 601px) {
     .about {
       text-align: left; } }
