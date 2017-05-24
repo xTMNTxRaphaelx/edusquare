@@ -23,7 +23,7 @@ h6 {
 .sub-nav {
   color: #fff;
   background-color: #1976D2;
-  border-bottom: 2px solid green;
+  border-bottom: 2px solid #8CD790;
   font-size: 12px;
   text-align: center; }
   .sub-nav .row {
@@ -76,3 +76,41 @@ h6 {
         .sub-nav .row .col .online-test-btn i {
           float: left;
           margin-right: 3px; }
+
+.main-nav {
+  background-color: #fff;
+  height: 100px;
+  line-height: 100px; }
+  .main-nav i {
+    height: 100px !important;
+    line-height: 100px !important; }
+  .main-nav .brand-logo {
+    height: 100%; }
+    @media only screen and (min-width: 601px) {
+      .main-nav .brand-logo {
+        padding-left: 6%; } }
+    .main-nav .brand-logo img {
+      height: 100%;
+      width: auto;
+      max-width: 240px;
+      padding: 12px 0; }
+  @media only screen and (min-width: 601px) {
+    .main-nav ul.desktop-menu {
+      padding-right: 6%; } }
+  .main-nav ul.desktop-menu a {
+    color: #090707; }
+    .main-nav ul.desktop-menu a.btn {
+      background-color: #2196F3;
+      color: #fff; }
+      .main-nav ul.desktop-menu a.btn:hover {
+        background-color: #1976D2;
+        color: #fff; }
+    .main-nav ul.desktop-menu a:hover {
+      background-color: #fff;
+      color: #1976D2; }
+    .main-nav ul.desktop-menu a i {
+      margin-left: 0; }
+  .main-nav ul.desktop-menu > li > a {
+    padding: 0 12px; }
+  .main-nav ul.desktop-menu > li:last-child a {
+    padding-right: 0; }

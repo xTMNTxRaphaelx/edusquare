@@ -1,6 +1,6 @@
 @import 'variables';
-
-html, body {
+html,
+body {
     background-color: #fff;
     max-width: 100%;
     overflow-x: hidden!important;
@@ -21,9 +21,19 @@ h6 {
     background: $accent-color;
     color: #fff;
 }
+
 .btn:hover {
     background: $accent-color;
+    color: $primary-button-font-color;
 }
 
-
 @import 'sub-nav';
+@import 'main-nav';
+main > section {
+    padding-top: 21px;
+    padding-bottom: 21px;
+}
+
+main section .row {
+    margin-bottom: 0;
+}

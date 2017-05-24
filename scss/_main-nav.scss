@@ -1,0 +1,54 @@
+.main-nav {
+    background-color: #fff;
+    height: 100px;
+    line-height: 100px;
+    i {
+        height: 100px!important;
+        line-height: 100px!important;
+    }
+    .brand-logo {
+        height: 100%;
+        @media only screen and (min-width: 601px) {
+            padding-left: 6%;
+        }
+        img {
+            height: 100%;
+            width: auto;
+            max-width: 240px;
+            padding: 12px 0;
+        }
+    }
+    ul.desktop-menu {
+        @media only screen and (min-width: 601px) {
+            padding-right: 6%;
+        }
+        a {
+            color: $primary-font-color;
+            &.btn {
+                background-color: $default-primary-color;
+                color: #fff;
+                &:hover {
+                    background-color: $dark-primary-color;
+                    color: #fff;
+                }
+            }
+            &:hover {
+                background-color: #fff;
+                color: $dark-primary-color;
+            }
+            i {
+                margin-left: 0;
+            }
+        }
+        >li {
+            >a {
+                padding: 0 12px;
+            }
+            &:last-child {
+                a {
+                    padding-right: 0;
+                }
+            }
+        }
+    }
+}
