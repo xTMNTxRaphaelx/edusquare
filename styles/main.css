@@ -138,6 +138,9 @@ main section h3 {
   font-size: 27px;
   font-weight: 700; }
 
+span.strong {
+  font-weight: bold; }
+
 .quick-about {
   background-color: #1976D2;
   color: #fff;
@@ -236,4 +239,28 @@ main section h3 {
           color: #2196F3; }
   @media only screen and (min-width: 601px) {
     .courses-type {
+      text-align: left; } }
+
+.quick-about-2 {
+  background-color: #2196F3;
+  color: #011638;
+  text-align: center;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2); }
+  .quick-about-2 .q-b-2__box {
+    border: 1px dashed #1976D2;
+    padding: 15px;
+    position: relative;
+    padding-top: 18px;
+    cursor: pointer; }
+    .quick-about-2 .q-b-2__box i {
+      position: absolute;
+      top: 12px;
+      right: 12px;
+      font-size: 3rem; }
+    .quick-about-2 .q-b-2__box a {
+      color: #fff; }
+    .quick-about-2 .q-b-2__box:hover i {
+      color: #E3E36A; }
+  @media only screen and (min-width: 601px) {
+    .quick-about-2 {
       text-align: left; } }

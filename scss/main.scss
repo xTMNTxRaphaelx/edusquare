@@ -56,6 +56,11 @@ main section h3 {
     font-weight: 700;
 }
 
+span.strong {
+    font-weight: bold;
+}
+
 @import 'quick-about';
 @import 'about';
 @import 'courses-list';
+@import 'quick-about-2';
