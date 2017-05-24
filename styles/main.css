@@ -169,7 +169,8 @@ main section h3 {
           color: #E3E36A; } }
 
 .about {
-  text-align: center; }
+  text-align: center;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2); }
   .about h3 span {
     color: #2196F3; }
   .about h4 {
@@ -205,4 +206,34 @@ main section h3 {
           left: 0; } }
   @media only screen and (min-width: 601px) {
     .about {
+      text-align: left; } }
+
+.courses-type {
+  text-align: center;
+  background-color: #1976D2;
+  color: #fff; }
+  .courses-type .card {
+    background-color: #fff;
+    color: #000; }
+    .courses-type .card .card-content .card-title {
+      text-align: center;
+      border-bottom: 1px solid #bdbdbd; }
+      .courses-type .card .card-content .card-title h4 {
+        margin: 0; }
+      .courses-type .card .card-content .card-title svg {
+        display: block;
+        margin: 15px auto; }
+      .courses-type .card .card-content .card-title span {
+        font-weight: 400;
+        font-size: 18px;
+        margin-bottom: 12px; }
+    .courses-type .card .card-content ul li {
+      text-align: center;
+      margin: 12px auto; }
+      .courses-type .card .card-content ul li a {
+        color: #011638; }
+        .courses-type .card .card-content ul li a:hover {
+          color: #2196F3; }
+  @media only screen and (min-width: 601px) {
+    .courses-type {
       text-align: left; } }
