@@ -6,22 +6,27 @@
     @media only screen and (min-width: 601px) {
         text-align:left;
     }
+    a {
+        color: #fff;
+    }
     h5 {
         font-weight: bold;
         text-transform: uppercase;
-        text-decoration: underline;
+        a {
+            color: $primary-font-color;
+        }
     }
     h6 {
         font-size: 17px;
         font-weight: bold;
     }
-    a {
-        color: #fff;
-    }
     .footer-copyright {
-        color: #fff;
-        background-color: $dark-primary-color;
+        color: $dark-primary-color;
+        background-color: #fff;
         text-align: center;
+        font-weight: bold;
+        min-height: 30px;
+        height: 30px;
         ul {
             margin: 0;
             margin-bottom: 6px;
