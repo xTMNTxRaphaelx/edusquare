@@ -158,7 +158,7 @@ span.strong {
 .quick-about {
   background-color: #0D47A1;
   color: #fff;
-  border-bottom: 2px solid #00e676; }
+  border-bottom: 1px solid #00E676; }
   .quick-about .q-b__box {
     text-align: center;
     cursor: pointer;
@@ -169,7 +169,7 @@ span.strong {
       font-size: 3rem; }
   @media screen and (min-width: 601px) {
     .quick-about .col {
-      border-right: 1px solid #bdbdbd; }
+      border-right: 1px solid #FFF176; }
       .quick-about .col:last-child {
         border: none; }
       .quick-about .col .q-b__box {
@@ -183,7 +183,7 @@ span.strong {
           left: 0;
           font-size: 4rem; }
         .quick-about .col .q-b__box:hover {
-          color: #E3E36A; } }
+          color: #FFF176; } }
 
 .about {
   text-align: center;
@@ -200,7 +200,7 @@ span.strong {
     font-weight: 400; }
   .about blockquote {
     background: #ededed;
-    border-color: #2196F3;
+    border-color: #0D47A1;
     padding: 6px;
     padding-left: 1.5rem;
     font-style: italic;
@@ -260,32 +260,42 @@ span.strong {
   text-align: center;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2); }
   .quick-about-2 .q-b-2__box {
-    border: 1px dashed #0D47A1;
+    border: 1px dashed #011627;
     padding: 15px;
     position: relative;
     padding-top: 18px;
     cursor: pointer; }
+    .quick-about-2 .q-b-2__box h5 {
+      font-weight: bold; }
     .quick-about-2 .q-b-2__box i {
       position: absolute;
       top: 12px;
       right: 12px;
       font-size: 3rem; }
     .quick-about-2 .q-b-2__box a {
-      color: #fff; }
+      color: #011627; }
+      .quick-about-2 .q-b-2__box a:hover {
+        color: #FFF176; }
+      .quick-about-2 .q-b-2__box a.btn {
+        background: #00E676;
+        font-size: 12px;
+        padding: 0 9px;
+        margin-top: 12px;
+        text-transform: none; }
+        .quick-about-2 .q-b-2__box a.btn:hover {
+          background: #FFF176;
+          color: #011627; }
     .quick-about-2 .q-b-2__box:hover i {
-      color: #E3E36A; }
-  @media only screen and (min-width: 601px) {
-    .quick-about-2 {
-      text-align: left; } }
+      color: #FFF176; }
 
 .our-acheivers .tab-container ul.tabs {
   text-align: right; }
   .our-acheivers .tab-container ul.tabs a {
-    color: #2196F3; }
+    color: #011627; }
     .our-acheivers .tab-container ul.tabs a.active {
-      color: #ff1744; }
+      color: #FF1744; }
   .our-acheivers .tab-container ul.tabs .indicator {
-    background-color: #00e676; }
+    background-color: #00E676; }
 
 .our-acheivers .carousel.carousel-slider {
   height: 330px !important; }
@@ -301,7 +311,7 @@ span.strong {
 .our-acheivers ul.indicators .indicator-item {
   background-color: #2196F3; }
   .our-acheivers ul.indicators .indicator-item.active {
-    background-color: #011638; }
+    background-color: #FF1744; }
 
 .news__box img {
   max-width: 100%;

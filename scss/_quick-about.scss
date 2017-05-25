@@ -1,7 +1,7 @@
 .quick-about {
-    background-color: $dark-primary-color;
+    background-color: $primary-dark;
     color: #fff;
-    border-bottom: 2px solid $border-color;
+    border-bottom: 1px solid $accent-green;
     .q-b__box {
         text-align: center;
         cursor: pointer;
@@ -15,7 +15,7 @@
     }
     @media screen and (min-width: 601px) {
         .col {
-            border-right: 1px solid $border-light-color;
+            border-right: 1px solid $secondary;
             &:last-child {
                 border: none;
             }
@@ -31,7 +31,7 @@
                     font-size: 4rem;
                 }
                 &:hover {
-                    color: $primary-button-font-color;
+                    color: $secondary;
                 }
             }
         }

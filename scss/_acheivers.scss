@@ -3,13 +3,13 @@
         ul.tabs {
             text-align: right;
             a {
-                color:  $default-primary-color;
+                color:  $font-color;
                 &.active {
-                    color: $accent-color;
+                    color: $accent-red;
                 }
             }
             .indicator {
-                background-color: $border-color;
+                background-color: $accent-green;
             }
         }
         
@@ -28,9 +28,9 @@
         }
     }
     ul.indicators .indicator-item {
-        background-color: $default-primary-color;
+        background-color: $primary;
         &.active {
-            background-color: $primary-font-color;
+            background-color: $accent-red;
         }
     }
 }
