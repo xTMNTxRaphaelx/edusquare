@@ -288,3 +288,32 @@ span.strong {
   background-color: #2196F3; }
   .our-acheivers ul.indicators .indicator-item.active {
     background-color: #011638; }
+
+.page-footer {
+  background-color: #2196F3;
+  color: #011638;
+  text-align: center;
+  font-size: 13px; }
+  @media only screen and (min-width: 601px) {
+    .page-footer {
+      text-align: left; } }
+  .page-footer h5 {
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: underline; }
+  .page-footer h6 {
+    font-size: 17px;
+    font-weight: bold; }
+  .page-footer a {
+    color: #fff; }
+  .page-footer .footer-copyright {
+    color: #fff;
+    background-color: #1976D2;
+    text-align: center; }
+    .page-footer .footer-copyright ul {
+      margin: 0;
+      margin-bottom: 6px; }
+      .page-footer .footer-copyright ul li {
+        list-style-type: none;
+        display: inline;
+        padding: 0 12px; }
