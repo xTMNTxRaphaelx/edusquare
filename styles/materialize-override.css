@@ -13,12 +13,7 @@
 }
 
 
-.dropdown-content {
-    color: #212121;
-    overflow: visible!important;
-    overflow-x: hidden;
-    border-top: 3px solid green;
-}
+
 
 #navbar_d__courses-dropdown h5 {
     margin-left: 16px;

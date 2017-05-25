@@ -1,7 +1,7 @@
 .sub-nav {
     color: #fff;
-    background-color: $dark-primary-color;
-    border-bottom: 2px solid $border-color;
+    background-color: $primary-dark;
+    border-bottom: 1px solid $accent-green;
     font-size: 12px;
     text-align: center;
     .row {
@@ -24,18 +24,18 @@
             a {
                 color: #fff;
                 &:hover {
-                    color: $primary-button-font-color;
+                    color: $secondary;
                 }
                 span {
                     position: relative;
                     padding-left: 18px;
                     &:first-child {
-                        margin-right: 12px;
+                        margin-right: 18px;
                     }
                     i {
                         position: absolute;
-                        top: 3px;
-                        left: 1px;
+                        top: 0px;
+                        left: 0px;
                         width: 16px;
                     }
                 }
@@ -50,15 +50,15 @@
                 svg {
                     fill: #fff;
                     &:hover {
-                        fill: #E3E36A;
+                        fill: $secondary;
                     }
                 }
             }
             .online-test-btn {
-                margin-left: 12px;
+                margin-left: 18px;
                 height: 24px;
                 line-height: 24px;
-                padding: 0px 6px;
+                padding: 0px 9px;
                 float: right;
                 margin-top: 3px;
                 font-size: 12px;
