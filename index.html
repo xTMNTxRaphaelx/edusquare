@@ -67,7 +67,7 @@
             <ul class="right hide-on-med-and-down desktop-menu">
                 <li>
                     <a class="d-dropdown-button" href="#!" data-activates="navbar_d__aboutUS-dropdown">
-                        <span>About US</span>
+                        <span>About Us</span>
                         <i class="material-icons right">arrow_drop_down</i>
                     </a>
                 </li>
@@ -84,7 +84,7 @@
                 </li>
                 <li>
                     <a class="d-dropdown-button" href="#!" data-activates="navbar_d__contact_us-dropdown">
-                            Contact Us<i class="material-icons right">arrow_drop_down</i>
+                            Contact<i class="material-icons right">arrow_drop_down</i>
                         </a>
                 </li>
                 <li>
@@ -112,7 +112,7 @@
 
     <div class="slider edusquare-slider">
         <ul class="slides">
-            <li>
+            <li class="valign-wrapper">
                 <img src="assets/bg-1.jpeg">
                 <div class="bg"></div>
                 <!-- random image -->
@@ -123,7 +123,7 @@
                     <a href="#" class="btn">Chill of the Day</a>
                 </div>
             </li>
-            <li>
+            <li class="valign-wrapper">
                 <img src="assets/bg-2.jpeg">
                 <div class="bg"></div>
                 <!-- random image -->
@@ -134,7 +134,7 @@
                     <a href="#" class="btn">See all results</a>
                 </div>
             </li>
-            <li>
+            <li class="valign-wrapper">
                 <img src="assets/bg-3.jpeg">
                 <div class="bg"></div>
                 <!-- random image -->
@@ -145,7 +145,7 @@
                     <a href="#" class="btn">View more photos</a>
                 </div>
             </li>
-            <li>
+            <li class="valign-wrapper">
                 <img src="assets/bg-4.jpeg">
                 <div class="bg"></div>
                 <!-- random image -->
@@ -156,7 +156,7 @@
                     <a href="#" class="btn">Participate in our Activities</a>
                 </div>
             </li>
-            <li>
+            <li class="valign-wrapper">
                 <img src="assets/bg-4.jpeg">
                 <div class="bg"></div>
                 <!-- random image -->
@@ -717,9 +717,9 @@
                                         </div>
                                     </li>
                                 </ul>
-                    </div>
                             </div>
                         </div>
+                    </div>
                     <div class="col s12 m6 l4">
                         <div class="card rest-content__box">
                             <div class="card-content">
@@ -1004,6 +1004,10 @@
     <script src="node_modules/materialize-css/dist/js/materialize.js"></script>
     <script>
         $('document').ready(function () {
+            var windowHeight = $(window).height();
+            if(windowHeight > 500) {
+                
+            }
             $(".d-dropdown-button").dropdown({
                 hover: true,
                 constrainWidth: false,
@@ -1012,7 +1016,7 @@
             $(".button-collapse").sideNav();
             $('.slider').slider({
                 indicators: false,
-                height: 500
+                height: (0.85)*windowHeight
             });
             $('.carousel.carousel-slider').carousel({
                 fullWidth: true,
