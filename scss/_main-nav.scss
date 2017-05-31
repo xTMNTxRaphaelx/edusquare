@@ -1,5 +1,13 @@
 .main-nav {
-    background-color: #fff;
+    @media screen and (min-width: 601px) {
+        position: absolute;
+        top: 31px;
+        left: 0;
+    }
+    width: 100%;
+    z-index: 10;
+    background-color: transparent;
+    box-shadow: none;
     height: 90px;
     line-height: 90px;
     .brand-logo {
@@ -18,18 +26,25 @@
         @media only screen and (min-width: 601px) {
             padding-right: 6%;
         }
+        >li {
+            padding: 0 15px;
+            >a:not(.btn) {
+                display: inline;
+                padding: 10px 0;
+            }
+        }
         a {
-            color: $font-color;
+            color: #fff;
             i {
                 margin-left: 0;
                 margin-right: 0;
                 line-height: 90px;
             }
             &:hover {
-                background-color: #f5f5f5;
-                color: $accent-red;
+                background-color: transparent;
+                color: $secondary;
                 i {
-                    color: $accent-red;
+                    color: $secondary;
                 }
             }
             &.btn {
@@ -50,22 +65,20 @@
                 }
             }
         }
-        // >li {
-        //     >a {
-        //         padding: 0 12px;
-        //     }
-        // }
     }
-}
-
-.dropdown-content {
-    color: $font-color;
-    overflow: visible!important;
-    overflow-x: hidden;
-    border-top: 2px solid $accent-green;
-    li {
-        >a {
-            font-size: 14px;
+    .dropdown-content {
+        color: $font-color;
+        overflow: visible!important;
+        overflow-x: hidden;
+        border-top: 2px solid $accent-green;
+        li {
+            >a {
+                font-size: 14px;
+                color: $font-color;
+                &:hover {
+                    color: $accent-red;
+                }
+            }
         }
     }
 }

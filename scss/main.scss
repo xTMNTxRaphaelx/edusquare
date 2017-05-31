@@ -62,7 +62,11 @@ span.strong {
     font-weight: bold;
 }
 
-@import 'quick-about';
+.slider .slides li .caption {
+    padding-top: 75px;
+}
+
+// @import 'quick-about';
 @import 'about';
 @import 'courses-list';
 @import 'quick-about-2';
