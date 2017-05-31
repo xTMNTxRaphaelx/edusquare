@@ -162,6 +162,18 @@ main > section {
   padding-top: 18px;
   padding-bottom: 18px; }
 
+main > section .title-row .title {
+  font-weight: bold; }
+
+main > section .title-row .sub-title {
+  color: #999; }
+
+main > section .title-row .end-line {
+  width: 35px;
+  height: 3px;
+  background-color: #2196F3;
+  margin: 0 auto; }
+
 main section .row.margin-b0 {
   margin-bottom: 0; }
 
@@ -399,3 +411,30 @@ span.strong {
         list-style-type: none;
         display: inline;
         padding: 0 12px; }
+
+.testimonials-section {
+  text-align: center; }
+  .testimonials-section .peoples {
+    height: 150px; }
+    .testimonials-section .peoples .carousel-item {
+      height: 150px;
+      width: 150px; }
+      .testimonials-section .peoples .carousel-item img {
+        padding: 0 24px; }
+  .testimonials-section .testimonial {
+    height: 200px; }
+    .testimonials-section .testimonial p {
+      margin: 0 auto;
+      height: 150px;
+      max-width: 540px; }
+    .testimonials-section .testimonial .info {
+      height: 50px; }
+      .testimonials-section .testimonial .info .name {
+        font-weight: bold;
+        display: block; }
+      .testimonials-section .testimonial .info .designation {
+        line-height: 25px;
+        text-transform: uppercase;
+        font-size: 12px;
+        font-weight: 700;
+        color: #999; }

@@ -49,6 +49,21 @@ main > section {
     padding-bottom: 18px;
 }
 
+main > section .title-row {
+    .title {
+        font-weight: bold;
+    }
+    .sub-title {
+        color: #999;
+    }
+    .end-line {
+        width: 35px;
+        height: 3px;
+        background-color: $primary;
+        margin: 0 auto;
+    }
+}
+
 main section .row.margin-b0 {
     margin-bottom: 0;
 }
@@ -73,3 +88,5 @@ span.strong {
 @import 'acheivers';
 @import 'rest';
 @import 'footer';
+
+@import 'testimonials';

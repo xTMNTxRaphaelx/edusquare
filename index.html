@@ -218,7 +218,10 @@
                         </blockquote>
                     </div>
                     <div class="col s12 m5">
-                        <div class="about-feature__box">
+                        <div class="video-container">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/lyieFu7BnHE" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                        <!--<div class="about-feature__box">
                             <img src="assets/icon-increase-efficiency.png" alt="">
                             <h5>Small Class Sizes</h5>
                             <p>76% of all undergraduate classes have fewer than 30 students so there´s plenty of room for everyone.</p>
@@ -234,7 +237,7 @@
                             <p>A top 100 university based on research, service and social mobility, according to Washington
                                 Monthly.
                             </p>
-                        </div>
+                        </div>-->
                     </div>
                     <div class="col s12 center">
                         <a href="#!" class="btn">Read more</a>
@@ -803,6 +806,104 @@
                 </div>
             </div>
         </section>
+
+        <!--testimonial section-->
+        <section class="testimonials-section">
+            <div class="container">
+                <!--title-->
+                <div class="row title-row">
+                    <div class="col s12">
+                        <h3 class="title">What People Say</h3>
+                        <h5 class="sub-title">How real people said about EduSquare Institute.</h5>
+                        <div class="end-line"></div>
+                    </div>
+                </div>
+                <!--end of title-->
+                <!--content-->
+                <div class="row content-row">
+                    <div class="col s12">
+                        <div id="testimonial1" class="testimonial">
+                            <p>
+                                Well, isn't there anything else that we could be doing? I've been wondering about alternative medicine - I mean... Eastern
+                                healing you know, holistic? So... you're saying it's just all psychological. It doesn't make
+                                any real difference?
+                            </p>
+                            <div class="info">
+                                <span class="name">Peter</span>
+                                <span class="designation">CEO at Somewhere</span>
+                            </div>
+                        </div>
+                        <div id="testimonial2" class="testimonial hide"> 
+                            <p>
+                                Once you call it in, the people who show up with be with the office of medical investigations. it's primarily who you'll
+                                talk to. Police officers may arrive they may not, depends on how busy a morning they're having.
+                                Typically ODs are not a high priority call. There's nothing here to incriminate you, so I'd
+                                be amazed if you got placed under arrest. However, if you do, you say nothing. You tell them
+                                you just want your lawyer. And you call Saul Goodman. </p>
+                            <div class="info">
+                                <span class="name">Elsie</span>
+                                <span class="designation">Copyrighter</span>
+                            </div>
+                        </div>
+                        <div id="testimonial3" class="testimonial hide">
+                            
+                            <p>
+                                I figured I could cut classes for the rest of the semester and he couldn't flunk me as long as I, you know, made the thing.
+                                So I finished it in a couple days. And it looked pretty lame, but it worked. You know, for
+                                putting in or whatnot. So when I showed it to Mr. Pike for my grade, he looked at it and
+                                said: 'Is that the best you can do?' </p>
+                            <div class="info">
+                                <span class="name">Anthony</span>
+                                <span class="designation">Movie Writer at Hollywood</span>
+                            </div>
+                        </div>
+                        <div id="testimonial4" class="testimonial hide">
+                            
+                            <p>
+                                I figured I could cut classes for the rest of the semester and he couldn't flunk me as long as I, you know, made the thing.
+                                So I finished it in a couple days. And it looked pretty lame, but it worked. You know, for
+                                putting in or whatnot. So when I showed it to Mr. Pike for my grade, he looked at it and
+                                said: 'Is that the best you can do?' </p>
+                            <div class="info">
+                                <span class="name">John Doe</span>
+                                <span class="designation">Fictional Character</span>
+                            </div>
+                        </div>
+                        <div id="testimonial5" class="testimonial hide">
+                            
+                            <p>
+                                I figured I could cut classes for the rest of the semester and he couldn't flunk me as long as I, you know, made the thing.
+                                So I finished it in a couple days. And it looked pretty lame, but it worked. You know, for
+                                putting in or whatnot. So when I showed it to Mr. Pike for my grade, he looked at it and
+                                said: 'Is that the best you can do?' </p>
+                            <div class="info">
+                                <span class="name">Manuel</span>
+                                <span class="designation">Jedi Master</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12">
+                        <div class="carousel peoples">
+                            <a href="#" class="carousel-item">
+                                <img src="assets/peter-100x100.jpg" data-testimonial="testimonial1" alt="photo-1" class="circle">
+                            </a>
+                            <a href="#" class="carousel-item">
+                                <img src="assets/elsie-100x100.jpg" data-testimonial="testimonial2" alt="photo-1" class="circle">
+                            </a>
+                            <a href="#" class="carousel-item">
+                                <img src="assets/anthony-100x100.jpg" data-testimonial="testimonial3" alt="photo-1" class="circle">
+                            </a>
+                            <a href="#" class="carousel-item">
+                                <img src="assets/manuel-100x100.jpg" data-testimonial="testimonial4" alt="photo-1" class="circle">
+                            </a>
+                            <a href="#" class="carousel-item">
+                                <img src="assets/john-doe-100x100.jpg" data-testimonial="testimonial5" alt="photo-1" class="circle">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 
     <footer class="page-footer">
@@ -1005,8 +1106,8 @@
     <script>
         $('document').ready(function () {
             var windowHeight = $(window).height();
-            if(windowHeight > 500) {
-                
+            if (windowHeight > 500) {
+
             }
             $(".d-dropdown-button").dropdown({
                 hover: true,
@@ -1016,7 +1117,7 @@
             $(".button-collapse").sideNav();
             $('.slider').slider({
                 indicators: false,
-                height: (0.85)*windowHeight
+                height: (0.85) * windowHeight
             });
             $('.carousel.carousel-slider').carousel({
                 fullWidth: true,
@@ -1033,6 +1134,7 @@
         });
         $('.collapsible').collapsible();
     </script>
+    <script src="js/testimonials.js"></script>
 </body>
 
 </html>
