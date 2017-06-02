@@ -1,12 +1,12 @@
 @import 'variables';
-
-::-moz-selection { /* Code for Firefox */
+::-moz-selection {
+    /* Code for Firefox */
     color: $dark-primary-color;
     background: $primary-button-font-color;
 }
 
 ::selection {
-    color: $dark-primary-color; 
+    color: $dark-primary-color;
     background: $primary-button-font-color;
 }
 
@@ -35,42 +35,63 @@ h6 {
     background: $accent-color;
     color: #fff;
 }
+.btn-2 {
+    background: $primary;
+}
 
 .btn:hover {
     background: $accent-color;
     color: $primary-button-font-color;
 }
 
-@import 'sub-nav';
-@import 'main-nav';
+a {
+    color: $font-color;
+}
 
-main > section {
+a:hover {
+    color: $primary-dark;
+}
+
+main>section {
+    border-top: 1px solid #e0e0e0;
     padding-top: 18px;
     padding-bottom: 18px;
+    @media screen and (min-width: 601px) {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    @media screen and (min-width: 993px) {
+        padding-top: 42px;
+        padding-bottom: 42px;
+    }
+    .title-row {
+        text-align: center;
+        .title {
+            font-weight: bold;
+            font-size: 30px;
+            margin-top: 0;
+        }
+        .sub-title {
+            color: #999;
+        }
+        .end-line {
+            width: 35px;
+            height: 3px;
+            background-color: $primary;
+            margin: 0 auto;
+        }
+    }
+    .content-row {
+        text-align: center;
+        margin-bottom: 0;
+        @media screen and (min-width: 601px) {
+            text-align: left;
+        }
+    }
 }
 
-main > section .title-row {
-    .title {
-        font-weight: bold;
-    }
-    .sub-title {
-        color: #999;
-    }
-    .end-line {
-        width: 35px;
-        height: 3px;
-        background-color: $primary;
-        margin: 0 auto;
-    }
-}
-
-main section .row.margin-b0 {
-    margin-bottom: 0;
-}
-
-main section h3 {
-    font-size: 27px;
-    font-weight: 700;
+span.edusquare {
+    color: $primary;
 }
 
 span.strong {
@@ -81,12 +102,99 @@ span.strong {
     padding-top: 75px;
 }
 
-// @import 'quick-about';
+.edusquare-card {
+    .card-content {
+        padding: 0;
+        background-color: #f5f5f5;
+        .card-title {
+            background-color: #fff;
+            .title {
+                height: 50px;
+                line-height: 50px;
+                color: #fff;
+                border-radius: 2px 2px 0 0;
+                font-weight: bold;
+                &.red-b {
+                    background-color: #e74424;
+                }
+                &.blue-b {
+                    background-color: #1c52a6;
+                }
+                &.green-b {
+                    background-color: #71c285;
+                }
+            }
+            .image {
+                display: block;
+                margin: 24px auto 12px;
+            }
+            .sub-info {
+                .tabs {
+                    height: 36px;
+                    li.tab {
+                        height: 36px;
+                        line-height: 36px;
+                        a {
+                            padding: 0 12px;
+                            font-size: 16px;
+                            color: $font-color;
+                            &:hover {
+                                color: $primary-dark;
+                            }
+                            &.active {
+                                color: #FF1744;
+                            }
+                        }
+                    }
+                    .indicator {
+                        background-color: #00E676;
+                    }
+                }
+            }
+        }
+        .edusquare-card-content {
+            padding: 6px 18px;
+            text-align: center;
+            font-size: 12px;
+            @media screen and (min-width: 601px) {
+                text-align: left;
+            }
+            h6 {
+                font-size: 16px;
+                line-height: 24px;
+                text-align: center;
+                color: $primary-dark;
+                span {
+                    font-size: 14px;
+                    display: block;
+                    font-family: $body-font;
+                }
+            }
+            ul {
+                padding-left: 20px;
+                li {
+                    list-style-type: circle;
+                }
+            }
+            .bottom-line {
+                text-align: center;
+                a {
+                    display: block;
+                    margin-top: 12px;
+                    font-weight: bold;
+                    color: $primary-dark;
+                }
+            }
+        }
+    }
+}
+
+@import 'sub-nav';
+@import 'main-nav';
 @import 'about';
 @import 'courses-list';
 @import 'quick-about-2';
 @import 'acheivers';
 @import 'rest';
 @import 'footer';
-
 @import 'testimonials';

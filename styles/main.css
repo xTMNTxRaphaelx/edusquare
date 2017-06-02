@@ -14,7 +14,7 @@ body {
   overflow-x: hidden !important;
   font-size: 14px;
   line-height: 24px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
   background: url("../assets/geometry2.png");
   background-attachment: fixed; }
 
@@ -30,9 +30,122 @@ h6 {
   background: #ff1744;
   color: #fff; }
 
+.btn-2 {
+  background: #2196F3; }
+
 .btn:hover {
   background: #ff1744;
   color: #E3E36A; }
+
+a {
+  color: #011627; }
+
+a:hover {
+  color: #0D47A1; }
+
+main > section {
+  border-top: 1px solid #e0e0e0;
+  padding-top: 18px;
+  padding-bottom: 18px; }
+  @media screen and (min-width: 601px) {
+    main > section {
+      padding-top: 30px;
+      padding-bottom: 30px; } }
+  @media screen and (min-width: 993px) {
+    main > section {
+      padding-top: 42px;
+      padding-bottom: 42px; } }
+  main > section .title-row {
+    text-align: center; }
+    main > section .title-row .title {
+      font-weight: bold;
+      font-size: 30px;
+      margin-top: 0; }
+    main > section .title-row .sub-title {
+      color: #999; }
+    main > section .title-row .end-line {
+      width: 35px;
+      height: 3px;
+      background-color: #2196F3;
+      margin: 0 auto; }
+  main > section .content-row {
+    text-align: center;
+    margin-bottom: 0; }
+    @media screen and (min-width: 601px) {
+      main > section .content-row {
+        text-align: left; } }
+
+span.edusquare {
+  color: #2196F3; }
+
+span.strong {
+  font-weight: bold; }
+
+.slider .slides li .caption {
+  padding-top: 75px; }
+
+.edusquare-card .card-content {
+  padding: 0;
+  background-color: #f5f5f5; }
+  .edusquare-card .card-content .card-title {
+    background-color: #fff; }
+    .edusquare-card .card-content .card-title .title {
+      height: 50px;
+      line-height: 50px;
+      color: #fff;
+      border-radius: 2px 2px 0 0;
+      font-weight: bold; }
+      .edusquare-card .card-content .card-title .title.red-b {
+        background-color: #e74424; }
+      .edusquare-card .card-content .card-title .title.blue-b {
+        background-color: #1c52a6; }
+      .edusquare-card .card-content .card-title .title.green-b {
+        background-color: #71c285; }
+    .edusquare-card .card-content .card-title .image {
+      display: block;
+      margin: 24px auto 12px; }
+    .edusquare-card .card-content .card-title .sub-info .tabs {
+      height: 36px; }
+      .edusquare-card .card-content .card-title .sub-info .tabs li.tab {
+        height: 36px;
+        line-height: 36px; }
+        .edusquare-card .card-content .card-title .sub-info .tabs li.tab a {
+          padding: 0 12px;
+          font-size: 16px;
+          color: #011627; }
+          .edusquare-card .card-content .card-title .sub-info .tabs li.tab a:hover {
+            color: #0D47A1; }
+          .edusquare-card .card-content .card-title .sub-info .tabs li.tab a.active {
+            color: #FF1744; }
+      .edusquare-card .card-content .card-title .sub-info .tabs .indicator {
+        background-color: #00E676; }
+  .edusquare-card .card-content .edusquare-card-content {
+    padding: 6px 18px;
+    text-align: center;
+    font-size: 12px; }
+    @media screen and (min-width: 601px) {
+      .edusquare-card .card-content .edusquare-card-content {
+        text-align: left; } }
+    .edusquare-card .card-content .edusquare-card-content h6 {
+      font-size: 16px;
+      line-height: 24px;
+      text-align: center;
+      color: #0D47A1; }
+      .edusquare-card .card-content .edusquare-card-content h6 span {
+        font-size: 14px;
+        display: block;
+        font-family: "Roboto", sans-serif; }
+    .edusquare-card .card-content .edusquare-card-content ul {
+      padding-left: 20px; }
+      .edusquare-card .card-content .edusquare-card-content ul li {
+        list-style-type: circle; }
+    .edusquare-card .card-content .edusquare-card-content .bottom-line {
+      text-align: center; }
+      .edusquare-card .card-content .edusquare-card-content .bottom-line a {
+        display: block;
+        margin-top: 12px;
+        font-weight: bold;
+        color: #0D47A1; }
 
 .sub-nav {
   color: #fff;
@@ -158,101 +271,26 @@ h6 {
       .main-nav .dropdown-content li > a:hover {
         color: #FF1744; }
 
-main > section {
-  padding-top: 18px;
-  padding-bottom: 18px; }
+.about p:first-child {
+  margin-top: 0; }
 
-main > section .title-row .title {
-  font-weight: bold; }
-
-main > section .title-row .sub-title {
-  color: #999; }
-
-main > section .title-row .end-line {
-  width: 35px;
-  height: 3px;
-  background-color: #2196F3;
-  margin: 0 auto; }
-
-main section .row.margin-b0 {
-  margin-bottom: 0; }
-
-main section h3 {
-  font-size: 27px;
-  font-weight: 700; }
-
-span.strong {
-  font-weight: bold; }
-
-.slider .slides li .caption {
-  padding-top: 75px; }
-
-.about {
-  text-align: center;
-  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2); }
-  .about h3 span {
-    color: #2196F3; }
-  .about h4 {
-    font-size: 21px; }
-  .about h5 {
-    font-size: 18px;
-    font-weight: bold; }
-  .about h3 + h5 {
-    margin-bottom: 18px;
-    font-weight: 400; }
-  .about blockquote {
-    background: #ededed;
-    border-color: #0D47A1;
-    padding: 6px;
-    padding-left: 1.5rem;
-    font-style: italic;
-    text-align: left;
-    margin-top: 24px; }
-  .about .about-feature__box {
-    position: relative;
-    margin-bottom: 12px; }
-    .about .about-feature__box:first-child {
-      margin-top: 1.46rem; }
-    .about .about-feature__box img {
-      width: 60px;
-      margin: 0 auto; }
-    @media only screen and (min-width: 601px) {
-      .about .about-feature__box {
-        padding-left: 72px; }
-        .about .about-feature__box img {
-          position: absolute;
-          top: 0;
-          left: 0; } }
-  @media only screen and (min-width: 601px) {
-    .about {
-      text-align: left; } }
+.about blockquote {
+  background: #eeeeee;
+  border-color: #0D47A1;
+  padding: 6px;
+  padding-left: 1rem;
+  font-style: italic;
+  text-align: left;
+  font-size: 0.9em; }
 
 .courses-type {
   text-align: center;
-  background-color: #eeeeee;
+  background-color: whitesmoke;
   color: #000; }
-  .courses-type .card {
-    background-color: #fff;
-    color: #000; }
-    .courses-type .card .card-content .card-title {
-      text-align: center;
-      border-bottom: 1px solid #bdbdbd; }
-      .courses-type .card .card-content .card-title h4 {
-        margin: 0; }
-      .courses-type .card .card-content .card-title svg {
-        display: block;
-        margin: 15px auto; }
-      .courses-type .card .card-content .card-title span {
-        font-weight: 400;
-        font-size: 18px;
-        margin-bottom: 12px; }
-    .courses-type .card .card-content ul li {
-      text-align: center;
-      margin: 12px auto; }
-      .courses-type .card .card-content ul li a {
-        color: #011638; }
-        .courses-type .card .card-content ul li a:hover {
-          color: #2196F3; }
+  .courses-type .card .card-content .card-title {
+    text-align: center; }
+    .courses-type .card .card-content .card-title h4 {
+      margin: 0; }
   @media only screen and (min-width: 601px) {
     .courses-type {
       text-align: left; } }
