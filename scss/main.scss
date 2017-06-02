@@ -68,8 +68,8 @@ main>section {
         text-align: center;
         .title {
             font-weight: bold;
-            font-size: 30px;
-            margin-top: 0;
+            // font-size: 30px;
+            // margin-top: 0;
         }
         .sub-title {
             color: #999;
@@ -136,7 +136,7 @@ span.strong {
                         line-height: 36px;
                         a {
                             padding: 0 12px;
-                            font-size: 16px;
+                            // font-size: 16px;
                             color: $font-color;
                             &:hover {
                                 color: $primary-dark;
@@ -155,17 +155,17 @@ span.strong {
         .edusquare-card-content {
             padding: 6px 18px;
             text-align: center;
-            font-size: 12px;
+            // font-size: 12px;
             @media screen and (min-width: 601px) {
                 text-align: left;
             }
             h6 {
-                font-size: 16px;
+                // font-size: 16px;
                 line-height: 24px;
                 text-align: center;
                 color: $primary-dark;
                 span {
-                    font-size: 14px;
+                    // font-size: 14px;
                     display: block;
                     font-family: $body-font;
                 }
