@@ -229,8 +229,8 @@ span.strong {
 
 .courses-type {
   text-align: center;
-  background-color: #0D47A1;
-  color: #fff; }
+  background-color: #eeeeee;
+  color: #000; }
   .courses-type .card {
     background-color: #fff;
     color: #000; }
@@ -320,7 +320,7 @@ span.strong {
   height: auto; }
 
 .rest-content {
-  background-color: #0D47A1; }
+  background-color: #2196F3; }
 
 .rest-content__box {
   height: 400px; }
