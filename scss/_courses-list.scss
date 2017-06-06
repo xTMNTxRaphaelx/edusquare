@@ -1,6 +1,5 @@
 .courses-type {
-    text-align: center;
-    background-color: whitesmoke;
+    background-color: rgba(255,255, 255, 0.16);
     color: #000;
     .card {
         // background-color: #fff;
@@ -34,7 +33,87 @@
             }
         }
     }
-    @media only screen and (min-width: 601px) {
-        text-align: left;
+    .course-card {
+        background-color: #fff;
+        .card-content {
+            padding: 0;
+            .card-title {
+                .title {
+                    height: 48px;
+                    line-height: 48px;
+                    color: #fff;
+                    &.red-b {
+                        background-color: #e74424;
+                    }
+                    &.blue-b {
+                        background-color: #1c52a6;
+                    }
+                    &.green-b {
+                        background-color: #579165;
+                    }
+                }
+                .image {
+                    display: block;
+                    margin: 24px auto 12px;
+                }
+                .sub-info {
+                    .tabs {
+                        height: 30px;
+                        li.tab {
+                            height: 30px;
+                            line-height: 30px;
+                            a {
+                                font-size: 14px;
+                                font-weight: bold;
+                                color: $font-color;
+                                &:hover {
+                                    color: $primary-dark;
+                                }
+                                &.active {
+                                    color: #FF1744;
+                                }
+                            }
+                        }
+                        .indicator {
+                            background-color: #00E676;
+                        }
+                    }
+                }
+            }
+            .course-card-content {
+                padding: 6px 18px;
+                text-align: center;
+                // font-size: 12px;
+                @media screen and (min-width: 601px) {
+                    text-align: left;
+                }
+                h6 {
+                    // font-size: 16px;
+                    line-height: 24px;
+                    text-align: center;
+                    color: $primary-dark;
+                    span {
+                        // font-size: 14px;
+                        display: block;
+                        font-family: $body-font;
+                    }
+                }
+                ul {
+                    padding-left: 20px;
+                    li {
+                        list-style-type: circle;
+                    }
+                }
+                .bottom-line {
+                    text-align: center;
+                    a {
+                        display: block;
+                        margin-top: 12px;
+                        font-weight: bold;
+                        color: $primary-dark;
+                    }
+                }
+            }
+        }
     }
 }

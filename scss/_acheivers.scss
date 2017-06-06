@@ -1,9 +1,16 @@
 .our-acheivers {
-    .tab-container {
+    background-color: #fff;
+    .title-row {
+        display: flex;
+        align-items: center;
         ul.tabs {
-            text-align: right;
+            text-align: center;
             a {
-                color:  $font-color;
+                font-weight: bold;
+                color: $font-color;
+                &:hover {
+                    color: $primary-dark;
+                }
                 &.active {
                     color: $accent-red;
                 }
@@ -12,10 +19,9 @@
                 background-color: $accent-green;
             }
         }
-        
     }
     .carousel.carousel-slider {
-        height :330px!important;
+        height :370px!important;
     }
     .achiever__box {
         box-shadow: none;

@@ -1,11 +1,12 @@
 .main-nav {
+    position: absolute;
+    top: 61px;
+    left: 0;
     @media screen and (min-width: 601px) {
-        position: absolute;
         top: 31px;
-        left: 0;
     }
     width: 100%;
-    z-index: 10;
+    z-index: 999;
     background-color: transparent;
     box-shadow: none;
     height: 90px;

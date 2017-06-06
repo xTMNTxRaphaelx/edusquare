@@ -1,14 +1,20 @@
 .about {
+    background-color: #fff;
     p:first-child {
         margin-top: 0;
     }
     blockquote {
-        background: #eeeeee;
+        background: #fafafa;
         border-color: $primary-dark;
         padding: 6px;
-        padding-left: 1rem;
+        padding-left: 1em;
         font-style: italic;
         text-align: left;
         font-size: 0.9em;
+    }
+    .vid-info {
+        margin-top: 12px;
+        font-weight: bold;
+        color: $font-color;
     }
 }

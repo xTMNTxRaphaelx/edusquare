@@ -1,0 +1,31 @@
+main.EduSquare {
+    > section {
+        padding-top: 18px;
+        padding-bottom: 18px;
+        text-align: center;
+        @media screen and (min-width: 601px) {
+            padding-top: 30px;
+            padding-bottom: 30px;
+            text-align: left;
+        }
+        @media screen and (min-width: 993px) {
+            padding-top: 42px;
+            padding-bottom: 42px;
+        }
+        .title-row {
+            .title {
+                font-weight: bold;
+            }
+            .sub-title {
+                color: #616161;
+            }
+            .finish-line {
+                width: 36px;
+                height: 3px;
+                margin: 0 auto;
+                background-color: $primary-dark;
+                margin-bottom: 18px;
+            }
+        }
+    }
+}
