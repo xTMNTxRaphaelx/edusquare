@@ -320,14 +320,18 @@ main.EduSquare > section {
     cursor: pointer;
     background: #fff;
     border-radius: 2px;
-    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2); }
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+    border-top: 3px solid #fff;
+    transition: all 0.1s ease-out; }
     .quick-about-2 .q-b-2__box h5 {
       font-weight: bold;
       height: 50px;
       line-height: 50px;
       margin: 0; }
-    .quick-about-2 .q-b-2__box:hover h5 {
-      color: #0D47A1; }
+    .quick-about-2 .q-b-2__box:hover {
+      border-top: 3px solid #0D47A1; }
+      .quick-about-2 .q-b-2__box:hover h5 span {
+        color: #0D47A1; }
     .quick-about-2 .q-b-2__box .info-text {
       color: #616161;
       margin-top: 6px;
