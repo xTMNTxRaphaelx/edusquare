@@ -85,6 +85,85 @@ span.edusquare {
 @import 'footer';
 @import 'testimonials';
 
+// Rest Content
+.rest-content {
+    background-color: $primary;
+    .title-row {
+        h3 {
+            color: #fff;
+        }
+        .finish-line {
+            background-color: #fff;
+        }
+    }
+    .card {
+        min-height: 400px;
+        &.news-card {
+            .carousel-slider {
+                height: 380px!important;
+                text-align: center;
+                .indicator-item {
+                    margin: 0 4px;
+                }
+                span.date {
+                    color: $light-color;
+                }
+            }
+        }
+    }
+    .news-col {
+        height: 400px;
+        .carousel {
+            height: 400px;
+        }
+    }
+    ul.events {
+        li {
+            box-shadow: 0px 0px 4px 1px #d9d9d9;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            span.date {
+                width: 60px;
+                flex: 0 0 60px;
+                font-size: 12px;
+                background-color: $primary;
+                color: #fff;
+                text-align: center;
+                span {
+                    display: block;
+                }
+            }
+            span.desc {
+                flex: 1;
+                padding-left: 12px;
+            }
+        }
+    }
+    ul.updates {
+        li {
+            display: flex;
+            align-items: center;
+            box-shadow: 0px 0px 4px 1px #d9d9d9;
+            margin-bottom: 15px;
+            img {
+                width: 80px;
+                height: auto;
+            }
+            .desc {
+                flex: 1;
+                padding-left: 12px;
+                h6 {
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+}
+
+
 // Past Acheivers
 .past-acheivers {
     background-color: #fff;
@@ -109,7 +188,8 @@ span.edusquare {
         p {
             margin: 0 auto;
             height: 150px;
-            max-width: 540px;
+            width: 100%;
+            max-width: 600px;
             font-size: 18px;
             padding: 12px;
             overflow: auto;

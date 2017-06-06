@@ -13,8 +13,13 @@ main.EduSquare {
             padding-bottom: 42px;
         }
         .title-row {
+            display: flex;
+            align-items: center;
             .title {
                 font-weight: bold;
+                img {
+                    height: 40px;
+                }
             }
             .sub-title {
                 color: $light-color;
@@ -47,29 +52,29 @@ main.EduSquare {
                     }
                 }
             }
-            ul.tabs {
-                li.tab {
-                    a {
-                        font-size: 14px;
-                        font-weight: bold;
-                        color: $accent-red;
-                        &:hover {
-                            color: $font-color;
-                        }
-                        &.active {
-                            color: $primary-dark;
-                        }
+        }
+        ul.tabs {
+            li.tab {
+                a {
+                    font-size: 14px;
+                    font-weight: bold;
+                    color: $accent-red;
+                    &:hover {
+                        color: $font-color;
+                    }
+                    &.active {
+                        color: $primary-dark;
                     }
                 }
-                .indicator {
-                    background-color: $accent-green;
-                }
             }
-            .carousel ul.indicators .indicator-item {
-                background-color: $primary;
-                &.active {
-                    background-color: $accent-red;
-                }
+            .indicator {
+                background-color: $accent-green;
+            }
+        }
+        .carousel ul.indicators .indicator-item {
+            background-color: $primary;
+            &.active {
+                background-color: $accent-red;
             }
         }
     }

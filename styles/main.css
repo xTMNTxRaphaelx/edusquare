@@ -61,16 +61,21 @@ main.EduSquare > section {
     main.EduSquare > section {
       padding-top: 42px;
       padding-bottom: 42px; } }
-  main.EduSquare > section .title-row .title {
-    font-weight: bold; }
-  main.EduSquare > section .title-row .sub-title {
-    color: #616161; }
-  main.EduSquare > section .title-row .finish-line {
-    width: 36px;
-    height: 3px;
-    margin: 0 auto;
-    background-color: #0D47A1;
-    margin-bottom: 12px; }
+  main.EduSquare > section .title-row {
+    display: flex;
+    align-items: center; }
+    main.EduSquare > section .title-row .title {
+      font-weight: bold; }
+      main.EduSquare > section .title-row .title img {
+        height: 40px; }
+    main.EduSquare > section .title-row .sub-title {
+      color: #616161; }
+    main.EduSquare > section .title-row .finish-line {
+      width: 36px;
+      height: 3px;
+      margin: 0 auto;
+      background-color: #0D47A1;
+      margin-bottom: 12px; }
   main.EduSquare > section .content-row {
     margin-bottom: 0; }
     main.EduSquare > section .content-row .clean-card .card-content {
@@ -86,20 +91,20 @@ main.EduSquare > section {
         height: 50px;
         line-height: 50px;
         margin: 0; }
-    main.EduSquare > section .content-row ul.tabs li.tab a {
-      font-size: 14px;
-      font-weight: bold;
-      color: #FF1744; }
-      main.EduSquare > section .content-row ul.tabs li.tab a:hover {
-        color: #011627; }
-      main.EduSquare > section .content-row ul.tabs li.tab a.active {
-        color: #0D47A1; }
-    main.EduSquare > section .content-row ul.tabs .indicator {
-      background-color: #00E676; }
-    main.EduSquare > section .content-row .carousel ul.indicators .indicator-item {
-      background-color: #2196F3; }
-      main.EduSquare > section .content-row .carousel ul.indicators .indicator-item.active {
-        background-color: #FF1744; }
+  main.EduSquare > section ul.tabs li.tab a {
+    font-size: 14px;
+    font-weight: bold;
+    color: #FF1744; }
+    main.EduSquare > section ul.tabs li.tab a:hover {
+      color: #011627; }
+    main.EduSquare > section ul.tabs li.tab a.active {
+      color: #0D47A1; }
+  main.EduSquare > section ul.tabs .indicator {
+    background-color: #00E676; }
+  main.EduSquare > section .carousel ul.indicators .indicator-item {
+    background-color: #2196F3; }
+    main.EduSquare > section .carousel ul.indicators .indicator-item.active {
+      background-color: #FF1744; }
 
 .sub-nav {
   color: #fff;
@@ -362,58 +367,6 @@ main.EduSquare > section {
     color: #fff; }
   .rest-content .title-row .finish-line {
     background-color: #fff; }
-  .rest-content ul.events li {
-    box-shadow: 0px 0px 4px 1px #d9d9d9;
-    margin-bottom: 15px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-weight: bold; }
-    .rest-content ul.events li span.date {
-      width: 60px;
-      flex: 0 0 60px;
-      font-size: 12px;
-      background-color: #2196F3;
-      color: #fff;
-      text-align: center; }
-      .rest-content ul.events li span.date span {
-        display: block; }
-    .rest-content ul.events li span.desc {
-      flex: 1;
-      padding-left: 12px; }
-  .rest-content ul.updates li {
-    display: flex;
-    align-items: center;
-    box-shadow: 0px 0px 4px 1px #d9d9d9;
-    margin-bottom: 15px; }
-    .rest-content ul.updates li img {
-      width: 80px;
-      height: auto; }
-    .rest-content ul.updates li .desc {
-      flex: 1;
-      padding-left: 12px; }
-      .rest-content ul.updates li .desc h6 {
-        font-weight: bold; }
-  .rest-content .news-carousel {
-    height: 390px !important; }
-    .rest-content .news-carousel .indicators {
-      display: none; }
-    .rest-content .news-carousel .card {
-      box-shadow: none; }
-    .rest-content .news-carousel .carousel-item {
-      height: auto;
-      min-height: auto !important; }
-    .rest-content .news-carousel .card-title {
-      height: 200px;
-      overflow: hidden; }
-    .rest-content .news-carousel .card-content {
-      padding: 0; }
-    .rest-content .news-carousel span {
-      display: block; }
-    .rest-content .news-carousel span.date {
-      font-size: 12px;
-      color: #0D47A1;
-      font-weight: bold; }
 
 .rest-content__box {
   background-color: #fff; }
@@ -524,6 +477,58 @@ main.EduSquare > section {
         font-weight: 700;
         color: #999; }
 
+.rest-content {
+  background-color: #2196F3; }
+  .rest-content .title-row h3 {
+    color: #fff; }
+  .rest-content .title-row .finish-line {
+    background-color: #fff; }
+  .rest-content .card {
+    min-height: 400px; }
+    .rest-content .card.news-card .carousel-slider {
+      height: 380px !important;
+      text-align: center; }
+      .rest-content .card.news-card .carousel-slider .indicator-item {
+        margin: 0 4px; }
+      .rest-content .card.news-card .carousel-slider span.date {
+        color: #616161; }
+  .rest-content .news-col {
+    height: 400px; }
+    .rest-content .news-col .carousel {
+      height: 400px; }
+  .rest-content ul.events li {
+    box-shadow: 0px 0px 4px 1px #d9d9d9;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold; }
+    .rest-content ul.events li span.date {
+      width: 60px;
+      flex: 0 0 60px;
+      font-size: 12px;
+      background-color: #2196F3;
+      color: #fff;
+      text-align: center; }
+      .rest-content ul.events li span.date span {
+        display: block; }
+    .rest-content ul.events li span.desc {
+      flex: 1;
+      padding-left: 12px; }
+  .rest-content ul.updates li {
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 0px 4px 1px #d9d9d9;
+    margin-bottom: 15px; }
+    .rest-content ul.updates li img {
+      width: 80px;
+      height: auto; }
+    .rest-content ul.updates li .desc {
+      flex: 1;
+      padding-left: 12px; }
+      .rest-content ul.updates li .desc h6 {
+        font-weight: bold; }
+
 .past-acheivers {
   background-color: #fff; }
 
@@ -542,7 +547,8 @@ main.EduSquare > section {
     .peoples-testimonials .testimonial p {
       margin: 0 auto;
       height: 150px;
-      max-width: 540px;
+      width: 100%;
+      max-width: 600px;
       font-size: 18px;
       padding: 12px;
       overflow: auto; }
