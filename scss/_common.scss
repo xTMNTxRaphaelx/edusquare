@@ -1,5 +1,5 @@
 main.EduSquare {
-    > section {
+    >section {
         padding-top: 18px;
         padding-bottom: 18px;
         text-align: center;
@@ -50,5 +50,30 @@ main.EduSquare {
             line-height: 50px;
             margin: 0;
         }
+    }
+}
+
+ul.tabs {
+    li.tab {
+        a {
+            font-size: 14px;
+            font-weight: bold;
+            color: $accent-red;
+            &:hover {
+                color: $font-color;
+            }
+            &.active {
+                color: $primary-dark;
+            }
+        }
+    }
+    .indicator {
+        background-color: $accent-green;
+    }
+}
+.carousel ul.indicators .indicator-item {
+    background-color: $primary;
+    &.active {
+        background-color: $accent-red;
     }
 }

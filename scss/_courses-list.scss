@@ -62,20 +62,6 @@
                         li.tab {
                             height: 30px;
                             line-height: 30px;
-                            a {
-                                font-size: 14px;
-                                font-weight: bold;
-                                color: $font-color;
-                                &:hover {
-                                    color: $primary-dark;
-                                }
-                                &.active {
-                                    color: #FF1744;
-                                }
-                            }
-                        }
-                        .indicator {
-                            background-color: #00E676;
                         }
                     }
                 }

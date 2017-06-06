@@ -1,42 +1,27 @@
-.our-acheivers {
+.our-results {
     background-color: #fff;
     .title-row {
         display: flex;
         align-items: center;
-        ul.tabs {
-            text-align: center;
-            a {
-                font-weight: bold;
-                color: $font-color;
-                &:hover {
-                    color: $primary-dark;
-                }
-                &.active {
-                    color: $accent-red;
-                }
-            }
-            .indicator {
-                background-color: $accent-green;
-            }
-        }
     }
     .carousel.carousel-slider {
-        height :370px!important;
+        height: 350px!important;
     }
     .achiever__box {
         box-shadow: none;
         text-align: center;
+        .card-image img {
+            width: 150px;
+            margin: 0 auto;
+            max-height: 200px;
+        }
         span {
             display: block;
+            color: #616161;
             &.name {
+                color: rgba(0, 0, 0, .87);
                 font-weight: bold;
             }
-        }
-    }
-    ul.indicators .indicator-item {
-        background-color: $primary;
-        &.active {
-            background-color: $accent-red;
         }
     }
 }

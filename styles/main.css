@@ -95,6 +95,23 @@ main.EduSquare > section {
     line-height: 50px;
     margin: 0; }
 
+ul.tabs li.tab a {
+  font-size: 14px;
+  font-weight: bold;
+  color: #FF1744; }
+  ul.tabs li.tab a:hover {
+    color: #011627; }
+  ul.tabs li.tab a.active {
+    color: #0D47A1; }
+
+ul.tabs .indicator {
+  background-color: #00E676; }
+
+.carousel ul.indicators .indicator-item {
+  background-color: #2196F3; }
+  .carousel ul.indicators .indicator-item.active {
+    background-color: #FF1744; }
+
 .sub-nav {
   color: #fff;
   background-color: #0D47A1;
@@ -266,16 +283,6 @@ main.EduSquare > section {
         .courses-type .course-card .card-content .card-title .sub-info .tabs li.tab {
           height: 30px;
           line-height: 30px; }
-          .courses-type .course-card .card-content .card-title .sub-info .tabs li.tab a {
-            font-size: 14px;
-            font-weight: bold;
-            color: #011627; }
-            .courses-type .course-card .card-content .card-title .sub-info .tabs li.tab a:hover {
-              color: #0D47A1; }
-            .courses-type .course-card .card-content .card-title .sub-info .tabs li.tab a.active {
-              color: #FF1744; }
-        .courses-type .course-card .card-content .card-title .sub-info .tabs .indicator {
-          background-color: #00E676; }
       .courses-type .course-card .card-content .course-card-content {
         padding: 6px 18px;
         text-align: center;
@@ -339,35 +346,26 @@ main.EduSquare > section {
       right: 12px;
       height: 48px; }
 
-.our-acheivers {
+.our-results {
   background-color: #fff; }
-  .our-acheivers .title-row {
+  .our-results .title-row {
     display: flex;
     align-items: center; }
-    .our-acheivers .title-row ul.tabs {
-      text-align: center; }
-      .our-acheivers .title-row ul.tabs a {
-        font-weight: bold;
-        color: #011627; }
-        .our-acheivers .title-row ul.tabs a:hover {
-          color: #0D47A1; }
-        .our-acheivers .title-row ul.tabs a.active {
-          color: #FF1744; }
-      .our-acheivers .title-row ul.tabs .indicator {
-        background-color: #00E676; }
-  .our-acheivers .carousel.carousel-slider {
-    height: 370px !important; }
-  .our-acheivers .achiever__box {
+  .our-results .carousel.carousel-slider {
+    height: 350px !important; }
+  .our-results .achiever__box {
     box-shadow: none;
     text-align: center; }
-    .our-acheivers .achiever__box span {
-      display: block; }
-      .our-acheivers .achiever__box span.name {
+    .our-results .achiever__box .card-image img {
+      width: 150px;
+      margin: 0 auto;
+      max-height: 200px; }
+    .our-results .achiever__box span {
+      display: block;
+      color: #616161; }
+      .our-results .achiever__box span.name {
+        color: rgba(0, 0, 0, 0.87);
         font-weight: bold; }
-  .our-acheivers ul.indicators .indicator-item {
-    background-color: #2196F3; }
-    .our-acheivers ul.indicators .indicator-item.active {
-      background-color: #FF1744; }
 
 .rest-content {
   background-color: #2196F3; }
@@ -503,6 +501,9 @@ main.EduSquare > section {
         list-style-type: none;
         display: inline;
         padding: 0 12px; }
+
+.testimonial-videos {
+  background-color: rgba(224, 224, 224, 0.37); }
 
 .testimonials-section {
   text-align: center; }
