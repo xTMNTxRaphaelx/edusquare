@@ -1,3 +1,9 @@
+/**
+This section is divided in :-
+1. Variables
+. Past Acheivers
+. Peoples Testimonial
+*/
 body {
   background: url("../assets/geometry2.png");
   background-attachment: fixed;
@@ -36,7 +42,7 @@ a {
 span.edusquare {
   color: #2196F3; }
 
-span.strong {
+.bold {
   font-weight: bold; }
 
 .slider .slides li .caption {
@@ -498,11 +504,14 @@ main.EduSquare > section {
       .testimonials-section .peoples .carousel-item img {
         padding: 0 24px; }
   .testimonials-section .testimonial {
-    height: 200px; }
-    .testimonials-section .testimonial p {
-      margin: 0 auto;
-      height: 150px;
-      max-width: 540px; }
+    height: 140px;
+    box-shadow: p;
+      box-shadow-margin: 0 auto;
+      box-shadow-height: 150px;
+      box-shadow-max-width: 540px;
+      box-shadow-text-align: center;
+      box-shadow-font-size: 20px;
+      box-shadow-padding: 12px; }
     .testimonials-section .testimonial .info {
       height: 50px; }
       .testimonials-section .testimonial .info .name {
@@ -514,3 +523,36 @@ main.EduSquare > section {
         font-size: 12px;
         font-weight: 700;
         color: #999; }
+
+.past-acheivers {
+  background-color: #fff; }
+
+.peoples-testimonials {
+  background-color: rgba(224, 224, 224, 0.37); }
+  .peoples-testimonials .peoples.carousel {
+    height: 150px; }
+    .peoples-testimonials .peoples.carousel .carousel-item {
+      height: 150px;
+      width: 150px; }
+      .peoples-testimonials .peoples.carousel .carousel-item img {
+        padding: 0 24px; }
+  .peoples-testimonials .testimonial {
+    height: 200px;
+    text-align: center; }
+    .peoples-testimonials .testimonial p {
+      margin: 0 auto;
+      height: 150px;
+      max-width: 540px;
+      font-size: 18px;
+      padding: 12px;
+      overflow: auto; }
+    .peoples-testimonials .testimonial .info {
+      height: 50px;
+      color: #011627; }
+      .peoples-testimonials .testimonial .info .name {
+        font-weight: bold;
+        display: block; }
+      .peoples-testimonials .testimonial .info .designation {
+        text-transform: uppercase;
+        font-size: 12px;
+        color: #616161; }

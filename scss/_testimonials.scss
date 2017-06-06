@@ -2,7 +2,6 @@
     background-color: rgba(224, 224, 224, 0.37);
 }
 
-
 .testimonials-section {
     text-align: center;
     .peoples {
@@ -16,11 +15,14 @@
         }
     }
     .testimonial {
-        height: 200px;
-        p {
+        height: 140px;
+        box-shadow : p {
             margin: 0 auto;
             height: 150px;
             max-width: 540px;
+            text-align: center;
+            font-size: 20px;
+            padding: 12px;
         }
         .info {
             height: 50px;
