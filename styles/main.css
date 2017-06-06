@@ -65,16 +65,35 @@ main.EduSquare > section {
     main.EduSquare > section {
       padding-top: 42px;
       padding-bottom: 42px; } }
-  main.EduSquare > section .title-row .title {
-    font-weight: bold; }
-  main.EduSquare > section .title-row .sub-title {
-    color: #616161; }
-  main.EduSquare > section .title-row .finish-line {
-    width: 36px;
-    height: 3px;
-    margin: 0 auto;
-    background-color: #0D47A1;
-    margin-bottom: 18px; }
+  main.EduSquare > section .content-row {
+    margin-bottom: 0; }
+
+.title-row .title {
+  font-weight: bold; }
+
+.title-row .sub-title {
+  color: #616161; }
+
+.title-row .finish-line {
+  width: 36px;
+  height: 3px;
+  margin: 0 auto;
+  background-color: #0D47A1;
+  margin-bottom: 18px; }
+
+.clean-card .card-content {
+  padding: 12px;
+  position: relative; }
+  .clean-card .card-content img.icon {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    height: 50px; }
+  .clean-card .card-content h5.card-title {
+    font-weight: bold;
+    height: 50px;
+    line-height: 50px;
+    margin: 0; }
 
 .sub-nav {
   color: #fff;
@@ -259,7 +278,10 @@ main.EduSquare > section {
           background-color: #00E676; }
       .courses-type .course-card .card-content .course-card-content {
         padding: 6px 18px;
-        text-align: center; }
+        text-align: center;
+        background-color: #f5f5f5;
+        font-size: 12px;
+        color: #616161; }
         @media screen and (min-width: 601px) {
           .courses-type .course-card .card-content .course-card-content {
             text-align: left; } }
@@ -279,8 +301,13 @@ main.EduSquare > section {
           .courses-type .course-card .card-content .course-card-content .bottom-line a {
             display: block;
             margin-top: 12px;
-            font-weight: bold;
-            color: #0D47A1; }
+            margin-bottom: 12px;
+            font-size: 12px;
+            font-weight: normal;
+            color: #0D47A1;
+            background: transparent;
+            border: 1px solid #00E676;
+            box-shadow: none; }
 
 .quick-about-2 {
   background-color: #2196F3; }
@@ -343,11 +370,63 @@ main.EduSquare > section {
       background-color: #FF1744; }
 
 .rest-content {
-  background-color: transparent; }
-
-.news__box img {
-  max-width: 100%;
-  height: auto; }
+  background-color: #2196F3; }
+  .rest-content .title-row h3 {
+    color: #fff; }
+  .rest-content .title-row .finish-line {
+    background-color: #fff; }
+  .rest-content ul.events li {
+    box-shadow: 0px 0px 4px 1px #d9d9d9;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold; }
+    .rest-content ul.events li span.date {
+      width: 60px;
+      flex: 0 0 60px;
+      font-size: 12px;
+      background-color: #2196F3;
+      color: #fff;
+      text-align: center; }
+      .rest-content ul.events li span.date span {
+        display: block; }
+    .rest-content ul.events li span.desc {
+      flex: 1;
+      padding-left: 12px; }
+  .rest-content ul.updates li {
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 0px 4px 1px #d9d9d9;
+    margin-bottom: 15px; }
+    .rest-content ul.updates li img {
+      width: 80px;
+      height: auto; }
+    .rest-content ul.updates li .desc {
+      flex: 1;
+      padding-left: 12px; }
+      .rest-content ul.updates li .desc h6 {
+        font-weight: bold; }
+  .rest-content .news-carousel {
+    height: 390px !important; }
+    .rest-content .news-carousel .indicators {
+      display: none; }
+    .rest-content .news-carousel .card {
+      box-shadow: none; }
+    .rest-content .news-carousel .carousel-item {
+      height: auto;
+      min-height: auto !important; }
+    .rest-content .news-carousel .card-title {
+      height: 200px;
+      overflow: hidden; }
+    .rest-content .news-carousel .card-content {
+      padding: 0; }
+    .rest-content .news-carousel span {
+      display: block; }
+    .rest-content .news-carousel span.date {
+      font-size: 12px;
+      color: #0D47A1;
+      font-weight: bold; }
 
 .rest-content__box {
   background-color: #fff; }
@@ -371,58 +450,6 @@ main.EduSquare > section {
           text-align: left; } }
   .rest-content__box h3 {
     margin-top: 0; }
-  .rest-content__box ul.events li {
-    box-shadow: 0px 0px 4px 1px #d9d9d9;
-    margin-bottom: 15px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-weight: bold; }
-    .rest-content__box ul.events li span.date {
-      width: 60px;
-      flex: 0 0 60px;
-      font-size: 12px;
-      background-color: #2196F3;
-      color: #fff;
-      text-align: center; }
-      .rest-content__box ul.events li span.date span {
-        display: block; }
-    .rest-content__box ul.events li span.desc {
-      flex: 1;
-      padding-left: 12px; }
-  .rest-content__box ul.updates li {
-    display: flex;
-    align-items: center;
-    box-shadow: 0px 0px 4px 1px #d9d9d9;
-    margin-bottom: 15px; }
-    .rest-content__box ul.updates li img {
-      width: 80px;
-      height: auto; }
-    .rest-content__box ul.updates li .desc {
-      flex: 1;
-      padding-left: 12px; }
-      .rest-content__box ul.updates li .desc h6 {
-        font-weight: bold; }
-  .rest-content__box .news-carousel {
-    height: 390px !important; }
-    .rest-content__box .news-carousel .indicators {
-      display: none; }
-    .rest-content__box .news-carousel .card {
-      box-shadow: none; }
-    .rest-content__box .news-carousel .carousel-item {
-      height: auto;
-      min-height: auto !important; }
-    .rest-content__box .news-carousel .card-title {
-      height: 200px;
-      overflow: hidden; }
-    .rest-content__box .news-carousel .card-content {
-      padding: 0; }
-    .rest-content__box .news-carousel span {
-      display: block; }
-    .rest-content__box .news-carousel span.date {
-      font-size: 12px;
-      color: #0D47A1;
-      font-weight: bold; }
 
 .results {
   background-color: rgba(224, 224, 224, 0.37);

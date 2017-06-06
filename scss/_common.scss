@@ -12,20 +12,43 @@ main.EduSquare {
             padding-top: 42px;
             padding-bottom: 42px;
         }
-        .title-row {
-            .title {
-                font-weight: bold;
-            }
-            .sub-title {
-                color: #616161;
-            }
-            .finish-line {
-                width: 36px;
-                height: 3px;
-                margin: 0 auto;
-                background-color: $primary-dark;
-                margin-bottom: 18px;
-            }
+        .content-row {
+            margin-bottom: 0;
+        }
+    }
+}
+
+.title-row {
+    .title {
+        font-weight: bold;
+    }
+    .sub-title {
+        color: #616161;
+    }
+    .finish-line {
+        width: 36px;
+        height: 3px;
+        margin: 0 auto;
+        background-color: $primary-dark;
+        margin-bottom: 18px;
+    }
+}
+
+.clean-card {
+    .card-content {
+        padding: 12px;
+        position: relative;
+        img.icon {
+            position: absolute;
+            top: 12px;
+            right: 12px;
+            height: 50px;
+        }
+        h5.card-title {
+            font-weight: bold;
+            height: 50px;
+            line-height: 50px;
+            margin: 0;
         }
     }
 }

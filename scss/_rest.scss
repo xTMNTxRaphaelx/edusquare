@@ -1,46 +1,10 @@
 .rest-content {
-    background-color: transparent;
-}
-.news__box {
-    img {
-        max-width: 100%;
-        height: auto;
+    background-color: $primary;
+    .title-row h3 {
+        color: #fff;
     }
-}
-
-
-.rest-content__box {
-    background-color:  #fff;
-    .card-content {
-        padding: 0;
-        .card-title {
-            .title {
-                height: 48px;
-                line-height: 48px;
-                color: #fff;
-                &.red-b {
-                    background-color: #e74424;
-                }
-                &.blue-b {
-                    background-color: #1c52a6;
-                }
-                &.green-b {
-                    background-color: #579165;
-                }
-            }
-        }
-        .card-content {
-            padding: 6px 18px;
-            text-align: center;
-            // font-size: 12px;
-            @media screen and (min-width: 601px) {
-                text-align: left;
-            }
-            
-        }
-    }
-    h3 {
-        margin-top: 0;
+    .title-row .finish-line {
+        background-color: #fff;
     }
     ul.events {
         li {
@@ -113,5 +77,40 @@
             color: $dark-primary-color;
             font-weight: bold;
         }
+    }
+}
+
+.rest-content__box {
+    background-color:  #fff;
+    .card-content {
+        padding: 0;
+        .card-title {
+            .title {
+                height: 48px;
+                line-height: 48px;
+                color: #fff;
+                &.red-b {
+                    background-color: #e74424;
+                }
+                &.blue-b {
+                    background-color: #1c52a6;
+                }
+                &.green-b {
+                    background-color: #579165;
+                }
+            }
+        }
+        .card-content {
+            padding: 6px 18px;
+            text-align: center;
+            // font-size: 12px;
+            @media screen and (min-width: 601px) {
+                text-align: left;
+            }
+            
+        }
+    }
+    h3 {
+        margin-top: 0;
     }
 }
