@@ -1,6 +1,6 @@
 .page-footer {
-    background-color: $default-primary-color;
-    color: $primary-font-color;
+    background-color: $primary;
+    color: $font-color;
     text-align: center;
     font-size: 13px;
     @media only screen and (min-width: 601px) {
@@ -13,7 +13,7 @@
         font-weight: bold;
         text-transform: uppercase;
         a {
-            color: $primary-font-color;
+            color: $font-color;
         }
     }
     h6 {
@@ -21,7 +21,7 @@
         font-weight: bold;
     }
     .footer-copyright {
-        color: $dark-primary-color;
+        color: $primary-dark;
         background-color: #fff;
         text-align: center;
         font-weight: bold;

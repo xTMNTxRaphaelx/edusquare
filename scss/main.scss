@@ -1,25 +1,19 @@
-@import 'variables';
-::-moz-selection {
-    /* Code for Firefox */
-    color: $dark-primary-color;
-    background: $primary-button-font-color;
-}
+// Variables USED
+$heading-font: 'Roboto Condensed', sans-serif;
+$body-font: 'Lato', sans-serif;
 
-::selection {
-    color: $dark-primary-color;
-    background: $primary-button-font-color;
-}
-
-html,
+$font-color: #011627;
+$light-color: #616161;
+$primary-dark: #0D47A1;
+$primary: #2196F3;
+$secondary: #FFF176;
+$accent-red: #FF1744;
+$accent-green: #00E676;
 body {
-    background-color: #fff;
-    max-width: 100%;
-    overflow-x: hidden!important;
-    font-size: 14px;
-    line-height: 24px;
-    font-family: $body-font;
     background: url('../assets/geometry2.png');
     background-attachment: fixed;
+    font-family: $body-font;
+    overflow-x: hidden!important;
 }
 
 h1,
@@ -31,25 +25,31 @@ h6 {
     font-family: $heading-font;
 }
 
-.btn {
-    background: $accent-color;
-    color: #fff;
-}
-.btn-2 {
-    background: $primary;
+::-moz-selection {
+    /* Code for Firefox */
+    color: $font-color;
+    background: $secondary;
 }
 
-.btn:hover {
-    background: $accent-color;
-    color: $primary-button-font-color;
+::selection {
+    color: $font-color;
+    background: $secondary;
+}
+
+a.btn {
+    background: $accent-red;
+    color: #fff;
+    &:hover {
+        background: $accent-red;
+        color: $font-color;
+    }
 }
 
 a {
     color: $font-color;
-}
-
-a:hover {
-    color: $primary-dark;
+    &:hover {
+        color: $primary-dark;
+    }
 }
 
 span.edusquare {
@@ -64,8 +64,8 @@ span.strong {
     padding-top: 75px;
 }
 
-
-@import 'common';
+// Import Passive CSS Configuration
+@import 'passive-life';
 @import 'sub-nav';
 @import 'main-nav';
 @import 'about';

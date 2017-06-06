@@ -1,22 +1,8 @@
-::-moz-selection {
-  /* Code for Firefox */
-  color: #0D47A1;
-  background: #E3E36A; }
-
-::selection {
-  color: #0D47A1;
-  background: #E3E36A; }
-
-html,
 body {
-  background-color: #fff;
-  max-width: 100%;
-  overflow-x: hidden !important;
-  font-size: 14px;
-  line-height: 24px;
-  font-family: "Roboto", sans-serif;
   background: url("../assets/geometry2.png");
-  background-attachment: fixed; }
+  background-attachment: fixed;
+  font-family: "Lato", sans-serif;
+  overflow-x: hidden !important; }
 
 h1,
 h2,
@@ -26,22 +12,26 @@ h5,
 h6 {
   font-family: "Roboto Condensed", sans-serif; }
 
-.btn {
-  background: #ff1744;
+::-moz-selection {
+  /* Code for Firefox */
+  color: #011627;
+  background: #FFF176; }
+
+::selection {
+  color: #011627;
+  background: #FFF176; }
+
+a.btn {
+  background: #FF1744;
   color: #fff; }
-
-.btn-2 {
-  background: #2196F3; }
-
-.btn:hover {
-  background: #ff1744;
-  color: #E3E36A; }
+  a.btn:hover {
+    background: #FF1744;
+    color: #011627; }
 
 a {
   color: #011627; }
-
-a:hover {
-  color: #0D47A1; }
+  a:hover {
+    color: #0D47A1; }
 
 span.edusquare {
   color: #2196F3; }
@@ -65,52 +55,45 @@ main.EduSquare > section {
     main.EduSquare > section {
       padding-top: 42px;
       padding-bottom: 42px; } }
+  main.EduSquare > section .title-row .title {
+    font-weight: bold; }
+  main.EduSquare > section .title-row .sub-title {
+    color: #616161; }
+  main.EduSquare > section .title-row .finish-line {
+    width: 36px;
+    height: 3px;
+    margin: 0 auto;
+    background-color: #0D47A1;
+    margin-bottom: 12px; }
   main.EduSquare > section .content-row {
     margin-bottom: 0; }
-
-.title-row .title {
-  font-weight: bold; }
-
-.title-row .sub-title {
-  color: #616161; }
-
-.title-row .finish-line {
-  width: 36px;
-  height: 3px;
-  margin: 0 auto;
-  background-color: #0D47A1;
-  margin-bottom: 18px; }
-
-.clean-card .card-content {
-  padding: 12px;
-  position: relative; }
-  .clean-card .card-content img.icon {
-    position: absolute;
-    top: 12px;
-    right: 12px;
-    height: 50px; }
-  .clean-card .card-content h5.card-title {
-    font-weight: bold;
-    height: 50px;
-    line-height: 50px;
-    margin: 0; }
-
-ul.tabs li.tab a {
-  font-size: 14px;
-  font-weight: bold;
-  color: #FF1744; }
-  ul.tabs li.tab a:hover {
-    color: #011627; }
-  ul.tabs li.tab a.active {
-    color: #0D47A1; }
-
-ul.tabs .indicator {
-  background-color: #00E676; }
-
-.carousel ul.indicators .indicator-item {
-  background-color: #2196F3; }
-  .carousel ul.indicators .indicator-item.active {
-    background-color: #FF1744; }
+    main.EduSquare > section .content-row .clean-card .card-content {
+      padding: 12px;
+      position: relative; }
+      main.EduSquare > section .content-row .clean-card .card-content img.icon {
+        position: absolute;
+        top: 12px;
+        right: 12px;
+        height: 50px; }
+      main.EduSquare > section .content-row .clean-card .card-content h5.card-title {
+        font-weight: bold;
+        height: 50px;
+        line-height: 50px;
+        margin: 0; }
+    main.EduSquare > section .content-row ul.tabs li.tab a {
+      font-size: 14px;
+      font-weight: bold;
+      color: #FF1744; }
+      main.EduSquare > section .content-row ul.tabs li.tab a:hover {
+        color: #011627; }
+      main.EduSquare > section .content-row ul.tabs li.tab a.active {
+        color: #0D47A1; }
+    main.EduSquare > section .content-row ul.tabs .indicator {
+      background-color: #00E676; }
+    main.EduSquare > section .content-row .carousel ul.indicators .indicator-item {
+      background-color: #2196F3; }
+      main.EduSquare > section .content-row .carousel ul.indicators .indicator-item.active {
+        background-color: #FF1744; }
 
 .sub-nav {
   color: #fff;
@@ -298,7 +281,7 @@ ul.tabs .indicator {
           color: #0D47A1; }
           .courses-type .course-card .card-content .course-card-content h6 span {
             display: block;
-            font-family: "Roboto", sans-serif; }
+            font-family: "Lato", sans-serif; }
         .courses-type .course-card .card-content .course-card-content ul {
           padding-left: 20px; }
           .courses-type .course-card .card-content .course-card-content ul li {
@@ -471,7 +454,7 @@ ul.tabs .indicator {
 
 .page-footer {
   background-color: #2196F3;
-  color: #011638;
+  color: #011627;
   text-align: center;
   font-size: 13px; }
   @media only screen and (min-width: 601px) {
@@ -483,7 +466,7 @@ ul.tabs .indicator {
     font-weight: bold;
     text-transform: uppercase; }
     .page-footer h5 a {
-      color: #011638; }
+      color: #011627; }
   .page-footer h6 {
     font-size: 17px;
     font-weight: bold; }
