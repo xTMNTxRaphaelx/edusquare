@@ -219,7 +219,7 @@ main.EduSquare > section {
     color: #011627; }
 
 .courses-type {
-  background-color: rgba(255, 255, 255, 0.16);
+  background-color: rgba(224, 224, 224, 0.37);
   color: #000; }
   .courses-type .card .card-content .card-title {
     text-align: center; }
@@ -423,6 +423,26 @@ main.EduSquare > section {
       font-size: 12px;
       color: #0D47A1;
       font-weight: bold; }
+
+.results {
+  background-color: rgba(224, 224, 224, 0.37);
+  border-top: 1px solid #e0e0e0;
+  border-bottom: 1px solid #e0e0e0; }
+  .results .title-row {
+    display: flex;
+    align-items: center; }
+  .results ul.tabs {
+    background-color: transparent; }
+    .results ul.tabs a {
+      font-weight: bold;
+      color: #011627;
+      font-size: 12px; }
+      .results ul.tabs a:hover {
+        color: #0D47A1; }
+      .results ul.tabs a.active {
+        color: #FF1744; }
+    .results ul.tabs .indicator {
+      background-color: #00E676; }
 
 .page-footer {
   background-color: #2196F3;

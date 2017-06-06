@@ -1,0 +1,26 @@
+.results {
+    background-color: rgba(224, 224, 224, 0.37);
+    border-top: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+    .title-row {
+        display: flex;
+        align-items: center;
+    }
+    ul.tabs {
+        background-color: transparent;
+        a {
+            font-weight: bold;
+            color: $font-color;
+            font-size: 12px;
+            &:hover {
+                color: $primary-dark;
+            }
+            &.active {
+                color: $accent-red;
+            }
+        }
+        .indicator {
+            background-color: $accent-green;
+        }
+    }
+}
