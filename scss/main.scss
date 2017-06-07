@@ -5,11 +5,11 @@ This section is divided in :-
 . Peoples Testimonial
 */
 
-
 // Variables USED
-$heading-font: 'Roboto Condensed', sans-serif;
-$body-font: 'Lato', sans-serif;
-
+$heading-font: 'Roboto Condensed',
+sans-serif;
+$body-font: 'Lato',
+sans-serif;
 $font-color: #011627;
 $light-color: #616161;
 $primary-dark: #0D47A1;
@@ -84,7 +84,6 @@ span.edusquare {
 @import 'results';
 @import 'footer';
 @import 'testimonials';
-
 // Rest Content
 .rest-content {
     background-color: $primary;
@@ -97,7 +96,7 @@ span.edusquare {
         }
     }
     .card {
-        min-height: 400px;
+        min-height: 460px;
         &.news-card {
             .carousel-slider {
                 height: 380px!important;
@@ -162,7 +161,6 @@ span.edusquare {
         }
     }
 }
-
 
 // Past Acheivers
 .past-acheivers {

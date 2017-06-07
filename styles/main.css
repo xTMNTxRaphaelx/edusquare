@@ -424,7 +424,8 @@ main.EduSquare > section {
     .page-footer {
       text-align: left; } }
   .page-footer a {
-    color: #fff; }
+    color: #fff;
+    line-height: 30px; }
   .page-footer h5 {
     font-weight: bold;
     text-transform: uppercase; }
@@ -488,7 +489,7 @@ main.EduSquare > section {
   .rest-content .title-row .finish-line {
     background-color: #fff; }
   .rest-content .card {
-    min-height: 400px; }
+    min-height: 460px; }
     .rest-content .card.news-card .carousel-slider {
       height: 380px !important;
       text-align: center; }
