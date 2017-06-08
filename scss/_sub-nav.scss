@@ -1,6 +1,6 @@
 .sub-nav {
     color: #fff;
-    background-color: $primary-dark;
+    background-color: $primary;
     border-bottom: 1px solid $accent-green;
     font-size: 12px;
     text-align: center;
@@ -22,8 +22,7 @@
                 }
             }
             a {
-                color: #fff;
-                // font-size: 14px;
+                color: #fff; // font-size: 14px;
                 &:hover {
                     color: $secondary;
                 }

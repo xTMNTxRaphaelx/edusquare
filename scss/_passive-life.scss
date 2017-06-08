@@ -1,3 +1,22 @@
+.slider {
+    .slider-nav-icons {
+        @media screen and (min-width: 601px) {
+            position: absolute;
+            color: #fff;
+            top: 45%;
+            font-size: 48px;
+            z-index: 998;
+            cursor: pointer;
+            &.left-icon {
+                left: 4%;
+            }
+            &.right-icon {
+                right: 4%;
+            }
+        }
+    }
+}
+
 main.EduSquare {
     >section {
         padding-top: 18px;

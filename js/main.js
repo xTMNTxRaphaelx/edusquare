@@ -1,28 +1,63 @@
-$('document').ready(function () {
+"use strict";
 
-    'use strict';
-    $('.results .carousel.carousel-slider').carousel({
+/**
+   * Hero Slider
+   */
+function heroSlider() {
+  $(".edusquare-slider").slider({
+    indicators: false,
+    height: 500
+  });
+  //   Hero Slider Nav Icons {Reset slider timeout with pause and start.}
+  $(".edusquare-slider i.left-icon").click(function(e) {
+    e.preventDefault();
+    $(".edusquare-slider").slider("pause");
+    $(".edusquare-slider").slider("prev");
+    $(".edusquare-slider").slider("start");
+  });
+  $(".edusquare-slider i.right-icon").click(function(e) {
+    e.preventDefault();
+    $(".edusquare-slider").slider("pause");
+    $(".edusquare-slider").slider("next");
+    $(".edusquare-slider").slider("start");
+  });
+}
+
+function ourClasses() {
+  $(".courses-type ul.tabs li.tab a").hover(function() {
+    var data = $(this).attr("href");
+    $(data).siblings(".course-card-content").hide();
+    $(data).show();
+  });
+}
+
+function ourResults() {
+  $(".our-results ul.tabs").tabs({
+    onShow: function(e) {
+      $(".our-results .carousel.carousel-slider").carousel({
         fullWidth: true
-    });
+      });
+    }
+  });
+}
 
-    $('.past-acheivers ul.tabs').tabs('select_tab', 'acheivers__medical');
-    $('.past-acheivers .carousel').carousel({
-        // dist: 0,
-        // padding: 60,
-        // noWrap: true,
-        // indicators: true,
-        // shift: 99
-    });
+$("document").ready(function() {
+  heroSlider();
+  ourClasses();
+  ourResults();
 
-    $('.peoples.carousel').carousel({
-        duration: 450,
-        dist: -70
-    });
+  //   $(".past-acheivers ul.tabs").tabs("select_tab", "acheivers__medical");
+  //   $(".past-acheivers .carousel").carousel({});
 
-    $('.peoples.carousel a').click(function (e) {
-        e.preventDefault();
-        var currentVal = $(this).find('img').data('testimonial');
-        $('.peoples-testimonials .testimonial').addClass('hide');
-        $('.peoples-testimonials .testimonial#' + currentVal).removeClass('hide');
-    });
+  //   $(".peoples.carousel").carousel({
+  //     duration: 450,
+  //     dist: -70
+  //   });
+
+  //   $(".peoples.carousel a").click(function(e) {
+  //     e.preventDefault();
+  //     var currentVal = $(this).find("img").data("testimonial");
+  //     $(".peoples-testimonials .testimonial").addClass("hide");
+  //     $(".peoples-testimonials .testimonial#" + currentVal).removeClass("hide");
+  //   });
 });
