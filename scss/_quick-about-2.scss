@@ -13,14 +13,14 @@
         border-top: 3px solid #fff;
         transition: all 0.1s ease-out;
         h5 {
-            font-weight: bold;
+            // font-weight: bold;
             height: 50px;
             line-height: 50px;
             margin: 0;
         }
         &:hover {
             border-top: 3px solid $primary-dark;
-            h5 span { 
+            h5 span {
                 color: $primary-dark;
             }
         }
@@ -30,6 +30,8 @@
             display: block;
         }
         a.btn {
+            font-size: 12px;
+            width: 100%;
             margin-top: 12px;
         }
         img {

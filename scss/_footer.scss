@@ -11,15 +11,14 @@
         line-height: 30px;
     }
     h5 {
-        font-weight: bold;
+        // font-weight: bold;
         text-transform: uppercase;
         a {
             color: $font-color;
         }
     }
     h6 {
-        font-size: 17px;
-        font-weight: bold;
+        font-size: 17px; // font-weight: bold;
     }
     .footer-copyright {
         color: $primary-dark;

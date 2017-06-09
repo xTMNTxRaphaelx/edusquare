@@ -39,7 +39,7 @@ main.EduSquare {
             display: flex;
             align-items: center;
             .title {
-                font-weight: bold;
+                // font-weight: bold;
                 img {
                     height: 40px;
                 }
@@ -68,7 +68,7 @@ main.EduSquare {
                         height: 50px;
                     }
                     h5.card-title {
-                        font-weight: bold;
+                        // font-weight: bold;
                         height: 50px;
                         line-height: 50px;
                         margin: 0;
@@ -113,8 +113,7 @@ main.page {
         height: 300px;
         h1 {
             margin: 0;
-            margin-top: 120px;
-            font-weight: bold;
+            margin-top: 120px; // font-weight: bold;
             background: rgba(255, 255, 255, 0.12);
             padding: 12px;
             color: rgba(0, 0, 0, 0.87);
@@ -128,5 +127,58 @@ main.page {
     }
     .body_content {
         background-color: #fff;
+        padding-top: 18px;
+        padding-bottom: 18px;
+        text-align: center;
+        @media screen and (min-width: 601px) {
+            padding-top: 30px;
+            padding-bottom: 30px;
+            text-align: left;
+        }
+        @media screen and (min-width: 993px) {
+            padding-top: 42px;
+            padding-bottom: 42px;
+        }
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            color: #0179a4;
+        }
     }
+}
+
+.vertical-box {
+    background: #ededed;
+    border-radius: 2px;
+    padding: 12px;
+    margin-bottom: 12px;
+    box-shadow: 0 0 5px #ccc;
+}
+
+@media screen and (min-width: 601px) {
+    .vertical-box {
+        display: flex;
+        align-items: center;
+    }
+    .vertical-box .faculty__photo {
+        flex: 0 0 150px;
+    }
+}
+
+.vertical-box .faculty__photo img {
+    width: 100%;
+    height: auto;
+}
+
+.vertical-box .faculty__info {
+    padding: 0 18px;
+}
+
+.card h4,
+.vertical-box .faculty__info h4 {
+    color: #0179a4;
+    text-transform: uppercase;
 }

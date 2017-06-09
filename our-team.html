@@ -8,9 +8,23 @@
     <title>Edusquare</title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700|Roboto+Condensed:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
     <link rel="stylesheet" href="node_modules/materialize-css/dist/css/materialize.css">
     <link rel="stylesheet" href="styles/materialize-override.css">
     <link rel="stylesheet" href="styles/main.css">
+    <style>
+        .card {
+            text-align: center;
+            box-shadow: 0 0 5px #ccc;
+            background: #ededed;
+        }
+
+        .card .card-image {
+            width: 200px;
+            height: 300px;
+            margin: 0 auto;
+        }
+    </style>
 </head>
 
 <body>
@@ -25,7 +39,7 @@
                 </a>
             </div>
             <div class="col s12 m6">
-                <a class="waves-effect waves-light btn online-test-btn">
+                <a class="waves-effect waves-light btn online-test-btn" href="general-queries.html">
                     <i class="material-icons tiny">info</i> Admission Enquiry
                 </a>
                 <div class="social-links">
@@ -58,7 +72,6 @@
             </div>
         </div>
     </div>
-
     <nav class="main-nav">
         <div class="nav-wrapper">
             <a href="/" class="brand-logo">
@@ -66,7 +79,7 @@
             </a>
             <ul class="right hide-on-med-and-down desktop-menu">
                 <li>
-                    <a class="d-dropdown-button" href="#!" data-activates="navbar_d__aboutUS-dropdown">
+                    <a class="d-dropdown-button" href="about-us.html" data-activates="navbar_d__aboutUS-dropdown">
                         <span>About Us</span>
                         <i class="material-icons right">arrow_drop_down</i>
                     </a>
@@ -117,113 +130,246 @@
         <div class="body_content">
             <div class="container">
                 <div class="row">
-                    <div class="col s12">
-                        <h5>Introduction of Faculties :</h5>
-                        <h4>Er. Deepak Goyal</h4>
-                        <span>Subject : Chemistry | Exp: 7 years</span>
-                        <p>Education is the best virtue, having a firm belief in this ideology, he worked towards setting a
-                            precedent for the entire Ludhiana city by securing an all India rank of 138 in IIT-JEE . After
-                            pursuing his CSc. engg. from IIT Delhi, worked for an year in Switzerland. His uncanny wit, candid
-                            nature and unconventional teaching methods makes him a friend for all and his relationship with
-                            his students goes beyond just helping them clearing entrance exam but helping them in their future
-                            endeavors as well .</p>
+                    <div class="col s12 center">
+                        <ul class="tabs">
+                            <li class="tab col s6 offset-m3 m3">
+                                <a href="#management" classs="active">Management</a>
+                            </li>
+                            <li class="tab col s6 m3">
+                                <a href="#faculty">Faculty</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col s12" id="management">
+                        <h5>Management</h5>
+                        <div class="vertical-box">
+                            <div class="faculty__photo">
+                                <img src="http://edusquare.co.in/edu/wp-content/uploads/2016/04/Goyal-uncle-200x300.png" alt="">
+                            </div>
+                            <div class="faculty__info">
+                                <h4>ER. R.K. GOYAL (DIRECTOR)</h4>
+                                <p>A man with a vision to make quality education easily available to all students who have the
+                                    willingness, Er. R. K. Goyal is a bundle of positive energy. His undying zeal to get
+                                    things done, in the best manner possible is what takes him ahead of the curve. An Electrical
+                                    Engineer from Thapar University, Masters from IIT Roorkee, MBA from Punjabi University,
+                                    experience in Punjab State Electricity Board as key personnel and a partner at one of
+                                    the leading Real Estate group of Punjab: he is a perfect blend of experience, education
+                                    and vision clarity.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="vertical-box">
+                            <div class="faculty__photo">
+                                <img src="http://edusquare.co.in/edu/wp-content/uploads/2015/10/pawan-sir-1-200x300.jpg" alt="">
+                            </div>
+                            <div class="faculty__info">
+                                <h4>MR. PAWAN KUMAR (DIRECTOR)</h4>
+                                <p>A B.Sc. Graduate from Govt. College and Masters in Computer Sciences, he has over 15 years
+                                    of experience in the coaching industry. He best understands the requirements of the students
+                                    and makes sure that the institute forms its policies for the benefit of the students.
+                                    A good eye for detail, clear thinking process and ambitious nature is what makes this
+                                    happy go lucky person a great leader.</p>
+                            </div>
+                        </div>
+                        <div class="vertical-box">
+                            <div class="faculty__photo">
+                                <img src="http://edusquare.co.in/edu/wp-content/uploads/2015/10/Tejpreet-224x300.jpg" alt="">
+                            </div>
+                            <div class="faculty__info">
+                                <h4>ER. TEJPREET SINGH (DIRECTOR)</h4>
+                                <p>An engineer from Panjab University Chandigarh and MBA from MDI, Gurgaon, he is popular among
+                                    colleagues for his logical thinking and ever smiling nature.He has worked in various
+                                    cities of the country during his three years stint in FMCG sector before choosing to
+                                    quit his job and starting his career as an educationist. A dynamic young leader, he brings
+                                    all his team management skills to coordinate Edusquare team to make a meaningful impact
+                                    on the student’s lives.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12" id="faculty">
+                        <h5>Faculties </h5>
+                        <div class="vertical-box">
+                            <div class="faculty__photo">
+                                <img src="http://edusquare.co.in/edu/wp-content/uploads/2016/04/Deepak-Sir-200x300.png" alt="">
+                            </div>
+                            <div class="faculty__info">
+                                <h4>Er. Deepak Goyal</h4>
+                                <span>Subject : Chemistry | Exp: 7 years</span>
+                                <p>Education is the best virtue, having a firm belief in this ideology, he worked towards setting
+                                    a precedent for the entire Ludhiana city by securing an all India rank of 138 in IIT-JEE
+                                    . After pursuing his CSc. engg. from IIT Delhi, worked for an year in Switzerland. His
+                                    uncanny wit, candid nature and unconventional teaching methods makes him a friend for
+                                    all and his relationship with his students goes beyond just helping them clearing entrance
+                                    exam but helping them in their future endeavors as well .</p>
+                            </div>
+                        </div>
+                        <div class="vertical-box">
+                            <div class="faculty__photo"><img src="http://edusquare.co.in/edu/wp-content/uploads/2016/08/Ashwani-sir-200x300.png" alt=""></div>
+                            <div class="faculty__info">
+                                <h4>Ashwani Kumar</h4>
+                                <span>Subject : Physics | Exp : 16yrs</span>
+                                <p>The best example of how to make learning fun, Ashwini sir has been guiding students in getting
+                                    through the best of engineering and medical colleges for more than 17 years now. A popular
+                                    name amongst his students, his amusing humor makes look even the most serious topics
+                                    fun and easy. Being a Gold Medalist in Msc, Physics his grip on his subject is unmatched
+                                    to any other in the region.</p>
+                            </div>
+                        </div>
 
-                        <h4>Ashwani Kumar</h4>
-                        <span>Subject : Physics | Exp : 16yrs</span>
-                        <p>The best example of how to make learning fun, Ashwini sir has been guiding students in getting through
-                            the best of engineering and medical colleges for more than 17 years now. A popular name amongst
-                            his students, his amusing humor makes look even the most serious topics fun and easy. Being a
-                            Gold Medalist in Msc, Physics his grip on his subject is unmatched to any other in the region.</p>
+                        <div class="vertical-box">
+                            <div class="faculty__photo"><img src="http://edusquare.co.in/edu/wp-content/uploads/2016/04/Kapoor-Sir-200x300.png" alt=""></div>
+                            <div class="faculty__info">
+                                <h4>Mr Rajinder Kumar Kapoor</h4>
+                                <span>Subject : Biology | Exp : 38yrs</span>
+                                <p>Our Biology expert , has a huge name in the student fraternity preparing for Medical Entrance
+                                    exams . His about 38 years of experience in coaching and guiding students to clear the
+                                    most difficult and prestigious Medical Exams Like AIIMS, AFMC , PMT etc . An Msc in Zoology,
+                                    all the Doctors in and around the city have been groomed under his esteemed guidance
+                                    on how to successfully bag a position in otherwise thought about comparatively tougher
+                                    exams.
+                                </p>
+                            </div>
+                        </div>
 
-                        <h4>Mr Rajinder Kumar Kapoor</h4>
-                        <span>Subject : Biology | Exp : 38yrs</span>
-                        <p>Our Biology expert , has a huge name in the student fraternity preparing for Medical Entrance exams
-                            . His about 38 years of experience in coaching and guiding students to clear the most difficult
-                            and prestigious Medical Exams Like AIIMS, AFMC , PMT etc . An Msc in Zoology, all the Doctors
-                            in and around the city have been groomed under his esteemed guidance on how to successfully bag
-                            a position in otherwise thought about comparatively tougher exams.</p>
 
-                        <h4>Dr. Ravinder Kaur Bhatia </h4>
-                        <span>Subject : Chemistry | Exp : 18yrs</span>
-                        <p>A PHD in Chemistry , has an 19 years of teaching students in this field . Her focus on basics and
-                            elementary concepts that form the foundation are the biggest strengths that has helped students
-                            do well in Entrance and board exams both.</p>
+                        <div class="vertical-box">
+                            <div class="faculty__photo"><img src="http://edusquare.co.in/edu/wp-content/uploads/2016/04/Bhatia-mam-249x300.png" alt=""></div>
+                            <div class="faculty__info">
+                                <h4>Dr. Ravinder Kaur Bhatia </h4>
+                                <span>Subject : Chemistry | Exp : 18yrs</span>
+                                <p>A PHD in Chemistry , has an 19 years of teaching students in this field . Her focus on basics
+                                    and elementary concepts that form the foundation are the biggest strengths that has helped
+                                    students do well in Entrance and board exams both.</p>
+                            </div>
+                        </div>
 
-                        <h4>Dr. K.L. Bajaj</h4>
-                        <span>Subject : Chemistry | Exp : 43yrs</span>
-                        <p>The father figure for all . Eldest of the family , He is M.Sc. (Chemistry) Gold Medalist and PhD.
-                            having done research papers with several Indian Universities along with a few foreign universities
-                            in Japan, Canada and Spain. Having a rich teaching experience of more than 45 years, He is also
-                            the Ex-HoD of Bio-chem department at PAU(Ludhiana). His in-depth knowledge, guiding nature and
-                            an unrelenting support form the pillars of strength for the entire team .</p>
 
-                        <h4>Jitender Routray</h4>
-                        <span>Subject : Maths | Exp : 13yrs</span>
-                        <p>Lovingly called and popular as Jitu sir amongst everybody, He is an Engineering graduate from prestigious
-                            NIT, Nagpur . Close to 15 years of excellent teaching experience, he has been instrumental in
-                            changing the IIT teaching scenario in the city of Ludhaina. His love for numbers and techniques,
-                            and an unparalleled approach towards solving even the complex Mathematics problems, has made
-                            him favorite among all the IIT – JEE students
-                        </p>
 
-                        <h4>Er. Garvit Bansal</h4>
-                        <span>Subject : Physics | Exp : 2yrs</span>
-                        <p>The youngest of the IIT bandwagon, his recent exposure to the Entrance Exam preparation himself gives
-                            him the “ been there, done that “ advantage . Having secured a seat for himself in the most prestigious
-                            IIT-JEE exam , his love and passion for the Physics subject and a connect to the city and its
-                            students brought him to the teaching arena . Always full of ideas, a down to earth person, he
-                            believes in being the best at whatever he does
-                        </p>
+                        <div class="vertical-box">
+                            <div class="faculty__photo"><img src="http://edusquare.co.in/edu/wp-content/uploads/2016/04/Bajaj-Sir-200x300.png" alt=""></div>
+                            <div class="faculty__info">
+                                <h4>Dr. K.L. Bajaj</h4>
+                                <span>Subject : Chemistry | Exp : 43yrs</span>
+                                <p>The father figure for all . Eldest of the family , He is M.Sc. (Chemistry) Gold Medalist
+                                    and PhD. having done research papers with several Indian Universities along with a few
+                                    foreign universities in Japan, Canada and Spain. Having a rich teaching experience of
+                                    more than 45 years, He is also the Ex-HoD of Bio-chem department at PAU(Ludhiana). His
+                                    in-depth knowledge, guiding nature and an unrelenting support form the pillars of strength
+                                    for the entire team .</p>
+                            </div>
+                        </div>
 
-                        <h4>Er. Kaushik Kumar</h4>
-                        <span>Subject : Maths | Exp : 3yrs</span>
-                        <p>Another pioneer in the IIT bandwagon, this young IIT grad with 3 years of teaching experience brings
-                            in the art of simplicity to the Mathematics preparation. With his youthful energy, hard work
-                            and knowledge seeking approach in his quest to learn and implement new things, he is fast catching
-                            up with some of the best names in the city for the subject.
-                        </p>
-
-                        <h4>Chandan Goyal</h4>
-                        <span>Subject : Physics | Exp : 15yrs</span>
-                        <p>He started his career at early stage and has made a lot of progress in his professional career in
-                            a very short span of time. He started teaching at a school and then gradually upgraded himself
-                            into one of the most popular teachers for Physics at Ludhiana. His love for his subject and ever
-                            going hunt for the best students makes him popular amongst all. Being an Engineer himself , he
-                            is been successfully mentoring students for the past 15 years
-                        </p>
-
-                        <h4>Dr. Sarabhjeet Dhaliwal</h4>
-                        <span>Subject : Bio | Exp : 15yrs</span>
-                        <p>Famous for making Biology interesting in her own way, She has behind her 15 years of teaching experience
-                            as the bio faculty. Her art of making students comfortable through out of class interaction,
-                            support and guidance, has helped her connect to students as a guide and a friend. She has created
-                            her own space in the Education scenario of this vibrant city. Her students have been making proving
-                            their mettle in prestigious institutes like aiims, CMC, DMC, Govt. Medical Colleges etc.
-                        </p>
-
-                        <h4>Vrinda Saini</h4>
-                        <span>Subject : Chemistry | Exp : 2yrs</span>
-                        <p>Her never-ending zeal to learn new things to seek and gain knowledge has helped this young teacher
-                            make her own space amongst the students. Always seen helping students grasping different concepts,
-                            solving their doubts her hard work and determination and a connect to students as a guiding hand
-                            make her stand out in a crowd
-                        </p>
-
-                        <h4>Babita Patla</h4>
-                        <span>Subject : Chemistry | Exp : 10 yrs </span>
-
-                        <h4>Dr. Manmeen Kaur</h4>
-                        <span>Subject : Biology | Exp : 2 yrs</span>
-
-                        <h4>Rahul Maheshwari</h4>
-                        <span>Subject : Mathematics | Exp : 3 yrs</span>
+                        <div class="vertical-box">
+                            <div class="faculty__photo"><img src="http://edusquare.co.in/edu/wp-content/uploads/2016/04/Jitu-Sir-200x300.png" alt=""></div>
+                            <div class="faculty__info">
+                                <h4>Jitender Routray</h4>
+                                <span>Subject : Maths | Exp : 13yrs</span>
+                                <p>Lovingly called and popular as Jitu sir amongst everybody, He is an Engineering graduate
+                                    from prestigious NIT, Nagpur . Close to 15 years of excellent teaching experience, he
+                                    has been instrumental in changing the IIT teaching scenario in the city of Ludhaina.
+                                    His love for numbers and techniques, and an unparalleled approach towards solving even
+                                    the complex Mathematics problems, has made him favorite among all the IIT – JEE students
+                                </p>
+                            </div>
+                        </div>
+                        <div class="vertical-box">
+                            <div class="faculty__photo"><img src="http://edusquare.co.in/edu/wp-content/uploads/2016/04/garvit-sir-2-269x300.png" alt=""></div>
+                            <div class="faculty__info">
+                                <h4>Er. Garvit Bansal</h4>
+                                <span>Subject : Physics | Exp : 2yrs</span>
+                                <p>The youngest of the IIT bandwagon, his recent exposure to the Entrance Exam preparation himself
+                                    gives him the “ been there, done that “ advantage . Having secured a seat for himself
+                                    in the most prestigious IIT-JEE exam , his love and passion for the Physics subject and
+                                    a connect to the city and its students brought him to the teaching arena . Always full
+                                    of ideas, a down to earth person, he believes in being the best at whatever he does
+                                </p>
+                            </div>
+                        </div>
+                        <div class="vertical-box">
+                            <div class="faculty__photo"><img src="http://edusquare.co.in/edu/wp-content/uploads/2016/04/Kaushik-Sir-200x300.png" alt=""></div>
+                            <div class="faculty__info">
+                                <h4>Er. Kaushik Kumar</h4>
+                                <span>Subject : Maths | Exp : 3yrs</span>
+                                <p>Another pioneer in the IIT bandwagon, this young IIT grad with 3 years of teaching experience
+                                    brings in the art of simplicity to the Mathematics preparation. With his youthful energy,
+                                    hard work and knowledge seeking approach in his quest to learn and implement new things,
+                                    he is fast catching up with some of the best names in the city for the subject.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="vertical-box">
+                            <div class="faculty__photo"><img src="http://edusquare.co.in/edu/wp-content/uploads/2016/04/Chandan-sir-200x300.png" alt=""></div>
+                            <div class="faculty__info">
+                                <h4>Chandan Goyal</h4>
+                                <span>Subject : Physics | Exp : 15yrs</span>
+                                <p>He started his career at early stage and has made a lot of progress in his professional career
+                                    in a very short span of time. He started teaching at a school and then gradually upgraded
+                                    himself into one of the most popular teachers for Physics at Ludhiana. His love for his
+                                    subject and ever going hunt for the best students makes him popular amongst all. Being
+                                    an Engineer himself , he is been successfully mentoring students for the past 15 years
+                                </p>
+                            </div>
+                        </div>
+                        <div class="vertical-box">
+                            <div class="faculty__photo"><img src="http://edusquare.co.in/edu/wp-content/uploads/2016/04/Dhaliwal-Mam-200x300.png" alt=""></div>
+                            <div class="faculty__info">
+                                <h4>Dr. Sarabhjeet Dhaliwal</h4>
+                                <span>Subject : Bio | Exp : 15yrs</span>
+                                <p>Famous for making Biology interesting in her own way, She has behind her 15 years of teaching
+                                    experience as the bio faculty. Her art of making students comfortable through out of
+                                    class interaction, support and guidance, has helped her connect to students as a guide
+                                    and a friend. She has created her own space in the Education scenario of this vibrant
+                                    city. Her students have been making proving their mettle in prestigious institutes like
+                                    aiims, CMC, DMC, Govt. Medical Colleges etc.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="vertical-box">
+                            <div class="faculty__photo"><img src="http://edusquare.co.in/edu/wp-content/uploads/2016/04/Vrinda-mam-200x300.png" alt=""></div>
+                            <div class="faculty__info">
+                                <h4>Vrinda Saini</h4>
+                                <span>Subject : Chemistry | Exp : 2yrs</span>
+                                <p>Her never-ending zeal to learn new things to seek and gain knowledge has helped this young
+                                    teacher make her own space amongst the students. Always seen helping students grasping
+                                    different concepts, solving their doubts her hard work and determination and a connect
+                                    to students as a guiding hand make her stand out in a crowd
+                                </p>
+                            </div>
+                        </div>
+                        <div class="vertical-box">
+                            <div class="faculty__photo"><img src="http://edusquare.co.in/edu/wp-content/uploads/2016/04/manmeen-mam-225x300.jpg" alt=""></div>
+                            <div class="faculty__info">
+                                <h4>Dr. Manmeen Kaur</h4>
+                                <span>Subject : Biology | Exp : 2 yrs</span>
+                                <p>The youngest in Biology department and with a zeal to help the students achieve their goal,
+                                    this Gold Medalist young lady has all what it takes to reach the zenith of success. She
+                                    has made her own space among the student community and is very popular among them for
+                                    her in depth subject knowledge.</p>
+                            </div>
+                        </div>
+                        <div class="vertical-box">
+                            <div class="faculty__photo"><img src="http://edusquare.co.in/edu/wp-content/uploads/2016/04/rahul-sir-2-244x300.png" alt=""></div>
+                            <div class="faculty__info">
+                                <h4>Rahul Maheshwari</h4>
+                                <span>Subject : Mathematics | Exp : 3 yrs</span>
+                                <p>Young, enthusiastic and knowledgeable, this is what defines this engineer from Thapar University.
+                                    A zeal to perform, learn and grow is what give him a kick.</p>
+                            </div>
+                        </div>
+                        <div class="vertical-box">
+                            <div class="faculty__info">
+                                <h4>Babita Patla</h4>
+                                <span>Subject : Chemistry | Exp : 10 yrs </span>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
 
     </main>
-
     <footer class="page-footer">
         <div class="container">
             <div class="row">
@@ -232,61 +378,61 @@
                     <ul>
                         <li><a href="about-us.html">Mission and Values</a></li>
                         <li><a href="our-team.html">Our Team</a></li>
-                        <li><a href="#">careers@EduSquare</a></li>
+                        <li><a href="careers.html">careers@EduSquare</a></li>
                     </ul>
                 </div>
                 <div class="col s12 m4 l2">
                     <h5>Courses</h5>
                     <h6>Medical</h6>
                     <ul>
-                        <li><a href="#">Class XI Program</a></li>
-                        <li><a href="#">Class XII Program</a></li>
-                        <li><a href="#">Droppers Batch</a></li>
-                        <li><a href="#">Crash Course</a></li>
+                        <li><a href="medical-courses.html#xi">Class XI Program</a></li>
+                        <li><a href="medical-courses.html#xii">Class XII Program</a></li>
+                        <li><a href="medical-courses.html#dropper">Droppers Batch</a></li>
+                        <!--<li><a href="medical-courses.html#crash">Crash Course</a></li>-->
                     </ul>
                     <h6>Non - Medical</h6>
                     <ul>
-                        <li><a href="#">Class XI Program</a></li>
-                        <li><a href="#">Class XII Program</a></li>
-                        <li><a href="#">Droppers Batch</a></li>
-                        <li><a href="#">Crash Course</a></li>
+                        <li><a href="non-medical-courses.html#xi">Class XI Program</a></li>
+                        <li><a href="non-medical-courses.html#xii">Class XII Program</a></li>
+                        <li><a href="non-medical-courses.html#dropper">Droppers Batch</a></li>
+                        <!--<li><a href="non-medical-courses.html#crash">Crash Course</a></li>-->
                     </ul>
-                    <h6>Foundation</h6>
+                    <!--<h6>Foundation</h6>
                     <ul>
-                        <li><a href="#">Class IX Program</a></li>
-                        <li><a href="#">Class X Program</a></li>
-                    </ul>
+                        <li><a href="404page.html">Class IX Program</a></li>
+                        <li><a href="404page.html">Class X Program</a></li>
+                    </ul>-->
                 </div>
                 <div class="col s12 m4 l2">
-                    <h5><a href="#">Results</a></h5>
+                    <h5><a href="results.html">Results</a></h5>
                 </div>
                 <div class="col s12 m4 l2">
                     <h5>Student Area</h5>
                     <ul>
-                        <li><a href="#">Periodic Test Results</a></li>
-                        <li><a href="#">Competitive Exam Details</a></li>
-                        <li><a href="#">Downlaods</a></li>
-                        <li><a href="#">EPTSE</a></li>
+                        <li><a href="404page.html">Periodic Test Results</a></li>
+                        <li><a href="404page.html">Competitive Exam Details</a></li>
+                        <li><a href="404page.html">Downlaods</a></li>
+                        <li><a href="eptse.html">EPTSE</a></li>
                     </ul>
                 </div>
                 <div class="col s12 m4 l2">
                     <h5>Contact</h5>
                     <ul>
-                        <li><a href="#">Admission Queries</a></li>
-                        <li><a href="#">General Queries</a></li>
-                        <li><a href="#">Careers@EduSquare</a></li>
+                        <li><a href="general-queries.html">Admission Queries</a></li>
+                        <li><a href="general-queries.html">General Queries</a></li>
+                        <li><a href="careers.html">Careers@EduSquare</a></li>
                         <li><a href="#">Feedback</a></li>
                     </ul>
                 </div>
                 <div class="col s12 m4 l2">
                     <h5>Others</h5>
                     <ul>
-                        <li><a href="#">Careers</a></li>
-                        <li><a href="#">Gallery</a></li>
-                        <li><a href="#">Newspaper Coverage</a></li>
-                        <li><a href="#">Infrastructure</a></li>
-                        <li><a href="#">Joy Clinic</a></li>
-                        <li><a href="#">Attendance Monitoring System</a></li>
+                        <li><a href="careers.html">Careers</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="404page.html">Newspaper Coverage</a></li>
+                        <li><a href="404page.html">Infrastructure</a></li>
+                        <li><a href="404page.html">Joy Clinic</a></li>
+                        <li><a href="404page.html">Attendance Monitoring System</a></li>
                     </ul>
                 </div>
             </div>
@@ -297,69 +443,68 @@
             </div>
         </div>
     </footer>
-
     <ul id="navbar_d__aboutUS-dropdown" class="dropdown-content">
         <li><a href="about-us.html">Mission & Values</a></li>
         <li><a href="our-team.html">Our Team</a></li>
-        <li><a href="#!">Careers@EduSquare</a></li>
+        <li><a href="careers.html">Careers@EduSquare</a></li>
     </ul>
     <div id="navbar_d__courses-dropdown" class="dropdown-content">
         <div class="row">
             <div class="col m4">
                 <h5>Medical</h5>
                 <ul>
-                    <li><a href="#!">Class XI Program</a></li>
-                    <li><a href="#!">Class XII Program</a></li>
-                    <li><a href="#!">Droppers Batch</a></li>
-                    <li><a href="#!">Crash Course</a></li>
+                    <li><a href="medical-courses.html#xi">Class XI Program</a></li>
+                    <li><a href="medical-courses.html#xii">Class XII Program</a></li>
+                    <li><a href="medical-courses.html#dropper">Droppers Batch</a></li>
+                    <li><a href="medical-courses.html#crash">Crash Course</a></li>
                 </ul>
             </div>
             <div class="col m4">
                 <h5>Non Medical</h5>
                 <ul>
-                    <li><a href="#!">Class XI Program</a></li>
-                    <li><a href="#!">Class XII Program</a></li>
-                    <li><a href="#!">Droppers Batch</a></li>
-                    <li><a href="#!">Crash Course</a></li>
+                    <li><a href="non-medical-courses.html#xi">Class XI Program</a></li>
+                    <li><a href="non-medical-courses.html#xii">Class XII Program</a></li>
+                    <li><a href="non-medical-courses.html#dropper">Droppers Batch</a></li>
+                    <li><a href="non-medical-courses.html#crash">Crash Course</a></li>
                 </ul>
             </div>
             <div class="col m4">
                 <h5>Foundation</h5>
                 <ul>
-                    <li><a href="#!">Class IX Program</a></li>
-                    <li><a href="#!">Class X Program</a></li>
+                    <li><a href="404page.html">Class IX Program</a></li>
+                    <li><a href="404page.html">Class X Program</a></li>
                 </ul>
             </div>
         </div>
     </div>
     <ul id="navbar_d__student-area-dropdown" class="dropdown-content">
-        <li><a href="#!">Periodic Test Result</a></li>
-        <li><a href="#!">Competitive Exams details</a></li>
+        <li><a href="404page.html">Periodic Test Result</a></li>
+        <li><a href="404page.html">Competitive Exams details</a></li>
         <li><a class="d-dropdown-button" href="#!" data-activates="navbar_d__downloads-dropdown">Downloads</a></li>
-        <li><a href="#!">EPTSE</a></li>
+        <li><a href="eptse.html">EPTSE</a></li>
     </ul>
     <ul id="navbar_d__downloads-dropdown" class="dropdown-content">
-        <li><a href="#">E-brochure</a></li>
-        <li><a href="#">E-prospectus</a></li>
-        <li><a href="#">Application Form</a></li>
+        <li><a href="404page.html">E-brochure</a></li>
+        <li><a href="404page.html">E-prospectus</a></li>
+        <li><a href="404page.html">Application Form</a></li>
     </ul>
     <ul id="navbar_d__contact_us-dropdown" class="dropdown-content">
-        <li><a href="#!">Admission Queries</a></li>
-        <li><a href="#!">General Queries</a></li>
-        <li><a href="#!">Careers@EduSquare</a></li>
+        <li><a href="general-queries.html">Admission Queries</a></li>
+        <li><a href="general-queries.html">General Queries</a></li>
+        <li><a href="careers.html">Careers@EduSquare</a></li>
         <li><a href="#!">Feedback</a></li>
     </ul>
     <ul id="navbar_d__misc-dropdown" class="dropdown-content">
-        <li><a href="#!">Careers</a></li>
-        <li><a href="#!">Gallery</a></li>
-        <li><a href="#!">Newspaper Coverage</a></li>
-        <li><a href="#!">Infrastructure</a></li>
-        <li><a href="#!">Joy Clinic</a></li>
-        <li><a href="#!">Attendance Monitoring System</a></li>
+        <li><a href="careers.html">Careers</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="404page.html">Newspaper Coverage</a></li>
+        <li><a href="404page.html">Infrastructure</a></li>
+        <li><a href="404page.html">Joy Clinic</a></li>
+        <li><a href="404page.html">Attendance Monitoring System</a></li>
     </ul>
     <ul id='navbar_d__login-dropdown' class='dropdown-content'>
-        <li><a href="http://testrocket.in/#/student_signin" target="_blank">Ferozpur</a></li>
-        <li><a href="http://testrocket.in/#/student_signin" target="_blank">Ludhiana</a></li>
+        <li><a href="http://test.edusquare.co.in/#/student_signin" target="_blank">Ferozpur</a></li>
+        <li><a href="http://test.edusquare.co.in/#/student_signin" target="_blank">Ludhiana</a></li>
     </ul>
 
     <svg class="hide">

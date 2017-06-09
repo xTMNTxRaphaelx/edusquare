@@ -16,7 +16,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Roboto Condensed", sans-serif; }
+  font-family: "Bree Serif", sans-serif; }
 
 ::-moz-selection {
   /* Code for Firefox */
@@ -81,10 +81,8 @@ main.EduSquare > section {
   main.EduSquare > section .title-row {
     display: flex;
     align-items: center; }
-    main.EduSquare > section .title-row .title {
-      font-weight: bold; }
-      main.EduSquare > section .title-row .title img {
-        height: 40px; }
+    main.EduSquare > section .title-row .title img {
+      height: 40px; }
     main.EduSquare > section .title-row .sub-title {
       color: #616161; }
     main.EduSquare > section .title-row .finish-line {
@@ -104,7 +102,6 @@ main.EduSquare > section {
         right: 12px;
         height: 50px; }
       main.EduSquare > section .content-row .clean-card .card-content h5.card-title {
-        font-weight: bold;
         height: 50px;
         line-height: 50px;
         margin: 0; }
@@ -133,7 +130,6 @@ main.page .head_content {
   main.page .head_content h1 {
     margin: 0;
     margin-top: 120px;
-    font-weight: bold;
     background: rgba(255, 255, 255, 0.12);
     padding: 12px;
     color: rgba(0, 0, 0, 0.87);
@@ -144,7 +140,52 @@ main.page .head_content {
     z-index: 99; }
 
 main.page .body_content {
-  background-color: #fff; }
+  background-color: #fff;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  text-align: center; }
+  @media screen and (min-width: 601px) {
+    main.page .body_content {
+      padding-top: 30px;
+      padding-bottom: 30px;
+      text-align: left; } }
+  @media screen and (min-width: 993px) {
+    main.page .body_content {
+      padding-top: 42px;
+      padding-bottom: 42px; } }
+  main.page .body_content h1,
+  main.page .body_content h2,
+  main.page .body_content h3,
+  main.page .body_content h4,
+  main.page .body_content h5,
+  main.page .body_content h6 {
+    color: #0179a4; }
+
+.vertical-box {
+  background: #ededed;
+  border-radius: 2px;
+  padding: 12px;
+  margin-bottom: 12px;
+  box-shadow: 0 0 5px #ccc; }
+
+@media screen and (min-width: 601px) {
+  .vertical-box {
+    display: flex;
+    align-items: center; }
+  .vertical-box .faculty__photo {
+    flex: 0 0 150px; } }
+
+.vertical-box .faculty__photo img {
+  width: 100%;
+  height: auto; }
+
+.vertical-box .faculty__info {
+  padding: 0 18px; }
+
+.card h4,
+.vertical-box .faculty__info h4 {
+  color: #0179a4;
+  text-transform: uppercase; }
 
 .sub-nav {
   color: #fff;
@@ -380,7 +421,6 @@ main.page .body_content {
     border-top: 3px solid #fff;
     transition: all 0.1s ease-out; }
     .quick-about-2 .q-b-2__box h5 {
-      font-weight: bold;
       height: 50px;
       line-height: 50px;
       margin: 0; }
@@ -393,6 +433,8 @@ main.page .body_content {
       margin-top: 6px;
       display: block; }
     .quick-about-2 .q-b-2__box a.btn {
+      font-size: 12px;
+      width: 100%;
       margin-top: 12px; }
     .quick-about-2 .q-b-2__box img {
       position: absolute;
@@ -483,13 +525,11 @@ main.page .body_content {
     color: #fff;
     line-height: 30px; }
   .page-footer h5 {
-    font-weight: bold;
     text-transform: uppercase; }
     .page-footer h5 a {
       color: #011627; }
   .page-footer h6 {
-    font-size: 17px;
-    font-weight: bold; }
+    font-size: 17px; }
   .page-footer .footer-copyright {
     color: #0D47A1;
     background-color: #fff;

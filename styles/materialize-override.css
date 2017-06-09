@@ -31,3 +31,21 @@
   top: 0;
   width: 100%;
 }
+
+ul.tabs {
+  background-color: transparent;
+}
+ul.tabs a {
+  font-weight: bold;
+  color: #011627;
+  font-size: 12px;
+}
+ul.tabs a:hover {
+  color: #0D47A1;
+}
+ul.tabs a.active {
+  color: #FF1744;
+}
+ul.tabs .indicator {
+  background-color: #00E676;
+}
