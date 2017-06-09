@@ -71,3 +71,21 @@ $("document").ready(function() {
     $(".peoples-testimonials .testimonial#" + currentVal).removeClass("hide");
   });
 });
+
+$("document").ready(function() {
+  var windowHeight = $(window).height();
+
+  $(".d-dropdown-button").dropdown({
+    hover: true,
+    constrainWidth: false,
+    belowOrigin: true
+  });
+  $(".button-collapse").sideNav();
+
+  $(".carousel.carousel-slider").carousel({
+    fullWidth: true,
+    indicators: true,
+    height: 500
+  });
+});
+$(".collapsible").collapsible();

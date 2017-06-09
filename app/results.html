@@ -9,9 +9,11 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700|Roboto+Condensed:400,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
+    <!--build:css css/results.min.css-->
     <link rel="stylesheet" href="../node_modules/materialize-css/dist/css/materialize.css">
     <link rel="stylesheet" href="styles/materialize-override.css">
     <link rel="stylesheet" href="styles/main.css">
+    <!--endbuild-->
 </head>
 
 <body>
@@ -380,99 +382,13 @@
                 fill-rule="nonzero" />
         </symbol>
     </svg>
-
+    <!--build:js js/results.min.js -->
     <script src="../node_modules/jquery/dist/jquery.js"></script>
     <script src="js/libs/jquery.csv.min.js"></script>
     <script src="../node_modules/materialize-css/dist/js/materialize.js"></script>
-    <script>
-        $(".d-dropdown-button").dropdown({
-            hover: true,
-            constrainWidth: false,
-            belowOrigin: true
-        });
-        $(".button-collapse").sideNav();
-    </script>
-    <script>
-        $('document').ready(function () {
-
-
-
-            $('.scrollspy').scrollSpy();
-            // $('.results-item').pushpin({
-            //     top: 100,
-            //     bottom: 0
-            // });
-            var trString = '';
-
-            function loadTable(tabledata, id) {
-                $.each(tabledata, function (i, data) {
-                    if (i === 0) {
-                        return;
-                    }
-                    var currentData = data;
-                    trString = '<tr>';
-                    for (var j = 0; j < currentData.length; j++) {
-                        trString += '<td>' + currentData[j] + '</td>';
-                    }
-                    trString += '</tr>';
-                    console.log(id);
-                    $(id).find('tbody').append(trString);
-                });
-            }
-
-            function loadResults(csvUrl, id) {
-                $.ajax({
-                    url: 'assets/results/' + csvUrl,
-                    success: function (csvFile) {
-                        var csvData = $.csv.toArrays(csvFile);
-                        loadTable(csvData, id);
-                    }
-                });
-            }
-            loadResults('2017engg.csv', '#Results__JeeMain2017');
-            loadResults('2016NEET.csv', '#Results__NEET2016');
-            loadResults('2016PMET.csv', '#Results__PMET2016');
-            loadResults('2016JEEADV.csv', '#Results__JeeAdv2016');
-            loadResults('2015Results.csv', '#Results__MedicalJEE2015');
-
-            function stickyNess() {
-                var $sticky = $('.results-item');
-                var $stickyrStopper = $('.page-footer');
-                if (!!$sticky.offset()) { // make sure ".sticky" element exists
-
-                    var generalSidebarHeight = $sticky.innerHeight();
-                    var stickyTop = $sticky.offset().top;
-                    var stickOffset = 0;
-                    var stickyStopperPosition = $stickyrStopper.offset().top;
-                    var stopPoint = stickyStopperPosition - generalSidebarHeight - stickOffset;
-                    var diff = stopPoint + stickOffset;
-
-                    $(window).scroll(function () { // scroll event
-                        var windowTop = $(window).scrollTop(); // returns number
-                        if (stopPoint < windowTop) {
-                            $sticky.css({
-                                position: 'absolute',
-                                top: diff + (windowTop - stopPoint)
-                            });
-                        } else if (stickyTop < windowTop + stickOffset) {
-                            $sticky.css({
-                                position: 'fixed',
-                                top: stickOffset
-                            });
-                        } else {
-                            $sticky.css({
-                                position: 'absolute',
-                                top: 'initial'
-                            });
-                        }
-                    });
-
-                }
-            }
-            stickyNess();
-
-        });
-    </script>
+    <script src="js/common.js"></script>
+    <script src="js/results.js"></script>
+    <!-- endbuild -->
 </body>
 
 </html>

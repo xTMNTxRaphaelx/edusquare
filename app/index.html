@@ -9,9 +9,11 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700|Roboto+Condensed:400,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
+    <!--build:css css/index.min.css-->
     <link rel="stylesheet" href="../node_modules/materialize-css/dist/css/materialize.css">
     <link rel="stylesheet" href="styles/materialize-override.css">
     <link rel="stylesheet" href="styles/main.css">
+    <!--endbuild-->
 </head>
 
 <body>
@@ -1538,31 +1540,12 @@
                 fill="#830018" />
         </symbol>
     </svg>
-
+    <!--build:js js/index.min.js -->
     <script src="../node_modules/jquery/dist/jquery.js"></script>
     <script src="../node_modules/materialize-css/dist/js/materialize.js"></script>
-    <script>
-        $('document').ready(function () {
-            var windowHeight = $(window).height();
-
-            $(".d-dropdown-button").dropdown({
-                hover: true,
-                constrainWidth: false,
-                belowOrigin: true
-            });
-            $(".button-collapse").sideNav();
-
-            $('.carousel.carousel-slider').carousel({
-                fullWidth: true,
-                indicators: true,
-                height: 500
-            });
-
-        });
-        $('.collapsible').collapsible();
-    </script>
     <script src="js/main.js"></script>
     <script src="js/testimonials.js"></script>
+    <!-- endbuild -->
 </body>
 
 </html>
