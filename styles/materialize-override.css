@@ -1,35 +1,33 @@
 .slider .indicators .indicator-item {
-    height: 12px;
-    width: 12px;
-    margin: 0 9px;
-    bottom: 45px;
-    z-index: 2;
+  height: 12px;
+  width: 12px;
+  margin: 0 9px;
+  bottom: 45px;
+  z-index: 2;
 }
 .slider .indicators .indicator-item.active {
-    background-color: #1976d2;
+  background-color: #1976d2;
 }
 .slider .slides li .caption {
-    top: unset;
+  top: unset;
 }
 
-
-
 #navbar_d__courses-dropdown h5 {
-    margin-left: 16px;
-    font-weight: bold;
+  margin-left: 16px;
+  font-weight: bold;
 }
 
 #navbar_d__downloads-dropdown {
-    margin-top: -65px;
-    margin-left: 150px;
+  margin-top: -65px;
+  margin-left: 150px;
 }
 
 .slides li .bg {
-    background-color: rgba(0, 0, 0, 0.8);
-    content: "";
-    height: 100%;
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 100%;
+  background-color: rgba(0, 0, 0, 0.1);
+  content: "";
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
 }

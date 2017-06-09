@@ -22,6 +22,7 @@
 
 main.EduSquare {
     >section {
+        border-bottom: 1px solid #ccc;
         padding-top: 18px;
         padding-bottom: 18px;
         text-align: center;
@@ -109,10 +110,19 @@ main.page {
         background-repeat: no-repeat;
         background-position: 0 50%;
         position: relative;
+        height: 300px;
+        h1 {
+            margin: 0;
+            margin-top: 120px;
+            font-weight: bold;
+            background: rgba(255, 255, 255, 0.12);
+            padding: 12px;
+            color: rgba(0, 0, 0, 0.87);
+            display: inline-block;
+            border-radius: 12px;
+        }
         h2 {
-            margin-top: 170px;
             margin-bottom: 30px;
-            color: #000;
             z-index: 99;
         }
     }

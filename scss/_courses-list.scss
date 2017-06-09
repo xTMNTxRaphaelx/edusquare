@@ -61,8 +61,9 @@
                                 font-size: 18px;
                                 font-family: 'Roboto Condensed';
                                 color: #fff;
+                                text-decoration: underline;
                                 &.active {
-                                    color: #0d47a1;
+                                    color: #fff;
                                 }
                             }
                         }
@@ -119,6 +120,10 @@
                 .bottom-line {
                     padding: 0 12px;
                     overflow: auto;
+                    .btn {
+                        font-size: 12px;
+                        margin: 9px 0;
+                    }
                 }
             }
         }

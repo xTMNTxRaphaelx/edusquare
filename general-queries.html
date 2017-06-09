@@ -61,12 +61,12 @@
 
     <nav class="main-nav">
         <div class="nav-wrapper">
-            <a href="#" class="brand-logo">
+            <a href="/" class="brand-logo">
                 <img src="assets/logo.png" alt="EduSquare">
             </a>
             <ul class="right hide-on-med-and-down desktop-menu">
                 <li>
-                    <a class="d-dropdown-button" href="#!" data-activates="navbar_d__aboutUS-dropdown">
+                    <a class="d-dropdown-button" href="about-us.html" data-activates="navbar_d__aboutUS-dropdown">
                         <span>About Us</span>
                         <i class="material-icons right">arrow_drop_down</i>
                     </a>
@@ -76,7 +76,7 @@
                             Courses<i class="material-icons right">arrow_drop_down</i>
                         </a>
                 </li>
-                <li><a href="#!">Results</a></li>
+                <li><a href="results.html">Results</a></li>
                 <li>
                     <a class="d-dropdown-button" href="#!" data-activates="navbar_d__student-area-dropdown">
                             Student Area<i class="material-icons right">arrow_drop_down</i>
@@ -110,115 +110,57 @@
         </div>
     </nav>
 
-
-    <main class="Ed-results page">
-        <div class="head_content">
-            <div class="bg"></div>
-            <div class="container">
-                <div class="row">
-                    <div class="col s12 center">
-                        <h1>EduSquare Results</h1>
-                    </div>
-                </div>
-            </div>
+    <main class="page">
+        <div class="head_content center">
+            <h1>General Queries</h1>
         </div>
         <div class="body_content">
             <div class="container">
                 <div class="row">
-                    <div class="col s12 m9">
-                        <h4>JEE MAINS 2017 Results</h4>
-                        <table id="Results__JeeMain2017" class="bordered striped centered scrollspy responsive-table">
-                            <thead>
-                                <tr>
-                                    <th>S.No.</th>
-                                    <th>Student Name</th>
-                                    <th>Marks</th>
-                                    <th>AIR (Rank )</th>
-                                    <th>School Name</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-
-                            </tbody>
-                        </table>
-                        <br /><br />
-
-                        <h4>NEET 2016 Results</h4>
-                        <table id="Results__NEET2016" class="bordered striped centered scrollspy responsive-table">
-                            <thead>
-                                <tr>
-                                    <th>S.No</th>
-                                    <th>Name</th>
-                                    <th>Marks</th>
-                                </tr>
-                            </thead>
-                            <tbody></tbody>
-                        </table>
-                        <br /><br />
-
-                        <h4>PMET 2016 Results</h4>
-                        <table id="Results__PMET2016" class="bordered striped centered scrollspy responsive-table">
-                            <thead>
-                                <tr>
-                                    <th>S.No</th>
-                                    <th>Name</th>
-                                    <th>Open Merit No.</th>
-                                </tr>
-                            </thead>
-                            <tbody></tbody>
-                        </table>
-                        <br /><br />
-
-                        <h4>JEE Advance 2016 Results</h4>
-                        <table id="Results__JeeAdv2016" class="bordered striped centered scrollspy responsive-table">
-                            <thead>
-                                <tr>
-                                    <th>S.No</th>
-                                    <th>Name</th>
-                                    <th>Roll No</th>
-                                    <th>Ranks</th>
-                                    <th>Edusquare Roll No.</th>
-                                    <th>School Name</th>
-                                </tr>
-                            </thead>
-                            <tbody></tbody>
-                        </table>
-                        <br /><br />
-
-                        <h4>JEE Advance 2016 Results</h4>
-                        <table id="Results__MedicalJEE2015" class="bordered striped centered scrollspy responsive-table">
-                            <thead>
-                                <tr>
-                                    <th>S.No</th>
-                                    <th>Name</th>
-                                    <th>PMET</th>
-                                    <th>AIIMS</th>
-                                    <th>CMC</th>
-                                    <th>JIPMER</th>
-                                    <th>BOARDS</th>
-                                </tr>
-                            </thead>
-                            <tbody></tbody>
-                        </table>
-                        <br /><br />
-                    </div>
-                    <div class="results-col col m3 hide-on-small-only">
-                        <div class="results-item">
-                            <h5>All Results</h5>
-                            <ul>
-                                <li><a href="#Results__JeeMain2017">JEE Main 2017</a></li>
-                                <li><a href="#Results__NEET2016">NEET 2016</a></li>
-                                <li><a href="#Results__PMET2016">PMET 2016</a></li>
-                                <li><a href="#Results__JeeAdv2016">JEE Advanced 2016</a></li>
-                                <li><a href="#Results__MedicalJEE2015">Medical + JEE 2015</a></li>
-                            </ul>
+                    <form class="col s12 m9">
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <input placeholder="Placeholder" id="name" type="text" class="validate">
+                                <label for="name">Name</label>
+                            </div>
                         </div>
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <input id="email" type="email" class="validate">
+                                <label for="email">Email</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <input id="subject" type="text" class="validate">
+                                <label for="subject">Subject</label>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <textarea id="textarea1" class="materialize-textarea"></textarea>
+                                <label for="textarea1">Your Message</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col s12">
+                                <button type="Submit" class="btn waves-effect">Send</button>
+                            </div>
+                        </div>
+                    </form>
+                    <div class="col s12 m3">
+                        <h4>Office Locations</h4>
+                        <h5>HEADQUARTER</h5>
+                        <span>SCO 101, Phase-I, Urban Estate, Dugri, Ludhiana.</span>
+                        <span>0161-2490101,2491101</span>
+                        <span>info@edusquare.co.in</span>
                     </div>
                 </div>
             </div>
         </div>
-    </main>
 
+    </main>
 
     <footer class="page-footer">
         <div class="container">
@@ -226,9 +168,9 @@
                 <div class="col s12 m4 l2">
                     <h5>About US</h5>
                     <ul>
-                        <li><a href="#">Mission and Values</a></li>
-                        <li><a href="#">Our Team</a></li>
-                        <li><a href="#">careers@EduSquare</a></li>
+                        <li><a href="about-us.html">Mission and Values</a></li>
+                        <li><a href="our-team.html">Our Team</a></li>
+                        <li><a href="careers.html">careers@EduSquare</a></li>
                     </ul>
                 </div>
                 <div class="col s12 m4 l2">
@@ -262,22 +204,22 @@
                         <li><a href="#">Periodic Test Results</a></li>
                         <li><a href="#">Competitive Exam Details</a></li>
                         <li><a href="#">Downlaods</a></li>
-                        <li><a href="#">EPTSE</a></li>
+                        <li><a href="eptse.html">EPTSE</a></li>
                     </ul>
                 </div>
                 <div class="col s12 m4 l2">
                     <h5>Contact</h5>
                     <ul>
                         <li><a href="#">Admission Queries</a></li>
-                        <li><a href="#">General Queries</a></li>
-                        <li><a href="#">Careers@EduSquare</a></li>
+                        <li><a href="general-queries.html">General Queries</a></li>
+                        <li><a href="careers.html">Careers@EduSquare</a></li>
                         <li><a href="#">Feedback</a></li>
                     </ul>
                 </div>
                 <div class="col s12 m4 l2">
                     <h5>Others</h5>
                     <ul>
-                        <li><a href="#">Careers</a></li>
+                        <li><a href="careers.html">Careers</a></li>
                         <li><a href="#">Gallery</a></li>
                         <li><a href="#">Newspaper Coverage</a></li>
                         <li><a href="#">Infrastructure</a></li>
@@ -295,9 +237,9 @@
     </footer>
 
     <ul id="navbar_d__aboutUS-dropdown" class="dropdown-content">
-        <li><a href="#!">Mission & Values</a></li>
-        <li><a href="#!">Our Team</a></li>
-        <li><a href="#!">Careers@EduSquare</a></li>
+        <li><a href="about-us.html">Mission & Values</a></li>
+        <li><a href="our-team.html">Our Team</a></li>
+        <li><a href="careers.html">Careers@EduSquare</a></li>
     </ul>
     <div id="navbar_d__courses-dropdown" class="dropdown-content">
         <div class="row">
@@ -332,7 +274,7 @@
         <li><a href="#!">Periodic Test Result</a></li>
         <li><a href="#!">Competitive Exams details</a></li>
         <li><a class="d-dropdown-button" href="#!" data-activates="navbar_d__downloads-dropdown">Downloads</a></li>
-        <li><a href="#!">EPTSE</a></li>
+        <li><a href="eptse.html">EPTSE</a></li>
     </ul>
     <ul id="navbar_d__downloads-dropdown" class="dropdown-content">
         <li><a href="#">E-brochure</a></li>
@@ -341,12 +283,12 @@
     </ul>
     <ul id="navbar_d__contact_us-dropdown" class="dropdown-content">
         <li><a href="#!">Admission Queries</a></li>
-        <li><a href="#!">General Queries</a></li>
-        <li><a href="#!">Careers@EduSquare</a></li>
+        <li><a href="general-queries.html">General Queries</a></li>
+        <li><a href="careers.html">Careers@EduSquare</a></li>
         <li><a href="#!">Feedback</a></li>
     </ul>
     <ul id="navbar_d__misc-dropdown" class="dropdown-content">
-        <li><a href="#!">Careers</a></li>
+        <li><a href="careers.html">Careers</a></li>
         <li><a href="#!">Gallery</a></li>
         <li><a href="#!">Newspaper Coverage</a></li>
         <li><a href="#!">Infrastructure</a></li>
@@ -354,12 +296,33 @@
         <li><a href="#!">Attendance Monitoring System</a></li>
     </ul>
     <ul id='navbar_d__login-dropdown' class='dropdown-content'>
-        <li><a href="#!">Ferozpur</a></li>
-        <li><a href="#!">Ludhiana</a></li>
+        <li><a href="http://test.edusquare.co.in/#/student_signin" target="_blank">Ferozpur</a></li>
+        <li><a href="http://test.edusquare.co.in/#/student_signin" target="_blank">Ludhiana</a></li>
     </ul>
 
+    <svg class="hide">
+        <symbol id="sm_facebook" viewBox="0 0 16 16">
+            <path d="M15.117 0H.883C.395 0 0 .395 0 .883v14.234c0 .488.395.883.883.883h7.663V9.804H6.46V7.39h2.086V5.607c0-2.066 1.262-3.19 3.106-3.19.883 0 1.642.064 1.863.094v2.16h-1.28c-1 0-1.195.48-1.195 1.18v1.54h2.39l-.31 2.42h-2.08V16h4.077c.488 0 .883-.395.883-.883V.883C16 .395 15.605 0 15.117 0"
+                fill-rule="nonzero" />
+        </symbol>
+        <symbol id="sm_twitter" viewBox="0 0 16 16">
+            <path d="M16 3.038c-.59.26-1.22.437-1.885.517.677-.407 1.198-1.05 1.443-1.816-.634.37-1.337.64-2.085.79-.598-.64-1.45-1.04-2.396-1.04-1.812 0-3.282 1.47-3.282 3.28 0 .26.03.51.085.75-2.728-.13-5.147-1.44-6.766-3.42C.83 2.58.67 3.14.67 3.75c0 1.14.58 2.143 1.46 2.732-.538-.017-1.045-.165-1.487-.41v.04c0 1.59 1.13 2.918 2.633 3.22-.276.074-.566.114-.865.114-.21 0-.41-.02-.61-.058.42 1.304 1.63 2.253 3.07 2.28-1.12.88-2.54 1.404-4.07 1.404-.26 0-.52-.015-.78-.045 1.46.93 3.18 1.474 5.04 1.474 6.04 0 9.34-5 9.34-9.33 0-.14 0-.28-.01-.42.64-.46 1.2-1.04 1.64-1.7z"
+                fill-rule="nonzero" />
+        </symbol>
+        <symbol id="sm_google+" viewBox="0 0 16 16">
+            <path d="M5.09 7.273v1.745h2.89c-.116.75-.873 2.197-2.887 2.197-1.737 0-3.155-1.44-3.155-3.215S3.353 4.785 5.09 4.785c.99 0 1.652.422 2.03.786l1.382-1.33c-.887-.83-2.037-1.33-3.41-1.33C2.275 2.91 0 5.19 0 8s2.276 5.09 5.09 5.09c2.94 0 4.888-2.065 4.888-4.974 0-.334-.036-.59-.08-.843H5.09zm10.91 0h-1.455V5.818H13.09v1.455h-1.454v1.454h1.455v1.455h1.46V8.727H16"
+            />
+        </symbol>
+        <symbol id="sm_youtube" viewBox="0 0 16 16" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round">
+            <path d="M0 7.345c0-1.294.16-2.59.16-2.59s.156-1.1.636-1.587c.608-.637 1.408-.617 1.764-.684C3.84 2.36 8 2.324 8 2.324s3.362.004 5.6.166c.314.038.996.04 1.604.678.48.486.636 1.588.636 1.588S16 6.05 16 7.346v1.258c0 1.296-.16 2.59-.16 2.59s-.156 1.102-.636 1.588c-.608.638-1.29.64-1.604.678-2.238.162-5.6.166-5.6.166s-4.16-.037-5.44-.16c-.356-.067-1.156-.047-1.764-.684-.48-.487-.636-1.587-.636-1.587S0 9.9 0 8.605v-1.26zm6.348 2.73V5.58l4.323 2.255-4.32 2.24z"
+            />
+        </symbol>
+        <symbol id="sm_linkedIn" viewBox="0 0 16 16">
+            <path d="M13.632 13.635h-2.37V9.922c0-.886-.018-2.025-1.234-2.025-1.235 0-1.424.964-1.424 1.96v3.778h-2.37V6H8.51v1.04h.03c.318-.6 1.092-1.233 2.247-1.233 2.4 0 2.845 1.58 2.845 3.637v4.188zM3.558 4.955c-.762 0-1.376-.617-1.376-1.377 0-.758.614-1.375 1.376-1.375.76 0 1.376.617 1.376 1.375 0 .76-.617 1.377-1.376 1.377zm1.188 8.68H2.37V6h2.376v7.635zM14.816 0H1.18C.528 0 0 .516 0 1.153v13.694C0 15.484.528 16 1.18 16h13.635c.652 0 1.185-.516 1.185-1.153V1.153C16 .516 15.467 0 14.815 0z"
+                fill-rule="nonzero" />
+        </symbol>
+    </svg>
     <script src="node_modules/jquery/dist/jquery.js"></script>
-    <script src="js/libs/jquery.csv.min.js"></script>
     <script src="node_modules/materialize-css/dist/js/materialize.js"></script>
     <script>
         $(".d-dropdown-button").dropdown({
@@ -368,87 +331,6 @@
             belowOrigin: true
         });
         $(".button-collapse").sideNav();
-    </script>
-    <script>
-        $('document').ready(function () {
-
-
-
-            $('.scrollspy').scrollSpy();
-            // $('.results-item').pushpin({
-            //     top: 100,
-            //     bottom: 0
-            // });
-            var trString = '';
-
-            function loadTable(tabledata, id) {
-                $.each(tabledata, function (i, data) {
-                    if (i === 0) {
-                        return;
-                    }
-                    var currentData = data;
-                    trString = '<tr>';
-                    for (var j = 0; j < currentData.length; j++) {
-                        trString += '<td>' + currentData[j] + '</td>';
-                    }
-                    trString += '</tr>';
-                    console.log(id);
-                    $(id).find('tbody').append(trString);
-                });
-            }
-
-            function loadResults(csvUrl, id) {
-                $.ajax({
-                    url: 'assets/results/' + csvUrl,
-                    success: function (csvFile) {
-                        var csvData = $.csv.toArrays(csvFile);
-                        loadTable(csvData, id);
-                    }
-                });
-            }
-            loadResults('2017engg.csv', '#Results__JeeMain2017');
-            loadResults('2016NEET.csv', '#Results__NEET2016');
-            loadResults('2016PMET.csv', '#Results__PMET2016');
-            loadResults('2016JEEADV.csv', '#Results__JeeAdv2016');
-            loadResults('2015Results.csv', '#Results__MedicalJEE2015');
-
-            function stickyNess() {
-                var $sticky = $('.results-item');
-                var $stickyrStopper = $('.page-footer');
-                if (!!$sticky.offset()) { // make sure ".sticky" element exists
-
-                    var generalSidebarHeight = $sticky.innerHeight();
-                    var stickyTop = $sticky.offset().top;
-                    var stickOffset = 0;
-                    var stickyStopperPosition = $stickyrStopper.offset().top;
-                    var stopPoint = stickyStopperPosition - generalSidebarHeight - stickOffset;
-                    var diff = stopPoint + stickOffset;
-
-                    $(window).scroll(function () { // scroll event
-                        var windowTop = $(window).scrollTop(); // returns number
-                        if (stopPoint < windowTop) {
-                            $sticky.css({
-                                position: 'absolute',
-                                top: diff + (windowTop - stopPoint)
-                            });
-                        } else if (stickyTop < windowTop + stickOffset) {
-                            $sticky.css({
-                                position: 'fixed',
-                                top: stickOffset
-                            });
-                        } else {
-                            $sticky.css({
-                                position: 'absolute',
-                                top: 'initial'
-                            });
-                        }
-                    });
-
-                }
-            }
-            stickyNess();
-
-        });
     </script>
 </body>
 
