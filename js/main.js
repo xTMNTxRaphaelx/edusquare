@@ -23,6 +23,15 @@ function heroSlider() {
   });
 }
 
+function coursesFn() {
+  // box close event
+  console.log("ichi");
+  $(".course-card-content i").click(function(e) {
+    e.preventDefault();
+    $(this).closest(".course-card-content").removeClass("active").hide();
+  });
+}
+
 function ourClasses() {
   $(".courses-type ul.tabs li.tab a").hover(function() {
     var data = $(this).attr("href");
@@ -43,6 +52,7 @@ function ourResults() {
 
 $("document").ready(function() {
   heroSlider();
+  coursesFn();
   ourClasses();
   ourResults();
 
