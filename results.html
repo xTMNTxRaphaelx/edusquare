@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Edusquare</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700|Roboto+Condensed:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="node_modules/materialize-css/dist/css/materialize.css">
+    <link rel="stylesheet" href="styles/materialize-override.css">
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body>
+    <div class="sub-nav">
+        <div class="row">
+            <div class="col s12 m6">
+                <a href="tel:0161-2490101">
+                    <span class="call-on"><i class="tiny material-icons">call</i> Call Us : 0161-2490101</span>
+                </a>
+                <a href="mailto:info@edusquare.co.in">
+                    <span class="email"><i class="tiny material-icons">email</i> info@edusquare.co.in</span>
+                </a>
+            </div>
+            <div class="col s12 m6">
+                <a class="waves-effect waves-light btn online-test-btn">
+                    <i class="material-icons tiny">info</i> Admission Enquiry
+                </a>
+                <div class="social-links">
+                    <a href="#!">
+                        <svg width="16" height="16">
+                            <use xlink:href="#sm_linkedIn"></use>
+                        </svg>
+                    </a>
+                    <a href="#!">
+                        <svg width="16" height="16">
+                            <use xlink:href="#sm_youtube"></use>
+                        </svg>
+                    </a>
+                    <a href="#!">
+                        <svg width="16" height="16">
+                            <use xlink:href="#sm_google+"></use>
+                        </svg>
+                    </a>
+                    <a href="#!">
+                        <svg width="16" height="16">
+                            <use xlink:href="#sm_twitter"></use>
+                        </svg>
+                    </a>
+                    <a href="#">
+                        <svg width="16" height="16">
+                            <use xlink:href="#sm_facebook"></use>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <nav class="main-nav">
+        <div class="nav-wrapper">
+            <a href="#" class="brand-logo">
+                <img src="assets/logo.png" alt="EduSquare">
+            </a>
+            <ul class="right hide-on-med-and-down desktop-menu">
+                <li>
+                    <a class="d-dropdown-button" href="#!" data-activates="navbar_d__aboutUS-dropdown">
+                        <span>About Us</span>
+                        <i class="material-icons right">arrow_drop_down</i>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-dropdown-button" href="#!" data-activates="navbar_d__courses-dropdown">
+                            Courses<i class="material-icons right">arrow_drop_down</i>
+                        </a>
+                </li>
+                <li><a href="#!">Results</a></li>
+                <li>
+                    <a class="d-dropdown-button" href="#!" data-activates="navbar_d__student-area-dropdown">
+                            Student Area<i class="material-icons right">arrow_drop_down</i>
+                        </a>
+                </li>
+                <li>
+                    <a class="d-dropdown-button" href="#!" data-activates="navbar_d__contact_us-dropdown">
+                            Contact<i class="material-icons right">arrow_drop_down</i>
+                        </a>
+                </li>
+                <li>
+                    <a href="#!" class="dropdown-button d-dropdown-button btn" data-activates='navbar_d__login-dropdown'>
+                        <i class="material-icons tiny left">account_circle</i> Log In<i class="material-icons right">arrow_drop_down</i></a>
+                </li>
+                <li>
+                    <a class="d-dropdown-button" href="#!" data-activates="navbar_d__misc-dropdown"> 
+                            &nbsp; <i class="material-icons right">menu</i>
+                        </a>
+                </li>
+            </ul>
+
+            <ul class="side-nav" id="mobile-menu">
+                <li><a href="#">About US</a></li>
+                <li><a href="#">Courses</a></li>
+                <li><a href="#">Results</a></li>
+                <li><a href="#">Student Area</a></li>
+                <li><a href="#">Contact US</a></li>
+                <li><a href="#" class="btn">Login</a></li <li><a href="#">&nbsp; <i class="material-icons left">menu</i></a></li>
+            </ul>
+            <a href="#" data-activates="mobile-menu" class="button-collapse"><i class="material-icons">menu</i></a>
+        </div>
+    </nav>
+
+
+    <main class="Ed-results page">
+        <div class="head_content">
+            <div class="bg"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col s12">
+                        <h2>EduSquare Results</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="body_content">
+            <div class="container">
+                <div class="row">
+                    <div class="col s12 m9">
+                        <h4>JEE MAINS 2017 Results</h4>
+                        <table id="Results__JeeMain2017" class="bordered striped centered scrollspy responsive-table">
+                            <thead>
+                                <tr>
+                                    <th>S.No.</th>
+                                    <th>Student Name</th>
+                                    <th>Marks</th>
+                                    <th>AIR (Rank )</th>
+                                    <th>School Name</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+
+                            </tbody>
+                        </table>
+                        <br /><br />
+
+                        <h4>NEET 2016 Results</h4>
+                        <table id="Results__NEET2016" class="bordered striped centered scrollspy responsive-table">
+                            <thead>
+                                <tr>
+                                    <th>S.No</th>
+                                    <th>Name</th>
+                                    <th>Marks</th>
+                                </tr>
+                            </thead>
+                            <tbody></tbody>
+                        </table>
+                        <br /><br />
+
+                        <h4>PMET 2016 Results</h4>
+                        <table id="Results__PMET2016" class="bordered striped centered scrollspy responsive-table">
+                            <thead>
+                                <tr>
+                                    <th>S.No</th>
+                                    <th>Name</th>
+                                    <th>Open Merit No.</th>
+                                </tr>
+                            </thead>
+                            <tbody></tbody>
+                        </table>
+                        <br /><br />
+
+                        <h4>JEE Advance 2016 Results</h4>
+                        <table id="Results__JeeAdv2016" class="bordered striped centered scrollspy responsive-table">
+                            <thead>
+                                <tr>
+                                    <th>S.No</th>
+                                    <th>Name</th>
+                                    <th>Roll No</th>
+                                    <th>Ranks</th>
+                                    <th>Edusquare Roll No.</th>
+                                    <th>School Name</th>
+                                </tr>
+                            </thead>
+                            <tbody></tbody>
+                        </table>
+                        <br /><br />
+
+                        <h4>JEE Advance 2016 Results</h4>
+                        <table id="Results__MedicalJEE2015" class="bordered striped centered scrollspy responsive-table">
+                            <thead>
+                                <tr>
+                                    <th>S.No</th>
+                                    <th>Name</th>
+                                    <th>PMET</th>
+                                    <th>AIIMS</th>
+                                    <th>CMC</th>
+                                    <th>JIPMER</th>
+                                    <th>BOARDS</th>
+                                </tr>
+                            </thead>
+                            <tbody></tbody>
+                        </table>
+                        <br /><br />
+                    </div>
+                    <div class="results-col col m3 hide-on-small-only">
+                        <div class="results-item">
+                            <h5>All Results</h5>
+                            <ul>
+                                <li><a href="#Results__JeeMain2017">JEE Main 2017</a></li>
+                                <li><a href="#Results__NEET2016">NEET 2016</a></li>
+                                <li><a href="#Results__PMET2016">PMET 2016</a></li>
+                                <li><a href="#Results__JeeAdv2016">JEE Advanced 2016</a></li>
+                                <li><a href="#Results__MedicalJEE2015">Medical + JEE 2015</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <footer class="page-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col s12 m4 l2">
+                    <h5>About US</h5>
+                    <ul>
+                        <li><a href="#">Mission and Values</a></li>
+                        <li><a href="#">Our Team</a></li>
+                        <li><a href="#">careers@EduSquare</a></li>
+                    </ul>
+                </div>
+                <div class="col s12 m4 l2">
+                    <h5>Courses</h5>
+                    <h6>Medical</h6>
+                    <ul>
+                        <li><a href="#">Class XI Program</a></li>
+                        <li><a href="#">Class XII Program</a></li>
+                        <li><a href="#">Droppers Batch</a></li>
+                        <li><a href="#">Crash Course</a></li>
+                    </ul>
+                    <h6>Non - Medical</h6>
+                    <ul>
+                        <li><a href="#">Class XI Program</a></li>
+                        <li><a href="#">Class XII Program</a></li>
+                        <li><a href="#">Droppers Batch</a></li>
+                        <li><a href="#">Crash Course</a></li>
+                    </ul>
+                    <h6>Foundation</h6>
+                    <ul>
+                        <li><a href="#">Class IX Program</a></li>
+                        <li><a href="#">Class X Program</a></li>
+                    </ul>
+                </div>
+                <div class="col s12 m4 l2">
+                    <h5><a href="#">Results</a></h5>
+                </div>
+                <div class="col s12 m4 l2">
+                    <h5>Student Area</h5>
+                    <ul>
+                        <li><a href="#">Periodic Test Results</a></li>
+                        <li><a href="#">Competitive Exam Details</a></li>
+                        <li><a href="#">Downlaods</a></li>
+                        <li><a href="#">EPTSE</a></li>
+                    </ul>
+                </div>
+                <div class="col s12 m4 l2">
+                    <h5>Contact</h5>
+                    <ul>
+                        <li><a href="#">Admission Queries</a></li>
+                        <li><a href="#">General Queries</a></li>
+                        <li><a href="#">Careers@EduSquare</a></li>
+                        <li><a href="#">Feedback</a></li>
+                    </ul>
+                </div>
+                <div class="col s12 m4 l2">
+                    <h5>Others</h5>
+                    <ul>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Gallery</a></li>
+                        <li><a href="#">Newspaper Coverage</a></li>
+                        <li><a href="#">Infrastructure</a></li>
+                        <li><a href="#">Joy Clinic</a></li>
+                        <li><a href="#">Attendance Monitoring System</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                © 2017 All Rights Reserved
+            </div>
+        </div>
+    </footer>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="libs/jquery.csv.min.js"></script>
+    <script src="node_modules/materialize-css/dist/js/materialize.js"></script>
+    <script>
+        $('document').ready(function () {
+
+            $('.scrollspy').scrollSpy();
+            // $('.results-item').pushpin({
+            //     top: 100,
+            //     bottom: 0
+            // });
+            var trString = '';
+
+            function loadTable(tabledata, id) {
+                $.each(tabledata, function (i, data) {
+                    if (i === 0) {
+                        return;
+                    }
+                    var currentData = data;
+                    trString = '<tr>';
+                    for (var j = 0; j < currentData.length; j++) {
+                        trString += '<td>' + currentData[j] + '</td>';
+                    }
+                    trString += '</tr>';
+                    console.log(id);
+                    $(id).find('tbody').append(trString);
+                });
+            }
+
+            function loadResults(csvUrl, id) {
+                $.ajax({
+                    url: 'assets/results/' + csvUrl,
+                    success: function (csvFile) {
+                        var csvData = $.csv.toArrays(csvFile);
+                        loadTable(csvData, id);
+                    }
+                });
+            }
+            loadResults('2017engg.csv', '#Results__JeeMain2017');
+            loadResults('2016NEET.csv', '#Results__NEET2016');
+            loadResults('2016PMET.csv', '#Results__PMET2016');
+            loadResults('2016JEEADV.csv', '#Results__JeeAdv2016');
+            loadResults('2015Results.csv', '#Results__MedicalJEE2015');
+
+            function stickyNess() {
+                var $sticky = $('.results-item');
+                var $stickyrStopper = $('.page-footer');
+                if (!!$sticky.offset()) { // make sure ".sticky" element exists
+
+                    var generalSidebarHeight = $sticky.innerHeight();
+                    var stickyTop = $sticky.offset().top;
+                    var stickOffset = 0;
+                    var stickyStopperPosition = $stickyrStopper.offset().top;
+                    var stopPoint = stickyStopperPosition - generalSidebarHeight - stickOffset;
+                    var diff = stopPoint + stickOffset;
+
+                    $(window).scroll(function () { // scroll event
+                        var windowTop = $(window).scrollTop(); // returns number
+                        if (stopPoint < windowTop) {
+                            $sticky.css({
+                                position: 'absolute',
+                                top: diff + (windowTop - stopPoint)
+                            });
+                        } else if (stickyTop < windowTop + stickOffset) {
+                            $sticky.css({
+                                position: 'fixed',
+                                top: stickOffset
+                            });
+                        } else {
+                            $sticky.css({
+                                position: 'absolute',
+                                top: 'initial'
+                            });
+                        }
+                    });
+
+                }
+            }
+            stickyNess();
+
+        });
+    </script>
+</body>
+
+</html>

@@ -101,3 +101,22 @@ main.EduSquare {
         }
     }
 }
+
+main.page {
+    .head_content {
+        background-image: url(../assets/bg-1.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 0 50%;
+        position: relative;
+        h2 {
+            margin-top: 170px;
+            margin-bottom: 30px;
+            color: #000;
+            z-index: 99;
+        }
+    }
+    .body_content {
+        background-color: #fff;
+    }
+}
