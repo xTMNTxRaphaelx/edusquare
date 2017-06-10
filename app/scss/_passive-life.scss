@@ -1,3 +1,6 @@
+.row.marginb0 {
+    margin-bottom: 0;
+}
 .slider {
     .slider-nav-icons {
         @media screen and (min-width: 601px) {
@@ -129,7 +132,11 @@ main.page {
         background-color: #fff;
         padding-top: 18px;
         padding-bottom: 18px;
+        line-height: 24px;
         text-align: center;
+        ul, ol {
+            text-align: left;
+        }
         @media screen and (min-width: 601px) {
             padding-top: 30px;
             padding-bottom: 30px;
@@ -146,6 +153,10 @@ main.page {
         h5,
         h6 {
             color: #0179a4;
+        }
+        a {
+            color: #0D47A1;
+            font-weight: bold;
         }
     }
 }

@@ -23,6 +23,11 @@
             }
             a {
                 color: #fff; // font-size: 14px;
+                &:first-child { //youtube
+                    svg {
+                        color: $accent-red;
+                    }
+                }
                 &:hover {
                     color: $secondary;
                 }
@@ -46,6 +51,11 @@
                     padding: 0 4px;
                     float: right;
                     margin-top: 4px;
+                    &:first-child {
+                        svg {
+                            fill: $accent-red;
+                        }
+                    }
                 }
                 svg {
                     fill: #fff;

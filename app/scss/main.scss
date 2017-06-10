@@ -209,3 +209,49 @@ span.edusquare {
 }
 
 @import 'resultpage';
+
+.Queries.page {
+    .contact {
+        display: block;
+        max-width: 240px;
+        margin: 24px auto 40px; 
+    }
+    .card {
+        border: 1px solid #ccc;
+    }
+    .address-col {
+        padding-left: 40px;
+        padding-right: 40px;
+        line-height: 30px;
+        span.strong {
+            font-weight: bold;
+        }
+        // text-align: center;
+    }
+}
+
+.ePTSE.page {
+    .eptse__full {
+            display: block;
+            // margin-left: 52px;
+            font-weight: bold;
+            color: #0179a4;
+            margin-bottom: 30px;
+        }
+
+        h5 {
+            line-height: 50px;
+        }
+
+        .eptse__pattern h6 {
+            font-size: 18px;
+        }
+
+        .eptse__pattern>div {
+            display: block;
+        }
+
+        .eptse__pattern span.bold {
+            font-weight: bold;
+        }
+}

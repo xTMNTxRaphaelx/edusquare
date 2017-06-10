@@ -48,6 +48,9 @@ span.edusquare {
 .slider .slides li .caption {
   padding-top: 75px; }
 
+.row.marginb0 {
+  margin-bottom: 0; }
+
 @media screen and (min-width: 601px) {
   .slider .slider-nav-icons {
     position: absolute;
@@ -143,7 +146,10 @@ main.page .body_content {
   background-color: #fff;
   padding-top: 18px;
   padding-bottom: 18px;
+  line-height: 24px;
   text-align: center; }
+  main.page .body_content ul, main.page .body_content ol {
+    text-align: left; }
   @media screen and (min-width: 601px) {
     main.page .body_content {
       padding-top: 30px;
@@ -160,6 +166,9 @@ main.page .body_content {
   main.page .body_content h5,
   main.page .body_content h6 {
     color: #0179a4; }
+  main.page .body_content a {
+    color: #0D47A1;
+    font-weight: bold; }
 
 .vertical-box {
   background: #ededed;
@@ -213,6 +222,8 @@ main.page .body_content {
             text-align: right; } }
       .sub-nav .row .col a {
         color: #fff; }
+        .sub-nav .row .col a:first-child svg {
+          color: #FF1744; }
         .sub-nav .row .col a:hover {
           color: #FFF176; }
         .sub-nav .row .col a span {
@@ -231,6 +242,8 @@ main.page .body_content {
           padding: 0 4px;
           float: right;
           margin-top: 4px; }
+          .sub-nav .row .col .social-links a:first-child svg {
+            fill: #FF1744; }
         .sub-nav .row .col .social-links svg {
           fill: #fff; }
           .sub-nav .row .col .social-links svg:hover {
@@ -700,3 +713,36 @@ main.page .body_content {
       color: #333; }
       .results-item ul li a.active {
         color: #2196F3; }
+
+.Queries.page .contact {
+  display: block;
+  max-width: 240px;
+  margin: 24px auto 40px; }
+
+.Queries.page .card {
+  border: 1px solid #ccc; }
+
+.Queries.page .address-col {
+  padding-left: 40px;
+  padding-right: 40px;
+  line-height: 30px; }
+  .Queries.page .address-col span.strong {
+    font-weight: bold; }
+
+.ePTSE.page .eptse__full {
+  display: block;
+  font-weight: bold;
+  color: #0179a4;
+  margin-bottom: 30px; }
+
+.ePTSE.page h5 {
+  line-height: 50px; }
+
+.ePTSE.page .eptse__pattern h6 {
+  font-size: 18px; }
+
+.ePTSE.page .eptse__pattern > div {
+  display: block; }
+
+.ePTSE.page .eptse__pattern span.bold {
+  font-weight: bold; }
