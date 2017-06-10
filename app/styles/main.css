@@ -64,60 +64,60 @@ span.edusquare {
     .slider .slider-nav-icons.right-icon {
       right: 4%; } }
 
-main.EduSquare > section {
+main.Edusquare > section {
   border-bottom: 1px solid #ccc;
   padding-top: 18px;
   padding-bottom: 18px;
   text-align: center; }
   @media screen and (min-width: 601px) {
-    main.EduSquare > section {
+    main.Edusquare > section {
       padding-top: 30px;
       padding-bottom: 30px;
       text-align: left; } }
   @media screen and (min-width: 993px) {
-    main.EduSquare > section {
+    main.Edusquare > section {
       padding-top: 42px;
       padding-bottom: 42px; } }
-  main.EduSquare > section .title-row {
+  main.Edusquare > section .title-row {
     display: flex;
     align-items: center; }
-    main.EduSquare > section .title-row .title img {
+    main.Edusquare > section .title-row .title img {
       height: 40px; }
-    main.EduSquare > section .title-row .sub-title {
+    main.Edusquare > section .title-row .sub-title {
       color: #616161; }
-    main.EduSquare > section .title-row .finish-line {
+    main.Edusquare > section .title-row .finish-line {
       width: 36px;
       height: 3px;
       margin: 0 auto;
       background-color: #0D47A1;
       margin-bottom: 12px; }
-  main.EduSquare > section .content-row {
+  main.Edusquare > section .content-row {
     margin-bottom: 0; }
-    main.EduSquare > section .content-row .clean-card .card-content {
+    main.Edusquare > section .content-row .clean-card .card-content {
       padding: 12px;
       position: relative; }
-      main.EduSquare > section .content-row .clean-card .card-content img.icon {
+      main.Edusquare > section .content-row .clean-card .card-content img.icon {
         position: absolute;
         top: 12px;
         right: 12px;
         height: 50px; }
-      main.EduSquare > section .content-row .clean-card .card-content h5.card-title {
+      main.Edusquare > section .content-row .clean-card .card-content h5.card-title {
         height: 50px;
         line-height: 50px;
         margin: 0; }
-  main.EduSquare > section ul.tabs li.tab a {
+  main.Edusquare > section ul.tabs li.tab a {
     font-size: 14px;
     font-weight: bold;
     color: #FF1744; }
-    main.EduSquare > section ul.tabs li.tab a:hover {
+    main.Edusquare > section ul.tabs li.tab a:hover {
       color: #011627; }
-    main.EduSquare > section ul.tabs li.tab a.active {
+    main.Edusquare > section ul.tabs li.tab a.active {
       color: #0D47A1; }
-  main.EduSquare > section ul.tabs .indicator {
+  main.Edusquare > section ul.tabs .indicator {
     background-color: #00E676; }
-  main.EduSquare > section .carousel ul.indicators .indicator-item {
+  main.Edusquare > section .carousel ul.indicators .indicator-item {
     background-color: #2196F3; }
-    main.EduSquare > section .carousel ul.indicators .indicator-item.active {
+    main.Edusquare > section .carousel ul.indicators .indicator-item.active {
       background-color: #FF1744; }
 
 main.page .head_content {
