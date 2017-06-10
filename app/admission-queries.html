@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700|Roboto+Condensed:400,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
-    <!--build:css css/results.min.css-->
+    <!--build:css css/general-queries.min.css-->
     <link rel="stylesheet" href="../node_modules/materialize-css/dist/css/materialize.css">
     <link rel="stylesheet" href="styles/materialize-override.css">
     <link rel="stylesheet" href="styles/main.css">
@@ -113,115 +113,67 @@
         </div>
     </nav>
 
-
-    <main class="Ed-results page">
-        <div class="head_content">
-            <div class="bg"></div>
-            <div class="container">
-                <div class="row">
-                    <div class="col s12 center">
-                        <h1>Edusquare Results</h1>
-                    </div>
-                </div>
-            </div>
+    <main class="page">
+        <div class="head_content center">
+            <h1>Admission Queries</h1>
         </div>
         <div class="body_content">
             <div class="container">
                 <div class="row">
-                    <div class="col s12 m9">
-                        <h4>JEE MAINS 2017 Results</h4>
-                        <table id="Results__JeeMain2017" class="bordered striped centered scrollspy responsive-table">
-                            <thead>
-                                <tr>
-                                    <th>S.No.</th>
-                                    <th>Student Name</th>
-                                    <th>Marks</th>
-                                    <th>AIR (Rank )</th>
-                                    <th>School Name</th>
-                                </tr>
-                            </thead>
-                            <tbody>
+                    <div class="col s12 m8">
 
-                            </tbody>
-                        </table>
-                        <br /><br />
+                        <div class="card">
+                            <div class="card-content">
+                                <h4 class="card-title">Contact US</h4>
+                                <form action="/edu/contact-us/#wpcf7-f718-o1" method="POST">
+                                    <div class="row">
+                                        <div class="input-field col s12">
+                                            <input id="name" type="text" class="validate">
+                                            <label for="name">Name</label>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="input-field col s12">
+                                            <input id="email" type="email" class="validate">
+                                            <label for="email">Email</label>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="input-field col s12">
+                                            <input id="subject" type="text" class="validate">
+                                            <label for="subject">Subject</label>
+                                        </div>
+                                    </div>
 
-                        <h4>NEET 2016 Results</h4>
-                        <table id="Results__NEET2016" class="bordered striped centered scrollspy responsive-table">
-                            <thead>
-                                <tr>
-                                    <th>S.No</th>
-                                    <th>Name</th>
-                                    <th>Marks</th>
-                                </tr>
-                            </thead>
-                            <tbody></tbody>
-                        </table>
-                        <br /><br />
+                                    <div class="row">
+                                        <div class="input-field col s12">
+                                            <textarea id="textarea1" class="materialize-textarea"></textarea>
+                                            <label for="textarea1">Your Message</label>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col s12">
+                                            <button type="Submit" class="btn waves-effect">Send</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
 
-                        <h4>PMET 2016 Results</h4>
-                        <table id="Results__PMET2016" class="bordered striped centered scrollspy responsive-table">
-                            <thead>
-                                <tr>
-                                    <th>S.No</th>
-                                    <th>Name</th>
-                                    <th>Rank</th>
-                                </tr>
-                            </thead>
-                            <tbody></tbody>
-                        </table>
-                        <br /><br />
-
-                        <h4>JEE Advance 2016 Results</h4>
-                        <table id="Results__JeeAdv2016" class="bordered striped centered scrollspy responsive-table">
-                            <thead>
-                                <tr>
-                                    <th>S.No</th>
-                                    <th>Name</th>
-                                    <th>Roll No</th>
-                                    <th>Ranks</th>
-                                    <th>Edusquare Roll No.</th>
-                                    <th>School Name</th>
-                                </tr>
-                            </thead>
-                            <tbody></tbody>
-                        </table>
-                        <br /><br />
-
-                        <h4>Medical + Engg 2015 Results</h4>
-                        <table id="Results__MedicalJEE2015" class="bordered striped centered scrollspy responsive-table">
-                            <thead>
-                                <tr>
-                                    <th>S.No</th>
-                                    <th>Name</th>
-                                    <th>PMET</th>
-                                    <th>AIIMS</th>
-                                    <th>CMC</th>
-                                    <th>JIPMER</th>
-                                    <th>BOARDS</th>
-                                </tr>
-                            </thead>
-                            <tbody></tbody>
-                        </table>
-                        <br /><br />
-                    </div>
-                    <div class="results-col col m3 hide-on-small-only">
-                        <div class="results-item">
-                            <h5>All Results</h5>
-                            <ul>
-                                <li><a href="#Results__JeeMain2017">JEE Main 2017</a></li>
-                                <li><a href="#Results__NEET2016">NEET 2016</a></li>
-                                <li><a href="#Results__PMET2016">PMET 2016</a></li>
-                                <li><a href="#Results__JeeAdv2016">JEE Advanced 2016</a></li>
-                                <li><a href="#Results__MedicalJEE2015">Medical + JEE 2015</a></li>
-                            </ul>
                         </div>
+                    </div>
+                    <div class="col s12 m4">
+                        <h5>Office Locations</h5>
+                        <h6>HEADQUARTER</h6>
+                        <div>SCO 101, Phase-I, Urban Estate, Dugri, Ludhiana.</div>
+                        <div>0161-2490101,2491101</div>
+                        <div>info@edusquare.co.in</div>
                     </div>
                 </div>
             </div>
         </div>
-    </main>
 
+    </main>
+    
     <footer class="page-footer">
         <div class="container">
             <div class="row">
@@ -424,12 +376,10 @@
                 fill-rule="nonzero" />
         </symbol>
     </svg>
-    <!--build:js js/results.min.js -->
+    <!--build:js js/general-queries.min.js -->
     <script src="../node_modules/jquery/dist/jquery.js"></script>
-    <script src="js/libs/jquery.csv.min.js"></script>
     <script src="../node_modules/materialize-css/dist/js/materialize.js"></script>
     <script src="js/common.js"></script>
-    <script src="js/results.js"></script>
     <!-- endbuild -->
     <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
