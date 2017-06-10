@@ -7,7 +7,7 @@
     }
     width: 100%;
     z-index: 999;
-    background-color: rgba(255, 255, 255, 0.27);
+    background-color: rgba(255, 255, 255, 0.83);
     // box-shadow: none;
     height: 80px;
     line-height: 80px;
@@ -46,9 +46,9 @@
             }
             &:hover {
                 background-color: transparent;
-                color: $secondary;
+                color: $primary-dark;
                 i {
-                    color: $secondary;
+                    color: $primary-dark;
                 }
             }
             &.btn {
@@ -62,9 +62,9 @@
                 }
                 &:hover {
                     background-color: $primary-dark;
-                    color: $secondary;
+                    color: $primary-dark;
                     i {
-                        color: $secondary;
+                        color: $primary-dark;
                     }
                 }
             }

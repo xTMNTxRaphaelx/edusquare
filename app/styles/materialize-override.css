@@ -22,6 +22,11 @@
   margin-left: 150px;
 }
 
+#navbar_d__assignemnts-dropdown {
+  margin-top: -52px;
+  margin-left: 192px;
+}
+
 .slides li .bg {
   background-color: rgba(0, 0, 0, 0.1);
   content: "";

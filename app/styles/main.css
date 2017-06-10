@@ -250,7 +250,7 @@ main.page .body_content {
   left: 0;
   width: 100%;
   z-index: 999;
-  background-color: rgba(255, 255, 255, 0.27);
+  background-color: rgba(255, 255, 255, 0.83);
   height: 80px;
   line-height: 80px; }
   @media screen and (min-width: 601px) {
@@ -284,9 +284,9 @@ main.page .body_content {
       line-height: 80px; }
     .main-nav ul.desktop-menu a:hover {
       background-color: transparent;
-      color: #FFF176; }
+      color: #0D47A1; }
       .main-nav ul.desktop-menu a:hover i {
-        color: #FFF176; }
+        color: #0D47A1; }
     .main-nav ul.desktop-menu a.btn {
       background-color: #0D47A1;
       color: #fff; }
@@ -297,9 +297,9 @@ main.page .body_content {
         color: #fff; }
       .main-nav ul.desktop-menu a.btn:hover {
         background-color: #0D47A1;
-        color: #FFF176; }
+        color: #0D47A1; }
         .main-nav ul.desktop-menu a.btn:hover i {
-          color: #FFF176; }
+          color: #0D47A1; }
   .main-nav .dropdown-content {
     color: #011627;
     overflow: visible !important;
