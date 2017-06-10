@@ -1,9 +1,11 @@
 .results-item {
-    padding: 0 12px;
+    padding: 0 18px;
     position: relative;
-    border-left: 1px solid #ccc;
+    border: 1px solid #ccc;
     background-color: #fafafa;
     margin-bottom: 50px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+    width: 210px;
     &:before {
         background-color: $primary-dark;
         width: 3px;
@@ -17,6 +19,8 @@
     h5 {
         font-weight: bold;
         color: #333; // padding-top: 4px;
+        padding-top: 12px;
+        margin: 0;
     }
     ul {
         li {
@@ -25,10 +29,9 @@
                 padding-bottom: 0;
             }
             a {
-                font-weight: bold;
-                color: #333;
                 &.active {
-                    color: $primary;
+                    color: #0D47A1;
+                    font-weight: bold;
                 }
             }
         }

@@ -255,3 +255,53 @@ span.edusquare {
             font-weight: bold;
         }
 }
+
+.Assignments.page {
+    .assignent-tabs {
+        li {
+            background: #fcfcfc;
+            border: 1px solid #ccc;
+            border-bottom: 0;
+            height: 48px;
+            line-height: 48px;
+            border-radius: 4px 4px 0 0;
+            margin-right: 6px;
+            text-align: center;
+            a {
+                font-size: 16px;
+            }
+            a.active {
+                color: #ee6e73;
+            }
+        }
+        .indicator {
+            display: none;
+        }
+    }
+    #xi_medical__assignments,
+    #xi_medical__tests,
+    #xi_non_medical__assignments,
+    #xi_non_medical__tests,
+    #xii_medical__assignments,
+    #xii_medical__tests,
+    #xii_non_medical__assignments,
+    #xii_non_medical__tests,
+    #droppers_medical__assignments,
+    #droppers_medical__tests  {
+        border: 1px solid #ccc;
+        table {
+            margin-top : 12px;
+        }
+    }
+}
+
+.Gallery.page {
+    .gallery-box {
+        margin: 10px;
+        margin-bottom: 24px;
+        .caption {
+            text-align: center;
+            padding: 6px;
+        }
+    }
+}

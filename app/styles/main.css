@@ -167,8 +167,11 @@ main.page .body_content {
   main.page .body_content h6 {
     color: #0179a4; }
   main.page .body_content a {
-    color: #0D47A1;
-    font-weight: bold; }
+    color: #011627; }
+  main.page .body_content a.btn {
+    color: #fff; }
+    main.page .body_content a.btn:hover {
+      color: #FFF176; }
 
 .vertical-box {
   background: #ededed;
@@ -222,8 +225,6 @@ main.page .body_content {
             text-align: right; } }
       .sub-nav .row .col a {
         color: #fff; }
-        .sub-nav .row .col a:first-child svg {
-          color: #FF1744; }
         .sub-nav .row .col a:hover {
           color: #FFF176; }
         .sub-nav .row .col a span {
@@ -239,11 +240,9 @@ main.page .body_content {
       .sub-nav .row .col .social-links {
         display: inline; }
         .sub-nav .row .col .social-links a {
-          padding: 0 4px;
+          padding: 0 8px;
           float: right;
           margin-top: 4px; }
-          .sub-nav .row .col .social-links a:first-child svg {
-            fill: #FF1744; }
         .sub-nav .row .col .social-links svg {
           fill: #fff; }
           .sub-nav .row .col .social-links svg:hover {
@@ -538,7 +537,8 @@ main.page .body_content {
       text-align: left; } }
   .page-footer a {
     color: #fff;
-    line-height: 30px; }
+    line-height: 30px;
+    display: inline-block; }
   .page-footer h5 {
     text-transform: uppercase; }
     .page-footer h5 a {
@@ -687,11 +687,13 @@ main.page .body_content {
         color: #616161; }
 
 .results-item {
-  padding: 0 12px;
+  padding: 0 18px;
   position: relative;
-  border-left: 1px solid #ccc;
+  border: 1px solid #ccc;
   background-color: #fafafa;
-  margin-bottom: 50px; }
+  margin-bottom: 50px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+  width: 210px; }
   .results-item:before {
     background-color: #0D47A1;
     width: 3px;
@@ -703,16 +705,16 @@ main.page .body_content {
     left: 0; }
   .results-item h5 {
     font-weight: bold;
-    color: #333; }
+    color: #333;
+    padding-top: 12px;
+    margin: 0; }
   .results-item ul li {
     padding: 6px 0; }
     .results-item ul li:last-child {
       padding-bottom: 0; }
-    .results-item ul li a {
-      font-weight: bold;
-      color: #333; }
-      .results-item ul li a.active {
-        color: #2196F3; }
+    .results-item ul li a.active {
+      color: #0D47A1;
+      font-weight: bold; }
 
 .Queries.page .contact {
   display: block;
@@ -746,3 +748,50 @@ main.page .body_content {
 
 .ePTSE.page .eptse__pattern span.bold {
   font-weight: bold; }
+
+.Assignments.page .assignent-tabs li {
+  background: #fcfcfc;
+  border: 1px solid #ccc;
+  border-bottom: 0;
+  height: 48px;
+  line-height: 48px;
+  border-radius: 4px 4px 0 0;
+  margin-right: 6px;
+  text-align: center; }
+  .Assignments.page .assignent-tabs li a {
+    font-size: 16px; }
+  .Assignments.page .assignent-tabs li a.active {
+    color: #ee6e73; }
+
+.Assignments.page .assignent-tabs .indicator {
+  display: none; }
+
+.Assignments.page #xi_medical__assignments,
+.Assignments.page #xi_medical__tests,
+.Assignments.page #xi_non_medical__assignments,
+.Assignments.page #xi_non_medical__tests,
+.Assignments.page #xii_medical__assignments,
+.Assignments.page #xii_medical__tests,
+.Assignments.page #xii_non_medical__assignments,
+.Assignments.page #xii_non_medical__tests,
+.Assignments.page #droppers_medical__assignments,
+.Assignments.page #droppers_medical__tests {
+  border: 1px solid #ccc; }
+  .Assignments.page #xi_medical__assignments table,
+  .Assignments.page #xi_medical__tests table,
+  .Assignments.page #xi_non_medical__assignments table,
+  .Assignments.page #xi_non_medical__tests table,
+  .Assignments.page #xii_medical__assignments table,
+  .Assignments.page #xii_medical__tests table,
+  .Assignments.page #xii_non_medical__assignments table,
+  .Assignments.page #xii_non_medical__tests table,
+  .Assignments.page #droppers_medical__assignments table,
+  .Assignments.page #droppers_medical__tests table {
+    margin-top: 12px; }
+
+.Gallery.page .gallery-box {
+  margin: 10px;
+  margin-bottom: 24px; }
+  .Gallery.page .gallery-box .caption {
+    text-align: center;
+    padding: 6px; }

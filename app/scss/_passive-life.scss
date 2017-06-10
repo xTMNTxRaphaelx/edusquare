@@ -155,8 +155,14 @@ main.page {
             color: #0179a4;
         }
         a {
-            color: #0D47A1;
-            font-weight: bold;
+            color: $font-color;
+            // font-weight: bold;
+        }
+        a.btn {
+            color: #fff;
+            &:hover {
+                color: $secondary;
+            }
         }
     }
 }
