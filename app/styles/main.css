@@ -187,6 +187,9 @@ main.page .body_content {
   color: #0179a4;
   text-transform: uppercase; }
 
+.vertical-box ul {
+  line-height: 24px; }
+
 .sub-nav {
   color: #fff;
   background-color: #2196F3;

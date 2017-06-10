@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700|Roboto+Condensed:400,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
-    <!--build:css css/general-queries.min.css-->
+    <!--build:css css/page-template.min.css-->
     <link rel="stylesheet" href="../node_modules/materialize-css/dist/css/materialize.css">
     <link rel="stylesheet" href="styles/materialize-override.css">
     <link rel="stylesheet" href="styles/main.css">
@@ -115,65 +115,30 @@
 
     <main class="page">
         <div class="head_content center">
-            <h1>General Queries</h1>
+            <h1>Assignments & Solutions - XI</h1>
         </div>
         <div class="body_content">
             <div class="container">
                 <div class="row">
-                    <div class="col s12 m8">
-
-                        <div class="card">
-                            <div class="card-content">
-                                <h4 class="card-title">Contact US</h4>
-                                <form action="/edu/contact-us/#wpcf7-f718-o1" method="POST">
-                                    <div class="row">
-                                        <div class="input-field col s12">
-                                            <input id="name" type="text" class="validate">
-                                            <label for="name">Name</label>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="input-field col s12">
-                                            <input id="email" type="email" class="validate">
-                                            <label for="email">Email</label>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="input-field col s12">
-                                            <input id="subject" type="text" class="validate">
-                                            <label for="subject">Subject</label>
-                                        </div>
-                                    </div>
-
-                                    <div class="row">
-                                        <div class="input-field col s12">
-                                            <textarea id="textarea1" class="materialize-textarea"></textarea>
-                                            <label for="textarea1">Your Message</label>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col s12">
-                                            <button type="Submit" class="btn waves-effect">Send</button>
-                                        </div>
-                                    </div>
-                                </form>
-                            </div>
-
-                        </div>
+                    <div class="col s8">
+                        <h4>Assignments & Solutions - XI</h4>
                     </div>
-                    <div class="col s12 m4">
-                        <h5>Office Locations</h5>
-                        <h6>HEADQUARTER</h6>
-                        <div>SCO 101, Phase-I, Urban Estate, Dugri, Ludhiana.</div>
-                        <div>0161-2490101,2491101</div>
-                        <div>info@edusquare.co.in</div>
+                    <div class="col s4">
+                        <ul class="tabs right-align">
+                            <li class="tab col s6"><a href="#solutions__medical">Medical</a></li>
+                            <li class="tab col s6"><a href="#solutions__non-medical">Non Medical</a></li>
+                        </ul>
                     </div>
+                </div>
+                <div class="row">
+                    <div class="col s12" id="solutions__medical">Medical Solutions</div>
+                    <div class="col s12" id="solutions__non-medical">Non Medical Solutions</div>
                 </div>
             </div>
         </div>
 
     </main>
-    
+
     <footer class="page-footer">
         <div class="container">
             <div class="row">
@@ -376,7 +341,7 @@
                 fill-rule="nonzero" />
         </symbol>
     </svg>
-    <!--build:js js/general-queries.min.js -->
+    <!--build:js js/page-template.min.js -->
     <script src="../node_modules/jquery/dist/jquery.js"></script>
     <script src="../node_modules/materialize-css/dist/js/materialize.js"></script>
     <script src="js/common.js"></script>
