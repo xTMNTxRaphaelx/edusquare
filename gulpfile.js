@@ -13,13 +13,13 @@ var runSequence = require("run-sequence");
 
 gulp.task("sass", function() {
   return gulp
-    .src("./scss/main.scss")
+    .src("./app/scss/main.scss")
     .pipe(sass().on("error", sass.logError))
-    .pipe(gulp.dest("./styles"));
+    .pipe(gulp.dest("./app/styles"));
 });
 
 gulp.task("sass:watch", function() {
-  gulp.watch("./scss/**/*.scss", ["sass"]);
+  gulp.watch("./app/scss/**/*.scss", ["sass"]);
 });
 
 gulp.task("useref", function() {

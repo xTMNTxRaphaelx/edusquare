@@ -4,3 +4,4 @@ $(".d-dropdown-button").dropdown({
   belowOrigin: true
 });
 $(".button-collapse").sideNav();
+$('#feedbackForm').modal();

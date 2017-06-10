@@ -7,10 +7,10 @@
     }
     width: 100%;
     z-index: 999;
-    background-color: rgba(0, 0, 0, 0.37);
-    box-shadow: none;
-    height: 69px;
-    line-height: 69px;
+    background-color: rgba(255, 255, 255, 0.27);
+    // box-shadow: none;
+    height: 80px;
+    line-height: 80px;
     .brand-logo {
         height: 100%;
         @media only screen and (min-width: 601px) {
@@ -19,8 +19,8 @@
         img {
             height: 100%;
             width: auto;
-            max-width: 240px;
-            padding: 12px 0;
+            /* max-width: 240px; */
+            padding: 8px 0;
         }
     }
     ul.desktop-menu {
@@ -38,11 +38,11 @@
             }
         }
         a {
-            color: #fff;
+            color: rgba(0, 0, 0, 0.87);
             i {
                 margin-left: 0;
                 margin-right: 0;
-                line-height: 69px;
+                line-height: 80px;
             }
             &:hover {
                 background-color: transparent;

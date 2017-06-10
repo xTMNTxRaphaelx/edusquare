@@ -250,10 +250,9 @@ main.page .body_content {
   left: 0;
   width: 100%;
   z-index: 999;
-  background-color: rgba(0, 0, 0, 0.37);
-  box-shadow: none;
-  height: 69px;
-  line-height: 69px; }
+  background-color: rgba(255, 255, 255, 0.27);
+  height: 80px;
+  line-height: 80px; }
   @media screen and (min-width: 601px) {
     .main-nav {
       top: 31px; } }
@@ -265,8 +264,8 @@ main.page .body_content {
     .main-nav .brand-logo img {
       height: 100%;
       width: auto;
-      max-width: 240px;
-      padding: 12px 0; }
+      /* max-width: 240px; */
+      padding: 8px 0; }
   @media only screen and (min-width: 601px) {
     .main-nav ul.desktop-menu {
       padding-right: 6%; } }
@@ -278,11 +277,11 @@ main.page .body_content {
       margin: 0;
       padding: 0 12px; }
   .main-nav ul.desktop-menu a {
-    color: #fff; }
+    color: rgba(0, 0, 0, 0.87); }
     .main-nav ul.desktop-menu a i {
       margin-left: 0;
       margin-right: 0;
-      line-height: 69px; }
+      line-height: 80px; }
     .main-nav ul.desktop-menu a:hover {
       background-color: transparent;
       color: #FFF176; }
@@ -530,6 +529,13 @@ main.page .body_content {
       color: #011627; }
   .page-footer h6 {
     font-size: 17px; }
+  .page-footer ul {
+    margin: 0; }
+  .page-footer ul.inline-ul li {
+    display: inline;
+    padding: 0 6px; }
+    .page-footer ul.inline-ul li:first-child {
+      padding-left: 0; }
   .page-footer .footer-copyright {
     color: #0D47A1;
     background-color: #fff;

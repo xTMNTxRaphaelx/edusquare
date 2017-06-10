@@ -20,6 +20,18 @@
     h6 {
         font-size: 17px; // font-weight: bold;
     }
+    ul {
+        margin: 0;
+    }
+    ul.inline-ul {        
+        li {
+            display: inline;
+            padding: 0 6px;
+            &:first-child {
+                padding-left: 0;
+            }
+        }
+    }
     .footer-copyright {
         color: $primary-dark;
         background-color: #fff;
