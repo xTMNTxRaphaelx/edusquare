@@ -297,11 +297,25 @@ span.edusquare {
 
 .Gallery.page {
     .gallery-box {
-        margin: 10px;
-        margin-bottom: 24px;
+        // margin: 10px;
+        // margin-bottom: 24px;
+        text-align: center;
+        border: 1px solic #dcdcdc;
+        padding: 12px;
+        background-color: #fafafa;
+        h5 {
+            text-align: center;
+            // padding: 6px;
+            margin-top: 0;
+            font-size: 20px;
+        }
+        img {
+            margin: 0 auto;
+        }
         .caption {
             text-align: center;
             padding: 6px;
+            color: #484848;
         }
     }
 }

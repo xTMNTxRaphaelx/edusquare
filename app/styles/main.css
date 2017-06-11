@@ -790,8 +790,17 @@ main.page .body_content {
     margin-top: 12px; }
 
 .Gallery.page .gallery-box {
-  margin: 10px;
-  margin-bottom: 24px; }
+  text-align: center;
+  border: 1px solic #dcdcdc;
+  padding: 12px;
+  background-color: #fafafa; }
+  .Gallery.page .gallery-box h5 {
+    text-align: center;
+    margin-top: 0;
+    font-size: 20px; }
+  .Gallery.page .gallery-box img {
+    margin: 0 auto; }
   .Gallery.page .gallery-box .caption {
     text-align: center;
-    padding: 6px; }
+    padding: 6px;
+    color: #484848; }
